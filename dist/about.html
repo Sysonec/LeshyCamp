@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>LeshyCamp | About</title>
+  </head>
+  <body>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div><img src="img/logo/logo-column.png" alt="loader" /></div>
+      </div>
+
+      <div class="main">
+    <!-- Back to top button -->
+    <div id="btn-up">
+      <a href="#header-about"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- Header -->
+    <header id="header-about">
+      <nav id="main-nav">
+        <span class="open-slide">
+          <a href="#!" onclick="openSlideMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </a>
+        </span>
+
+         <!-- Side Menu -->
+         <div id="side-menu" class="side-nav">
+            <a href="#!" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html"><i class="far fa-address-card"></i> About</a>
+            <a href="#!" onclick="showOffer()"
+              ><i class="fas fa-money-bill"></i> Offer</a
+            >
+            <div id="hide">
+              <a href="#!" onclick="closeOffer()"
+                ><i class="fas fa-chevron-up "></i
+              ></a>
+              <a href="offer.html#courses"><i class="fas fa-tree"></i> Courses</a>
+              <a href="offer.html#locations"
+                ><i class="fas fa-map-marker-alt"></i> Locations</a
+              >
+              <a href="offer.html#group-camps"
+                ><i class="fas fa-users"></i> Group Camps</a
+              >
+            </div>
+            <a href="blog.html"><i class="fas fa-comments"></i> Blog</a>
+            <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+          </div>
+
+        <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="offer.html">Offer <i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="offer.html#courses">Courses</a></li>
+              <li><a href="offer.html#locations">Camping Locations</a></li>
+              <li><a href="offer.html#group-camps">Group Camps</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="blog.html">Blog <i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="blog-page.html">Nature</a> <span>15 Posts</span></li>
+              <li><a href="blog-page.html">Camping</a> <span>6 Posts</span></li>
+              <li>
+                <a href="blog-page.html">Bushcraft</a> <span>12 Posts</span>
+              </li>
+              <li><a href="blog-page.html">Safety</a> <span>10 Posts</span></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+
+          <!-- Search Bar -->
+          <label for="search-bar" class="search-bar">
+            <i class="fas fa-search"></i>
+          </label>
+          <input type="checkbox" id="search-bar" class="search-bar" />
+          <div class="search-bar-wrap">
+            <li class="search-btn">
+
+              <!-- Search button -->
+              <div class="search-btn">
+                <input type="text" placeholder="Search" />
+              </div>
+            </li>
+          </div>
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="about-content text-center">
+          <h1 class="section-heading">
+            About Us
+          </h1>
+          <div class="bottom-line"></div>
+          <p class="lead">Haven't gone wild yet? Don't hesitate!</p>
+          <a href="offer.html" class="btn-transparent btn-special">View More</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section: About Intro -->
+    <section id="about-intro" class="bg-light py-4">
+      <div class="container">
+        <div class="about-intro-content">
+          <div>
+            <h1 class="section-heading text-center">About LeshyCamp</h1>
+            <div class="bottom-line"></div>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eos
+              et ipsum ipsam unde qui at facilis ad, odio voluptatum nemo, vero
+              quaerat corporis quisquam suscipit iusto soluta maiores
+              necessitatibus eligendi! Nihil vitae, deleniti quos exercitationem
+              quaerat autem ad, incidunt, nostrum ullam hic architecto! Corrupti
+              quaerat molestiae deleniti reiciendis? Reprehenderit neque laborum
+              velit assumenda doloremque nesciunt mollitia temporibus
+              voluptatibus, quasi odio labore officiis consectetur quidem
+              praesentium dolor impedit? Repellat, porro. <br /><br />Nulla
+              earum, odit atque eius, dolor vel repellendus harum quia maxime
+              cumque repudiandae voluptatibus praesentium neque itaque saepe
+              nostrum dicta dignissimos veniam dolorem! Similique quisquam
+              voluptatem tempore mollitia repellat enim aspernatur numquam ipsum
+              ratione, perspiciatis alias minima reprehenderit veritatis maxime
+              iste doloribus ea voluptas, distinctio sapiente architecto
+              dolorum. Fuga quasi, possimus nam perferendis cum.
+            </p>
+            <div class="read-btn">
+              <button class="btn-dark">Read More</button>
+            </div>
+          </div>
+          <div>
+            <h3 class="section-heading text-center">Professional Staff</h3>
+            <img src="img/company_people.jpg" alt="staff-img" />
+            <h2 class="text-center">Total Fun Providers</h2>
+            <p class="lead">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laudantium, ex laborum aperiam reiciendis fugit ratione
+              necessitatibus! Nam dolorum debitis eaque at labore enim optio
+              odio quas. Odit accusamus corrupti debitis, voluptate vel,
+              necessitatibus odio, veniam soluta sint nulla perferendis quae.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Staff -->
+    <section id="staff" class="bg-medium text-center py-3">
+      <div class="container">
+        <div
+          class="staff-content"
+          data-aos="fade-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
+          <h2 class="section-heading">Our Staff</h2>
+          <div class="bottom-line"></div>
+          <div class="tutors">
+            <div class="tutor">
+              <img src="img/tutors/female-5.jpg" alt="tutor" />
+              <div class="txt-wrapper">
+                <h2>Claudia Voiss</h2>
+                <p class="bold-txt">Animal Tracking, Trees</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorum, consequatur.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="tutor">
+              <img src="img/tutors/male-3.jpg" alt="tutor" />
+              <div class="txt-wrapper">
+                <h2>Vojte Ceh</h2>
+                <p class="bold-txt">Flintknapping</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorum, consequatur.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="tutor">
+              <img src="img/tutors/female-2.jpg" alt="tutor" />
+              <div class="txt-wrapper">
+                <h2>Julie Arial</h2>
+                <p class="bold-txt">Animal Tracking, Plants</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorum, consequatur.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="tutor">
+              <img src="img/tutors/male-4.jpg" alt="tutor" />
+              <div class="txt-wrapper">
+                <h2>Bjorn Fenrirsonn</h2>
+                <p class="bold-txt">Woodwork, Bushcraft</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorum, consequatur.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="tutor">
+              <img src="img/tutors/female-3.jpg" alt="tutor" />
+              <div class="txt-wrapper">
+                <h2>Camile Johnson</h2>
+                <p class="bold-txt">Nordic Walking</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorum, consequatur.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="tutor">
+              <img src="img/tutors/male-1.jpg" alt="tutor" />
+              <div class="txt-wrapper">
+                <h2>Simon Dunny</h2>
+                <p class="bold-txt">Bushcraft, Flintknapping</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorum, consequatur.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Values -->
+    <section id="values" class="bg-light py-4">
+      <div class="container">
+        <div class="values-content">
+          <h2 class="section-heading text-center">Our Values</h2>
+          <div class="bottom-line"></div>
+          <div class="values-info">
+            <div class="value"><img src="img/wolf.jpg" alt="value-img" /></div>
+            <div class="value value-info">
+              <h3>Preserving natural environment</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Sapiente assumenda eius deleniti placeat explicabo perferendis,
+                modi eos ut fugit eligendi.
+              </p>
+            </div>
+            <div class="value">
+              <img src="img/coal-station.jpg" alt="value-img" />
+            </div>
+            <div class="value value-info">
+              <h3>Protecting nature</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Sapiente assumenda eius deleniti placeat explicabo perferendis,
+                modi eos ut fugit eligendi.
+              </p>
+            </div>
+            <div class="value">
+              <img src="img/jumping-man.jpg" alt="value-img" />
+            </div>
+            <div class="value value-info">
+              <h3>Finding mindfulness in nature</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Sapiente assumenda eius deleniti placeat explicabo perferendis,
+                modi eos ut fugit eligendi.
+              </p>
+            </div>
+            <div class="value"><img src="img/plant.jpg" alt="value-img" /></div>
+            <div class="value value-info">
+              <h3>Ecology & Education</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Sapiente assumenda eius deleniti placeat explicabo perferendis,
+                modi eos ut fugit eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Testimonials -->
+    <section id="testimonials" class="bg-medium py-4  text-center">
+      <div class="container">
+        <div class="testimonials-content">
+          <h2 class="section-heading">What Our Visitors Say</h2>
+          <div class="bottom-line"></div>
+          <div
+            class="testimonials-clients"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+          >
+            <div class="testimonials-client">
+              <img src="img/testimonials/person-1.jpg" alt="client" />
+              <h3>Kate Walker</h3>
+              <p class="lead uppercase-txt bold-txt">Regular Visitor</p>
+              <i class="fas fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                dolorem totam aspernatur nemo quaerat delectus, officiis ipsa
+                non provident.
+              </p>
+            </div>
+            <div class="testimonials-client">
+              <img src="img/testimonials/person-2.jpg" alt="client" />
+              <h3>Marry Jane</h3>
+              <p class="lead uppercase-txt bold-txt">Regular Visitor</p>
+              <i class="fas fa-quote-left"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                dolorem totam aspernatur nemo quaerat delectus, officiis ipsa
+                non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark">
+      <div class="container">
+        <div class="footer-content">
+          <div class="minor-info">
+            <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              aut, exercitationem labore tempora officiis, doloremque porro,
+              totam voluptate dolorum atque voluptatum laborum.
+            </p>
+          </div>
+          <div class="offer">
+            <h2>Get Offer Now</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              delectus itaque tempore, error rem dolores?
+            </p>
+            <div class="offer-btn">
+              <span
+                ><i class="far fa-envelope"></i
+                ><input type="email" placeholder="Enter Email"
+              /></span>
+              <button type="submit" class="btn-light">Subscribe</button>
+            </div>
+          </div>
+          <div class="quick-links">
+            <h2>Important Links</h2>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="offer.html">Offer</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; Copyright LeshyCamp 2019, All Rights Reserved</p>
+        <div class="socials">
+          <a href="http://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="http://www.twitter.com/" target="_blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="http://www.linkedin.com/" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="http://www.instagram.com/" target="_blank"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+
+    <!-- Animation on Scroll library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

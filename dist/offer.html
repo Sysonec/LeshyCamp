@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>LeshyCamp | About</title>
+  </head>
+  <body>
+
+     <!-- Loader -->
+     <div class="loader">
+        <div><img src="img/logo/logo-column.png" alt="loader" /></div>
+      </div>
+
+      <div class="main">
+    <!-- Back to top button -->
+      <div id="btn-up">
+          <a href="#header-about"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    <!-- Header -->
+    <header id="header-about">
+        <nav id="main-nav">
+        <span class="open-slide">
+          <a href="#!" onclick="openSlideMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </a>
+        </span>
+
+            <!-- Side Menu -->
+        <div id="side-menu" class="side-nav">
+            <a href="#!" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html"><i class="far fa-address-card"></i> About</a>
+            <a href="#!" onclick="showOffer()"
+              ><i class="fas fa-money-bill"></i> Offer</a
+            >
+            <div id="hide">
+              <a href="#!" onclick="closeOffer()"
+                ><i class="fas fa-chevron-up "></i
+              ></a>
+              <a href="offer.html#courses" class="subpage"><i class="fas fa-tree"></i> Courses</a>
+              <a href="offer.html#locations" class="subpage"
+                ><i class="fas fa-map-marker-alt"></i> Locations</a
+              >
+              <a href="offer.html#group-camps" class="subpage"
+                ><i class="fas fa-users"></i> Group Camps</a
+              >
+            </div>
+            <a href="blog.html"><i class="fas fa-comments"></i> Blog</a>
+            <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+          </div>
+
+        <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="offer.html">Offer <i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="offer.html#courses" class="subpage">Courses</a></li>
+              <li><a href="offer.html#locations" class="subpage">Camping Locations</a></li>
+              <li><a href="offer.html#group-camps" class="subpage">Group Camps</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="blog.html">Blog <i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="blog-page.html">Nature</a> <span>15 Posts</span></li>
+              <li><a href="blog-page.html">Camping</a> <span>6 Posts</span></li>
+              <li>
+                <a href="blog-page.html">Bushcraft</a> <span>12 Posts</span>
+              </li>
+              <li><a href="blog-page.html">Safety</a> <span>10 Posts</span></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+
+          <!-- Search Bar -->
+          <label for="search-bar" class="search-bar">
+              <i class="fas fa-search"></i>
+            </label>
+            <input type="checkbox" id="search-bar" class="search-bar" />
+            <div class="search-bar-wrap">
+              <li class="search-btn">
+
+                <!-- Search button -->
+                <div class="search-btn">
+                  <input type="text" placeholder="Search" />
+                </div>
+              </li>
+            </div>
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="about-content text-center">
+          <h1 class="section-heading">
+            Offer
+          </h1>
+          <div class="bottom-line"></div>
+          <p class="lead">Haven't gone wild yet? Don't hesitate!</p>
+          <a href="#courses" class="btn-transparent btn-special scroll">View More</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section: Offer -->
+    <section id="what-offer" class="bg-light py-4">
+      <div class="container">
+        <div class="what-content">
+          <div class="what-description">
+            <h2 class="section-heading text-center">What We Offer</h2>
+            <div class="bottom-line"></div>
+            <p class="lead">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis, deserunt ipsum minima dolore quis consequuntur eveniet
+              voluptas quasi magnam optio sunt similique unde quia, veritatis
+              deleniti repellat cupiditate eaque.
+            </p>
+            <p class="lead">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est,
+              assumenda. Quaerat exercitationem porro nobis impedit hic iure!
+              Est, natus quibusdam officiis exercitationem ad facere repudiandae
+              iusto eum fuga iste veritatis rerum mollitia nihil corrupti
+              molestiae, eaque minus facilis, expedita quasi?
+            </p>
+            <div class="read-btn">
+              <a href="#courses" class="btn-dark scroll">Read More</a>
+            </div>
+          </div>
+          <div class="what-image">
+            <img src="img/bushcraft-2.jpg" alt="what-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: First Step -->
+    <section id="first-step" class="bg-dark text-center py-4">
+      <div class="container">
+        <div class="first-step-content"
+        data-aos="slide-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+        data-aos-once="true">
+          <h2 class="section-heading">First step to</h2>
+          <h2 class="section-heading">The awesome journey</h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+            Dolorum rem accusamus ut voluptatibus omnis hic cupiditate veniam
+            nemo sunt labore.
+          </p>
+          <a href="#courses" class="btn-dark scroll"><i class="fas fa-arrow-down"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Incoming Events -->
+    <section id="events" class="bg-light py-4">
+      <div class="container">
+        <div class="events-content">
+          <h2 class="section-heading text-center">Incoming Events</h2>
+          <div class="bottom-line"></div>
+          <div class="event-boxes">
+            <img src="img/knife.jpg" alt="event-img" />
+            <div class="event-box">
+              <h2>How to use tools safely</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repudiandae quae, quas dolorem ex dolore quisquam error
+                cupiditate non mollitia praesentium culpa suscipit modi. Nulla
+                inventore nisi eos dolorum eius rerum fugit error molestias
+                ipsam est iusto, dolorem aut earum. Vero?
+              </p>
+              <a href="#" class="btn-dark">View More</a>
+            </div>
+            <img src="img/forest-3.jpg" alt="event-img" />
+            <div class="event-box">
+              <h2>Planting Day</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repudiandae quae, quas dolorem ex dolore quisquam error
+                cupiditate non mollitia praesentium culpa suscipit modi. Nulla
+                inventore nisi eos dolorum eius rerum fugit error molestias
+                ipsam est iusto, dolorem aut earum. Vero?
+              </p>
+              <a href="#" class="btn-dark">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Courses -->
+    <section id="courses" class="bg-medium py-4">
+      <div class="container">
+        <div class="courses-content">
+          <h2 class="section-heading text-center">New Courses</h2>
+          <div class="bottom-line"></div>
+          <label for="courses-toggle" class="courses-toggle"
+            ><i class="fas fa-chevron-down fa-5x"></i
+          ></label>
+          <input type="checkbox" id="courses-toggle" class="courses-toggle" />
+          <div class="courses-toggle-wrap">
+            <div class="courses-boxes">
+              <div class="courses-box-image">
+                <img src="img/bushcraft.jpg" alt="courses-img" />
+              </div>
+              <div class="courses-box-description">
+                <h2>How to use tools</h2>
+
+                <!-- Review -->
+                <div class="review">
+                  <div class="review-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><span>(5.0)</span>
+                  </div>
+
+                  <div class="review-number"><p>10 Reviews</p></div>
+                </div>
+                <div class="detailed-info bold-txt">
+                  <i class="far fa-clock"></i><span>Duration: 1 Day</span>
+                  <i class="fas fa-user"></i><span>Age: 18+</span>
+                  <i class="fas fa-pound-sign"></i><span>Cost: £220</span>
+                  <i class="fas fa-users"></i><span>Max: 16 People</span>
+                </div>
+                <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+                  distinctio enim iure rerum eos culpa officia exercitationem
+                  blanditiis, delectus, ipsam modi asperiores. Maiores ipsum
+                  animi quis ex aperiam sit vero!
+                </p>
+
+                <!-- Available Locations -->
+                <div class="locations">
+                  <label for="location-toggle" class="location-toggle"
+                    ><i class="fas fa-chevron-down fa-2x"></i
+                  ></label>
+                  <input
+                    type="checkbox"
+                    name="location-toggle"
+                    id="location-toggle"
+                    class="location-toggle"
+                  />
+
+                  <div class="location-title">
+                    <h3>Locations Available</h3>
+                  </div>
+                  <div class="locations-boxes">
+                    <div class="locations-box">
+                      Grizedale, Cumbria, UK
+                    </div>
+                    <div class="locations-box">
+                      Ankerwycke, Surrey, UK
+                    </div>
+                    <div class="locations-box">
+                      Silkeborg Forests, Silkeborg, Denmark
+                    </div>
+                    <div class="locations-box">
+                      Moravian Karst, Czech Republic
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bottom Modal Buttons -->
+                <div class="bottom-btn">
+                  <a href="#" class="btn-dark">View More</a>
+
+                  <!-- Modal Start -->
+                  <div class="icon-favorite btn-dark">
+                    <a href="#fav"><i class="fas fa-heart"></i></a>
+                  </div>
+
+                  <div class="modal" id="fav">
+                    <div class="modal-content">
+                      <span class="icon-check"
+                        ><i class="fas fa-check-circle fa-6x"></i
+                      ></span>
+                      <p>Course added to the favorite list!</p>
+                      <a href="#!" class="btn-dark">OK</a>
+                    </div>
+                  </div>
+                  <!-- Modal End -->
+
+                  <div class="icon-thumbs-up btn-dark">
+                    <a href="#like"><i class="fas fa-thumbs-up"></i></a>
+                  </div>
+
+                  <!-- Modal Start -->
+                  <div class="modal" id="like">
+                    <div class="modal-content">
+                      <span class="icon-check"
+                        ><i class="fas fa-thumbs-up fa-6x"></i
+                      ></span>
+                      <p>Course Liked!</p>
+                      <a href="#!" class="btn-dark">OK</a>
+                    </div>
+                  </div>
+                  <!-- Modal End -->
+
+                  <!-- Modal Start -->
+                  <div class="icon-calendar btn-dark">
+                    <a href="#date"><i class="fas fa-calendar-alt"></i></a>
+                  </div>
+                  <div class="modal" id="date">
+                    <div class="modal-content">
+                      <span class="icon-check"
+                        ><i class="fas fa-calendar-alt fa-6x"></i
+                      ></span>
+                      <p>29/05/2019</p>
+                      <a href="#!" class="btn-dark">OK</a>
+                    </div>
+                  </div>
+                  <!-- Modal End -->
+                </div>
+              </div>
+              <div class="courses-box-image">
+                <img src="img/plant.jpg" alt="courses-img" />
+              </div>
+              <div class="courses-box-description">
+                <h2>Plant Interpretation</h2>
+
+                <!-- Review -->
+                <div class="review">
+                  <div class="review-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                    ><i class="fas fa-star"></i><span>(5.0)</span>
+                  </div>
+
+                  <div class="review-number"><p>25 Reviews</p></div>
+                </div>
+                <div class="detailed-info bold-txt">
+                  <i class="far fa-clock"></i><span>Duration: 3 Days</span>
+                  <i class="fas fa-user"></i><span>Age: 16+</span>
+                  <i class="fas fa-pound-sign"></i><span>Cost: £350</span>
+                  <i class="fas fa-users"></i><span>Max: 10 People</span>
+                </div>
+                <p class="lead">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+                  distinctio enim iure rerum eos culpa officia exercitationem
+                  blanditiis, delectus, ipsam modi asperiores. Maiores ipsum
+                  animi quis ex aperiam sit vero!
+                </p>
+
+                <!-- Available Locations -->
+                <div class="locations-2">
+                  <label for="location-toggle-2" class="location-toggle-2"
+                    ><i class="fas fa-chevron-down fa-2x"></i
+                  ></label>
+                  <input
+                    type="checkbox"
+                    name="location-toggle-2"
+                    id="location-toggle-2"
+                    class="location-toggle-2"
+                  />
+
+                  <div class="location-title-2">
+                    <h3>Locations Available</h3>
+                  </div>
+                  <div class="locations-boxes-2">
+                    <div class="locations-box-2">
+                      Grizedale, Cumbria, UK
+                    </div>
+                    <div class="locations-box-2">
+                      Ankerwycke, Surrey, UK
+                    </div>
+                    <div class="locations-box-2">
+                      Silkeborg Forests, Silkeborg, Denmark
+                    </div>
+                    <div class="locations-box-2">
+                      Moravian Karst, Czech Republic
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bottom Modal Buttons -->
+                <div class="bottom-btn">
+                  <a href="#" class="btn-dark">View More</a>
+
+                  <!-- Modal Start -->
+                  <div class="icon-favorite btn-dark">
+                    <a href="#fav-2"><i class="fas fa-heart"></i></a>
+                  </div>
+
+                  <div class="modal-2" id="fav-2">
+                    <div class="modal-content-2">
+                      <span class="icon-check"
+                        ><i class="fas fa-check-circle fa-6x"></i
+                      ></span>
+                      <p>Course added to the favorite list!</p>
+                      <a href="#!" class="btn-dark">OK</a>
+                    </div>
+                  </div>
+                  <!-- Modal End -->
+
+                  <!-- Modal Start -->
+                  <div class="icon-thumbs-up btn-dark">
+                    <a href="#like-2"><i class="fas fa-thumbs-up"></i></a>
+                  </div>
+
+                  <div class="modal-2" id="like-2">
+                    <div class="modal-content-2">
+                      <span class="icon-check"
+                        ><i class="fas fa-thumbs-up fa-6x"></i
+                      ></span>
+                      <p>Course Liked!</p>
+                      <a href="#!" class="btn-dark">OK</a>
+                    </div>
+                  </div>
+                  <!-- Modal End -->
+
+                  <!-- Modal Start -->
+                  <div class="icon-calendar btn-dark">
+                    <a href="#date-2"><i class="fas fa-calendar-alt"></i></a>
+                  </div>
+                  <div class="modal-2" id="date-2">
+                    <div class="modal-content-2">
+                      <span class="icon-check"
+                        ><i class="fas fa-calendar-alt fa-6x"></i
+                      ></span>
+                      <p>29/05/2019</p>
+                      <a href="#!" class="btn-dark">OK</a>
+                    </div>
+                  </div>
+                  <!-- Modal End -->
+                </div>
+              </div>
+              <div class="courses-box-image">
+                  <img src="img/forest-2.jpg" alt="courses-img" />
+                </div>
+                <div class="courses-box-description">
+                  <h2>Forest Navigation</h2>
+
+                  <!-- Review -->
+                  <div class="review">
+                    <div class="review-stars">
+                      <i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="far fa-star"></i><span>(4.0)</span>
+                    </div>
+  
+                    <div class="review-number"><p>6 Reviews</p></div>
+                  </div>
+                  <div class="detailed-info bold-txt">
+                    <i class="far fa-clock"></i><span>Duration: 8 Hours</span>
+                    <i class="fas fa-user"></i><span>Age: 12+</span>
+                    <i class="fas fa-pound-sign"></i><span>Cost: £150</span>
+                    <i class="fas fa-users"></i><span>Max: 21 People</span>
+                  </div>
+                  <p class="lead">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+                    distinctio enim iure rerum eos culpa officia exercitationem
+                    blanditiis, delectus, ipsam modi asperiores. Maiores ipsum
+                    animi quis ex aperiam sit vero!
+                  </p>
+
+                  <!-- Available Locations -->
+                  <div class="locations-3">
+                    <label for="location-toggle-3" class="location-toggle-3"
+                      ><i class="fas fa-chevron-down fa-2x"></i
+                    ></label>
+                    <input
+                      type="checkbox"
+                      name="location-toggle-3"
+                      id="location-toggle-3"
+                      class="location-toggle-3"
+                    />
+  
+                    <div class="location-title-3">
+                      <h3>Locations Available</h3>
+                    </div>
+                    <div class="locations-boxes-3">
+                      <div class="locations-box-3">
+                        Grizedale, Cumbria, UK
+                      </div>
+                      <div class="locations-box-3">
+                        Ankerwycke, Surrey, UK
+                      </div>
+                      <div class="locations-box-3">
+                        Silkeborg Forests, Silkeborg, Denmark
+                      </div>
+                      <div class="locations-box-3">
+                        Moravian Karst, Czech Republic
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Bottom Modal Buttons -->
+                  <div class="bottom-btn">
+                    <a href="#" class="btn-dark">View More</a>
+  
+                    <!-- Modal Start -->
+                    <div class="icon-favorite btn-dark">
+                      <a href="#fav-3"><i class="fas fa-heart"></i></a>
+                    </div>
+  
+                    <div class="modal-3" id="fav-3">
+                      <div class="modal-content-3">
+                        <span class="icon-check"
+                          ><i class="fas fa-check-circle fa-6x"></i
+                        ></span>
+                        <p>Course added to the favorite list!</p>
+                        <a href="#!" class="btn-dark">OK</a>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+  
+                    <!-- Modal Start -->
+                    <div class="icon-thumbs-up btn-dark">
+                      <a href="#like-3"><i class="fas fa-thumbs-up"></i></a>
+                    </div>
+  
+                    <div class="modal-3" id="like-3">
+                      <div class="modal-content-3">
+                        <span class="icon-check"
+                          ><i class="fas fa-thumbs-up fa-6x"></i
+                        ></span>
+                        <p>Course Liked!</p>
+                        <a href="#!" class="btn-dark">OK</a>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+  
+                    <!-- Modal Start -->
+                    <div class="icon-calendar btn-dark">
+                      <a href="#date-3"><i class="fas fa-calendar-alt"></i></a>
+                    </div>
+                    <div class="modal-3" id="date-3">
+                      <div class="modal-content-3">
+                        <span class="icon-check"
+                          ><i class="fas fa-calendar-alt fa-6x"></i
+                        ></span>
+                        <p>29/05/2019</p>
+                        <a href="#!" class="btn-dark">OK</a>
+                      </div>
+                    </div>
+                    <!-- Modal End -->
+                  </div>
+                </div>
+               
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+
+
+  <!-- Section: Locations -->
+  <section id="locations" class="bg-dark py-4">
+      <div class="container">
+        <div class="locations-content">
+          <h2 class="section-heading text-center">Featured Locations</h2>
+          <div class="bottom-line"></div>
+          
+          <label for="locations-toggle" class="locations-toggle"
+            ><i class="fas fa-chevron-down fa-5x"></i
+          ></label>
+          <input type="checkbox" id="locations-toggle" class="locations-toggle" />
+          <div class="locations-toggle-wrap">
+            <div class="locations-boxes">
+              <div class="location-box">
+                <div class="loc-img"><img src="img/locations/cumbria.jpg" alt="location-img"></div>
+                <div class="location-review">
+                    <div class="review-stars">
+                      <i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="loc-description">
+                  <h2>Grizedale</h2>
+                  <h3>Cumbria, UK</h3>
+                </div>
+                <div class="loc-price">
+                  <p>£90</p>
+                </div>
+              </div>
+              <div class="location-box">
+                <div class="loc-img"><img src="img/locations/surrey.jpg" alt="location-img"></div>
+                <div class="location-review">
+                    <div class="review-stars">
+                      <i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="far fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="loc-description">
+                  <h2>Ankerwycke</h2>
+                  <h3>Surrey, UK</h3>
+                </div>
+                <div class="loc-price">
+                  <p>£60</p>
+                </div>
+              </div>
+              <div class="location-box">
+                <div class="loc-img"><div class="detail">Sale</div><img src="img/locations/denmark.jpg" alt="location-img"></div>
+                <div class="location-review">
+                    <div class="review-stars">
+                      <i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="loc-description">
+                  <h2>Silkeborg Forests</h2>
+                  <h3>Denmark</h3>
+                </div>
+                <div class="loc-price">
+                  <p>£300</p>
+                  <p>£265</p>
+                </div>
+              </div>
+              <div class="location-box">
+                <div class="loc-img"><div class="detail">New</div><img src="img/locations/bohemia.jpg" alt="location-img"></div>
+                <div class="location-review">
+                    <div class="review-stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i
+                      ><i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="loc-description">
+                  <h2>Moravian Karst</h2>
+                  <h3>Czech Republic</h3>
+                </div>
+                <div class="loc-price">
+                  <p>£320</p>
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+
+  <!-- Section: Group Camps -->
+  <section id="group-camps" class="bg-medium py-4">
+      <div class="container">
+        <div class="group-content">
+          <h2 class="section-heading text-center">Group Camps</h2>
+          <div class="bottom-line"></div>
+          
+          <label for="group-toggle" class="group-toggle"
+            ><i class="fas fa-chevron-down fa-5x"></i
+          ></label>
+          <input type="checkbox" id="group-toggle" class="group-toggle" />
+          <div class="group-toggle-wrap">
+            <div class="group-boxes">
+                <div class="group-box">
+                    <div class="group-img"><img src="img/group/4-persons.jpg" alt="location-img"></div>
+                    <div class="group-heading">
+                        <div class="group-price">£450</div>
+                      </div>
+                    <div class="group-details">
+                      <h2>Fundaments Camp</h2>
+                      <p><i class="fas fa-check"></i> 1 Night</p>
+                      <p><i class="fas fa-check"></i> 4 Persons</p>
+                      <p><i class="fas fa-times"></i> Personal Instructors</p>
+                      <p><i class="fas fa-times"></i> Gratis Food Supplies</p>
+                      <div class="choose-btn"><a href="#" class="btn-dark">Choose</a></div> 
+                    </div>
+                  </div>
+                <div class="group-box">
+                    <div class="group-img"><img src="img/group/6-persons.jpg" alt="location-img"></div>
+                    <div class="group-heading">
+                      <div class="group-price">£650</div>
+                    </div>
+                    <div class="group-details">
+                      <h2>Standard Camp</h2>
+                      <p><i class="fas fa-check"></i> 2 Nights</p>
+                      <p><i class="fas fa-check"></i> 6 Persons</p>
+                      <p><i class="fas fa-check"></i> Personal Instructors</p>
+                      <p><i class="fas fa-times"></i> Gratis Food Supplies</p>
+                      <div class="choose-btn"><a href="#" class="btn-dark">Choose</a></div> 
+                    </div>
+                  </div>
+                <div class="group-box">
+                    <div class="group-img"><img src="img/group/9-persons.jpg" alt="location-img"></div>
+                    <div class="group-heading">
+                        <div class="group-price">£800</div>
+                      </div>
+                    <div class="group-details">
+                      <h2>Advanced Camp</h2>
+                      <p><i class="fas fa-check"></i> 3 Nights</p>
+                      <p><i class="fas fa-check"></i> 9 Persons</p>
+                      <p><i class="fas fa-check"></i> Personal Instructors</p>
+                      <p><i class="fas fa-check"></i> Gratis Food Supplies</p>
+                      <div class="choose-btn"><a href="#" class="btn-dark">Choose</a></div> 
+                    </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+  
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark">
+        <div class="container">
+          <div class="footer-content">
+            <div class="minor-info">
+              <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                aut, exercitationem labore tempora officiis, doloremque porro,
+                totam voluptate dolorum atque voluptatum laborum.
+              </p>
+            </div>
+            <div class="offer">
+              <h2>Get Offer Now</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                delectus itaque tempore, error rem dolores?
+              </p>
+              <div class="offer-btn">
+                  <span
+                    ><i class="far fa-envelope"></i
+                    ><input type="email" placeholder="Enter Email"
+                  /></span>
+                  <button type="submit" class="btn-light">Subscribe</button>
+                </div>
+            </div>
+            <div class="quick-links">
+              <h2>Important Links</h2>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="offer.html">Offer</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; Copyright LeshyCamp 2019, All Rights Reserved</p>
+          <div class="socials">
+            <a href="http://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a href="http://www.twitter.com/" target="_blank"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a href="http://www.linkedin.com/" target="_blank"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a href="http://www.instagram.com/" target="_blank"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+ 
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+   <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+
+    <!-- Animation on Scroll library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>LeshyCamp | Contact</title>
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader">
+      <div><img src="img/logo/logo-column.png" alt="loader" /></div>
+    </div>
+
+    <div class="main">
+      <!-- Back to top button -->
+      <div id="btn-up">
+        <a href="#header-about"><i class="fas fa-arrow-up"></i></a>
+      </div>
+
+      <!-- Header -->
+      <header id="header-about">
+        <nav id="main-nav">
+          <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+              <div></div>
+              <div></div>
+              <div></div>
+            </a>
+          </span>
+
+          <!-- Side Menu -->
+          <div id="side-menu" class="side-nav">
+            <a href="#!" class="btn-close" onclick="closeSlideMenu()"
+              >&times;</a
+            >
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html"><i class="far fa-address-card"></i> About</a>
+            <a href="#!" onclick="showOffer()"
+              ><i class="fas fa-money-bill"></i> Offer</a
+            >
+            <div id="hide">
+              <a href="#!" onclick="closeOffer()"
+                ><i class="fas fa-chevron-up "></i
+              ></a>
+              <a href="offer.html#courses"
+                ><i class="fas fa-tree"></i> Courses</a
+              >
+              <a href="offer.html#locations"
+                ><i class="fas fa-map-marker-alt"></i> Locations</a
+              >
+              <a href="offer.html#group-camps"
+                ><i class="fas fa-users"></i> Group Camps</a
+              >
+            </div>
+            <a href="blog.html"><i class="fas fa-comments"></i> Blog</a>
+            <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+          </div>
+
+          <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a href="offer.html">Offer <i class="fas fa-angle-down"></i></a>
+              <ul>
+                <li><a href="offer.html#courses">Courses</a></li>
+                <li><a href="offer.html#locations">Camping Locations</a></li>
+                <li><a href="offer.html#group-camps">Group Camps</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="blog.html">Blog <i class="fas fa-angle-down"></i></a>
+              <ul>
+                <li>
+                  <a href="blog-page.html">Nature</a> <span>15 Posts</span>
+                </li>
+                <li>
+                  <a href="blog-page.html">Camping</a> <span>6 Posts</span>
+                </li>
+                <li>
+                  <a href="blog-page.html">Bushcraft</a> <span>12 Posts</span>
+                </li>
+                <li>
+                  <a href="blog-page.html">Safety</a> <span>10 Posts</span>
+                </li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+
+            <!-- Search Bar -->
+            <label for="search-bar" class="search-bar">
+              <i class="fas fa-search"></i>
+            </label>
+            <input type="checkbox" id="search-bar" class="search-bar" />
+            <div class="search-bar-wrap">
+              <li class="search-btn">
+                <!-- Search button -->
+                <div class="search-btn">
+                  <input type="text" placeholder="Search" />
+                </div>
+              </li>
+            </div>
+          </ul>
+        </nav>
+        <div class="container">
+          <div class="about-content text-center">
+            <h1 class="section-heading">
+              Blog
+            </h1>
+            <div class="bottom-line"></div>
+            <p class="lead">Haven't gone wild yet? Don't hesitate!</p>
+            <a href="#" class="btn-transparent btn-special">View More</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Section: Contact Us -->
+      <section id="contact-us" class="py-4 bg-medium">
+        <div class="container">
+          <h2
+            class="section-heading text-center uppercase-txt"
+            data-aos="fade-out"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+          >
+            Let's start your journey
+          </h2>
+        </div>
+      </section>
+
+      <!-- Section: Contact Form -->
+      <section id="contact-form" class="py-4 bg-light">
+        <div class="container">
+          <div class="form-content">
+            <h2 class="section-heading text-center">Contact Us</h2>
+            <div class="bottom-line"></div>
+            <form>
+              <div class="form-inputs">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  class="form-input first-name"
+                  required
+                />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  class="form-input last-name"
+                  required
+                />
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  class="form-input subject"
+                  required
+                />
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  class="form-input email"
+                  required
+                />
+                <textarea
+                  placeholder="Message"
+                  class="form-input message"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-button">
+                <button type="submit" class="btn-dark">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Contact Info -->
+      <section id="contact-info" class="bg-medium py-2">
+        <div class="container">
+          <div
+            class="bottom-content "
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+          >
+            <div class="bottom-info">
+              <i class="fas fa-phone"></i>
+              <h3>Phone</h3>
+              <p>(555) 555-5555</p>
+            </div>
+            <div class="bottom-info">
+              <i class="far fa-clock"></i>
+              <h3>Opening Hours</h3>
+              <p>8:00 - 17:00 Mon - Sat</p>
+            </div>
+            <div class="bottom-info">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Address</h3>
+              <p>LA9 4ED, Kendal, UK</p>
+            </div>
+            <div class="bottom-info">
+              <i class="far fa-envelope"></i>
+              <h3>Email</h3>
+              <p>leshycamp@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Google Map -->
+      <div id="map"></div>
+
+      <!-- Footer -->
+      <footer id="main-footer" class="bg-dark">
+        <div class="container">
+          <div class="footer-content">
+            <div class="minor-info">
+              <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci aut, exercitationem labore tempora officiis, doloremque
+                porro, totam voluptate dolorum atque voluptatum laborum.
+              </p>
+            </div>
+            <div class="offer">
+              <h2>Get Offer Now</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                delectus itaque tempore, error rem dolores?
+              </p>
+              <div class="offer-btn">
+                <span
+                  ><i class="far fa-envelope"></i
+                  ><input type="email" placeholder="Enter Email"
+                /></span>
+                <button type="submit" class="btn-light">Subscribe</button>
+              </div>
+            </div>
+            <div class="quick-links">
+              <h2>Important Links</h2>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="offer.html">Offer</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; Copyright LeshyCamp 2019, All Rights Reserved</p>
+          <div class="socials">
+            <a href="http://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a href="http://www.twitter.com/" target="_blank"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a href="http://www.linkedin.com/" target="_blank"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a href="http://www.instagram.com/" target="_blank"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+
+    <!-- Google Maps API -->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnbNpUDqOAYzoa1LTLLxoc8yhR1LVNaZo&callback=initMap"
+    ></script>
+
+    <!-- Animation on Scroll library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

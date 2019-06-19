@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>LeshyCamp | Blog</title>
+  </head>
+  <body>
+
+     <!-- Loader -->
+     <div class="loader">
+        <div><img src="img/logo/logo-column.png" alt="loader" /></div>
+      </div>
+      <div class="main">
+
+    <!-- Back to top button -->
+    <div id="btn-up">
+      <a href="#header-about"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- Header -->
+    <header id="header-about">
+        <nav id="main-nav">
+            <span class="open-slide">
+              <a href="#!" onclick="openSlideMenu()">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+              </a>
+            </span>
+    
+          <!-- Side Menu -->
+        <div id="side-menu" class="side-nav">
+            <a href="#!" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html"><i class="far fa-address-card"></i> About</a>
+            <a href="#!" onclick="showOffer()"
+              ><i class="fas fa-money-bill"></i> Offer</a
+            >
+            <div id="hide">
+              <a href="#!" onclick="closeOffer()"
+                ><i class="fas fa-chevron-up "></i
+              ></a>
+              <a href="offer.html#courses"><i class="fas fa-tree"></i> Courses</a>
+              <a href="offer.html#locations"
+                ><i class="fas fa-map-marker-alt"></i> Locations</a
+              >
+              <a href="offer.html#group-camps"
+                ><i class="fas fa-users"></i> Group Camps</a
+              >
+            </div>
+            <a href="blog.html"><i class="fas fa-comments"></i> Blog</a>
+            <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+          </div>
+    
+
+            <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li>
+                <a href="offer.html">Offer <i class="fas fa-angle-down"></i></a>
+                <ul>
+                  <li><a href="offer.html#courses">Courses</a></li>
+                  <li><a href="offer.html#locations">Camping Locations</a></li>
+                  <li><a href="offer.html#group-camps">Group Camps</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="blog.html">Blog <i class="fas fa-angle-down"></i></a>
+                <ul>
+                  <li><a href="blog-page.html">Nature</a> <span>15 Posts</span></li>
+                  <li><a href="blog-page.html">Camping</a> <span>6 Posts</span></li>
+                  <li>
+                    <a href="blog-page.html">Bushcraft</a> <span>12 Posts</span>
+                  </li>
+                  <li><a href="blog-page.html">Safety</a> <span>10 Posts</span></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+
+              <!-- Search Bar -->
+              <label for="search-bar" class="search-bar">
+                  <i class="fas fa-search"></i>
+                </label>
+                <input type="checkbox" id="search-bar" class="search-bar" />
+                <div class="search-bar-wrap">
+                  <li class="search-btn">
+
+                    <!-- Search button -->
+                    <div class="search-btn ">
+                      <input type="text" placeholder="Search" />
+                    </div>
+                  </li>
+                </div>
+            </ul>
+          </nav>
+      <div class="container">
+        <div class="about-content text-center">
+          <h1 class="section-heading">
+            Blog
+          </h1>
+          <div class="bottom-line"></div>
+          <p class="lead">Haven't gone wild yet? Don't hesitate!</p>
+          <a href="#" class="btn-transparent btn-special">View More</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section: Blog -->
+    <section id="blog" class="bg-light py-4">
+      <div class="container">
+          <div class="blog-content">
+        <div class="sidebar ">
+          <div class="search-blog">
+            <h2>Search Blog</h2>
+            <div class="bottom-bar my-2">
+                    <div style="width: 50%"></div>
+                  </div>
+            <span>
+              <input type="text" placeholder="Search"/><i
+                class="fas fa-search"
+              ></i
+            ></span>
+          </div>
+
+          <!-- About - Short Introduction -->
+          <div class="about-short">
+            <h2>About Us</h2>
+            <div class="bottom-bar my-1">
+              <div style="width: 50%"></div>
+            </div>
+            <img src="img/company_people.jpg" alt="company-img" />
+            <div class="about-short-intro">
+            <p class="py-1">
+              With 20 years of experience under our belt, we provide the best
+              services to our clients, leaving them happy, ready and eager to
+              take next course or camp with us!
+            </p>
+            </div>
+            <a href="#" class="btn-dark">Read More</a>
+          </div>
+
+          <!-- Aside Info Main -->
+          <div class="aside-main">
+            <h2>Archive</h2>
+            <div class="bottom-bar my-1">
+                    <div style="width: 50%"></div>
+            </div>
+            <div class="aside">
+              <i class="fas fa-chevron-right"></i> <span>July 2018</span>
+            </div>
+            <div class="aside">
+              <i class="fas fa-chevron-right"></i> <span>June 2018</span>
+            </div>
+            <div class="aside">
+              <i class="fas fa-chevron-right"></i> <span>May 2018</span>
+            </div>
+            <div class="aside">
+              <i class="fas fa-chevron-right"></i> <span>April 2018</span>
+            </div>
+            <div class="aside">
+              <i class="fas fa-chevron-right"></i> <span>March 2018</span>
+            </div>
+          </div>
+
+          <!-- Gallery Images -->
+          <div class="gallery">
+            <h2>Gallery</h2>
+            <div class="bottom-bar my-1">
+                    <div style="width: 50%"></div>
+            </div>
+            <div class="gallery-images">
+              <div class="gallery-img">
+                <img src="img/mountain.jpg" alt="gallery-img" />
+              </div>
+              <div class="gallery-img">
+                <img src="img/forest-dark.jpg" alt="gallery-img" />
+              </div>
+              <div class="gallery-img">
+                <img src="img/hammock.jpg" alt="gallery-img" />
+              </div>
+              <div class="gallery-img">
+                <img src="img/wolf.jpg" alt="gallery-img" />
+              </div>
+              <div class="gallery-img">
+                <img src="img/bushcraft-2.jpg" alt="gallery-img" />
+              </div>
+              <div class="gallery-img">
+                <img src="img/knife.jpg" alt="gallery-img" />
+              </div>
+            </div>
+          </div>
+
+           <!-- Aside Info Minor-->
+          <div class="aside-main">
+            <h2>Category</h2>
+            <div class="bottom-bar my-1">
+                    <div style="width: 50%"></div>
+            </div>
+            <div class="aside">
+              <i class="fas fa-chevron-right"></i> <span>Camping</span>
+            </div>
+            <div class="aside">
+              <i class="fas fa-chevron-right"></i> <span>Survival</span>
+            </div>
+            <div class="aside">
+              <i class="fas fa-chevron-right"></i> <span>Woodwork</span>
+            </div>
+            <div class="aside">
+              <i class="fas fa-chevron-right"></i> <span>Nature</span>
+            </div>
+            <div class="aside">
+              <i class="fas fa-chevron-right"></i> <span>Health & Safety</span>
+            </div>
+          </div>
+
+          <!-- Recents Posts -->
+          <div class="recent-posts">
+            <h2>Recent Posts</h2>
+            <div class="bottom-bar my-1">
+                    <div style="width: 50%"></div>
+            </div>
+            <div class="recent-post">
+              <h2>
+                How to track a wolf?
+              </h2>
+              <div class="bottom-info">
+                <span
+                  ><i class="fas fa-calendar-alt"></i> May 21, 2019, 12:45</span
+                >
+                <span><i class="fas fa-user"></i> Vojte Ceh</span>
+              </div>
+            </div>
+            <div class="recent-post">
+              <h2>
+                Save energy = Protect nature
+              </h2>
+              <div class="bottom-info">
+                <span
+                  ><i class="fas fa-calendar-alt"></i> May 31, 2019, 15:25</span
+                >
+                <span><i class="fas fa-user"></i> Claudia Voiss</span>
+              </div>
+            </div>
+            <div class="recent-post">
+              <h2>
+                Trekking: How to start
+              </h2>
+              <div class="bottom-info">
+                <span
+                  ><i class="fas fa-calendar-alt"></i> June 11, 2019, 14:00</span
+                >
+                <span><i class="fas fa-user"></i> Vojte Ceh</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tags -->
+          <div class="tags">
+            <h2>Popular Tags</h2>
+            <div class="bottom-bar my-1">
+                    <div style="width: 50%"></div>
+            </div>
+            <div class="tag-wrap">
+              <span class="tag"><a href="#" class="btn-dark">Wildlife</a></span>
+              <span class="tag"><a href="#" class="btn-dark">Nature</a></span>
+              <span class="tag"
+                ><a href="#" class="btn-dark">Equipment</a></span
+              >
+              <span class="tag"><a href="#" class="btn-dark">Camping</a></span>
+              <span class="tag">
+                <a href="#" class="btn-dark">Health & Safety</a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+         <!-- Main Blog -->
+        <div class="main-blog">
+
+          <!-- Blog Post -->
+          <div class="blog-post">
+           <div class="blog-img"><img src="img/wolf.jpg" alt="blog-img" /></div> 
+           <a href="blog-page.html"><h2 class="section-heading">How to track a wolf</h2></a> 
+            <div class="post-details">
+              <span
+                ><i class="fas fa-calendar-alt"></i> May 21, 2019, 12:45</span
+              >
+              <span><i class="fas fa-user"></i> Vojte Ceh</span>
+              <span><i class="fas fa-comments"></i> 10</span>
+              <span><i class="fas fa-thumbs-up"></i> 22</span>
+            </div>
+            <div class="post-description">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                suscipit alias, nam eum nobis amet doloremque voluptates,
+                voluptatibus quaerat maxime dolore vero sit sed excepturi nihil
+                culpa sunt et molestiae! Delectus architecto praesentium officia
+                numquam unde nam, at excepturi, inventore atque, eos perferendis
+                assumenda impedit reiciendis facilis hic odio possimus!
+              </p>
+            </div>
+            <a href="blog-page.html" class="btn-dark">Read More</a>
+          </div>
+
+          <!-- Blog Post -->
+          <div class="blog-post">
+           <div class="blog-img"><img src="img/windmill-3.jpg" alt="blog-img" /></div> 
+           <a href="blog-page.html"><h2 class="section-heading">Save energy = Protect nature</h2></a> 
+            <div class="post-details">
+              <span
+                ><i class="fas fa-calendar-alt"></i> May 31, 2019, 15:25</span
+              >
+              <span><i class="fas fa-user"></i> Claudia Voiss</span>
+              <span><i class="fas fa-comments"></i> 10</span>
+              <span><i class="fas fa-thumbs-up"></i> 6</span>
+            </div>
+            <div class="post-description">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                suscipit alias, nam eum nobis amet doloremque voluptates,
+                voluptatibus quaerat maxime dolore vero sit sed excepturi nihil
+                culpa sunt et molestiae! Delectus architecto praesentium officia
+                numquam unde nam, at excepturi, inventore atque, eos perferendis
+                assumenda impedit reiciendis facilis hic odio possimus!
+              </p>
+            </div>
+            <a href="blog-page.html" class="btn-dark">Read More</a>
+          </div>
+
+          <!-- Blog Post -->
+          <div class="blog-post">
+           <div class="blog-img"><img src="img/trekking-2.jpg" alt="blog-img" /></div> 
+          <a href="blog-page.html"><h2 class="section-heading">Trekking: How to start</h2></a>  
+            <div class="post-details">
+              <span
+                ><i class="fas fa-calendar-alt"></i> June 11, 2019, 14:00</span
+              >
+              <span><i class="fas fa-user"></i> Vojte Ceh</span>
+              <span><i class="fas fa-comments"></i> 2</span>
+              <span><i class="fas fa-thumbs-up"></i> 5</span>
+            </div>
+            <div class="post-description">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                suscipit alias, nam eum nobis amet doloremque voluptates,
+                voluptatibus quaerat maxime dolore vero sit sed excepturi nihil
+                culpa sunt et molestiae! Delectus architecto praesentium officia
+                numquam unde nam, at excepturi, inventore atque, eos perferendis
+                assumenda impedit reiciendis facilis hic odio possimus!
+              </p>
+            </div>
+            <a href="blog-page.html" class="btn-dark">Read More</a>
+          </div>
+
+          <!-- Blog Page Buttons -->
+          <div class="page-btns bold-txt">
+              <div class="page-btn"><a href="blog-page.html" class="btn-dark">1</a></div>
+              <div class="page-btn"><a href="blog-page.html" class="btn-dark">3</a></div>
+              <div class="page-btn"><a href="blog-page.html" class="btn-dark">4</a></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark">
+        <div class="container">
+          <div class="footer-content">
+            <div class="minor-info">
+              <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                aut, exercitationem labore tempora officiis, doloremque porro,
+                totam voluptate dolorum atque voluptatum laborum.
+              </p>
+            </div>
+            <div class="offer">
+              <h2>Get Offer Now</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                delectus itaque tempore, error rem dolores?
+              </p>
+              <div class="offer-btn">
+                  <span
+                    ><i class="far fa-envelope"></i
+                    ><input type="email" placeholder="Enter Email"
+                  /></span>
+                  <button type="submit" class="btn-light">Subscribe</button>
+                </div>
+            </div>
+            <div class="quick-links">
+              <h2>Important Links</h2>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="offer.html">Offer</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; Copyright LeshyCamp 2019, All Rights Reserved</p>
+          <div class="socials">
+            <a href="http://www.facebook.com/" target="_blank"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a href="http://www.twitter.com/" target="_blank"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a href="http://www.linkedin.com/" target="_blank"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a href="http://www.instagram.com/" target="_blank"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+
+    <!-- Animation on Scroll library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

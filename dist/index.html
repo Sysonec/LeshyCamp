@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>LeshyCamp | Welcome</title>
+  </head>
+  <body>
+    
+    <!-- Loader -->
+      <div class="loader">
+          <div><img src="img/logo/logo-column.png" alt="loader" /></div>
+        </div>
+
+        <div class="main">
+    <!-- Back to top button -->
+    <div id="btn-up">
+      <a href="#header-home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    
+    <!-- Header -->
+    <header id="header-home">
+      <div class="video-wrap">
+        <video
+          id="video-bg"
+          src="img/videos/forest-trees.mp4"
+          autoplay="true"
+          loop="true"
+        ></video>
+      </div>
+      <nav id="main-nav">
+        <span class="open-slide ">
+          <a href="#!" onclick="openSlideMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </a>
+        </span>
+
+        <!-- Side Menu -->
+        <div id="side-menu" class="side-nav">
+          <a href="#!" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+          <a href="index.html"><i class="fas fa-home"></i> Home</a>
+          <a href="about.html"><i class="far fa-address-card"></i> About</a>
+          <a href="#!" onclick="showOffer()"
+            ><i class="fas fa-money-bill"></i> Offer</a
+          >
+          <div id="hide">
+            <a href="#!" onclick="closeOffer()"
+              ><i class="fas fa-chevron-up "></i
+            ></a>
+            <a href="offer.html#courses"><i class="fas fa-tree"></i> Courses</a>
+            <a href="offer.html#locations"
+              ><i class="fas fa-map-marker-alt"></i> Locations</a
+            >
+            <a href="offer.html#group-camps"
+              ><i class="fas fa-users"></i> Group Camps</a
+            >
+          </div>
+          <a href="blog.html"><i class="fas fa-comments"></i> Blog</a>
+          <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+        </div>
+
+        
+        <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="offer.html">Offer <i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="offer.html#courses">Courses</a></li>
+              <li><a href="offer.html#locations">Camping Locations</a></li>
+              <li><a href="offer.html#group-camps">Group Camps</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="blog.html">Blog <i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="blog-page.html">Nature</a> <span>15 Posts</span></li>
+              <li><a href="blog-page.html">Camping</a> <span>6 Posts</span></li>
+              <li>
+                <a href="blog-page.html">Bushcraft</a> <span>12 Posts</span>
+              </li>
+              <li><a href="blog-page.html">Safety</a> <span>10 Posts</span></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+
+          <!-- Search Bar -->
+          <label for="search-bar" class="search-bar">
+            <i class="fas fa-search"></i>
+          </label>
+          <input type="checkbox" id="search-bar" class="search-bar" />
+          <div class="search-bar-wrap">
+            <li class="search-btn">
+
+              <!-- Search button -->
+              <div class="search-btn">
+                <input type="text" placeholder="Search" />
+              </div>
+            </li>
+          </div>
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="header-content txt-center">
+          <h1 class="section-heading">
+            LeshyCamp
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Bushcraft","Camping","Hiking"]'
+            ></span>
+          </h1>
+          <div class="bottom-line"></div>
+          <p class="lead">Haven't gone wild yet? Don't hesitate!</p>
+          <a href="offer.html" class="btn-transparent btn-special">View More</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section: Showcase -->
+    <section id="showcase" class=" bg-light">
+      <div class="showcase-content">
+        <img src="img/hammock.jpg" alt="hammock" class="img" />
+        <div class="bg-light description">
+          <h2 class="section-heading">Welcome To LeshyCamp</h2>
+          <div class="bottom-line"></div>
+          <h3>The Biggest Camping Area In The UK</h3>
+          <p class="lead py-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, sint
+            ab, nemo, odio dolorum vero consectetur veritatis et quos
+            repudiandae recusandae beatae minima expedita. Similique quod illo
+            dicta a perspiciatis?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Courses Introduction -->
+    <section id="courses-intro">
+      <div class="intro-content">
+        <div class="container">
+          <h2 class="section-heading">Our Courses</h2>
+          <div class="bottom-line"></div>
+          <ul class="uppercase-txt">
+            <li><a href="offer.html#courses">Now In Offer</a></li>
+            <li><a href="offer.html#courses">Coming Soon</a></li>
+          </ul>
+          <div
+            class="intro-boxes py-3 text-center"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+          >
+            <div class="intro-img">
+              <div class="img-wrap">
+                <img src="img/bushcraft.jpg" alt="intro-img" />
+              </div>
+              <div class="btn-wrap">
+                <a href="offer.html#courses" class="btn-light"
+                  >How to use tools</a
+                >
+              </div>
+              <div class="stats">
+                <span><i class="fas fa-eye"></i> 30</span>
+                <span><i class="fas fa-thumbs-up"></i> 15</span>
+                <span><i class="fas fa-comments"></i> 5</span>
+              </div>
+            </div>
+            <div class="intro-img">
+              <div class="img-wrap">
+                <img src="img/plant.jpg" alt="intro-img" />
+              </div>
+              <div class="btn-wrap">
+                <a href="offer.html#courses" class="btn-light"
+                  >Plant Interpretation</a
+                >
+              </div>
+              <div class="stats">
+                <span><i class="fas fa-eye"></i> 10</span>
+                <span><i class="fas fa-thumbs-up"></i> 12</span>
+                <span><i class="fas fa-comments"></i> 6</span>
+              </div>
+            </div>
+            <div class="intro-img">
+              <div class="img-wrap">
+                <img src="img/forest-2.jpg" alt="intro-img" />
+              </div>
+              <div class="btn-wrap">
+                <a href="offer.html#courses" class="btn-light"
+                  >Forest Navigation</a
+                >
+              </div>
+              <div class="stats">
+                <span><i class="fas fa-eye"></i> 20</span>
+                <span><i class="fas fa-thumbs-up"></i> 33</span>
+                <span><i class="fas fa-comments"></i> 19</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: What We Cover -->
+    <section id="cover" class="text-center bg-light py-3">
+      <div class="container">
+        <div class="cover-content">
+          <div data-aos="fade-in"></div>
+          <h2 class="section-heading">What We Cover</h2>
+          <div class="bottom-line"></div>
+          <div class="cover-boxes">
+            <div class="cover-box">
+              <i class="fas fa-paw fa-5x"></i>
+              <h2 class="cover-title">Nature Observing</h2>
+              <p class="lead">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                non beatae possimus maiores est perspiciatis, laudantium
+                assumenda suscipit ipsum sapiente.
+              </p>
+            </div>
+            <div class="cover-box">
+              <i class="fas fa-drafting-compass fa-5x"></i>
+              <h2 class="cover-title">Map Navigation</h2>
+              <p class="lead">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                non beatae possimus maiores est perspiciatis, laudantium
+                assumenda suscipit ipsum sapiente.
+              </p>
+            </div>
+            <div class="cover-box">
+              <i class="fas fa-medkit fa-5x"></i>
+              <h2 class="cover-title">First Aid</h2>
+              <p class="lead">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                non beatae possimus maiores est perspiciatis, laudantium
+                assumenda suscipit ipsum sapiente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Newsletter -->
+    <section id="newsletter" class="text-center bg-light py-4">
+      <div class="container">
+        <div
+          class="newsletter-content"
+          data-aos="fade-right"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
+          <h2 class="section-heading">Subscribe To Our Newsletter</h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            accusantium molestias obcaecati quam sed atque quae qui quidem ea
+            vero, sapiente maiores, voluptas voluptatibus dolore ullam debitis
+            commodi quod nemo inventore. Aliquam dolorem voluptatibus esse.
+          </p>
+          <div class="news-inputs">
+            <input type="email" class="news-email" placeholder="Enter Email" />
+            <button type="submit" class="btn-news btn-dark">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Blog Intro-->
+    <section id="blog-intro" class="bg-light text-center py-3">
+      <div class="container">
+        <div class="blog-content">
+          <h2 class="section-heading">Recent Blog Posts</h2>
+          <div class="bottom-line"></div>
+          <div class="blog-boxes">
+            <div class="blog-box">
+              <div class="box-img">
+                <img src="img/wolf.jpg" alt="blog-img" />
+              </div>
+              <h2>How to track a wolf</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nostrum quia facere quas eum maiores excepturi eos
+                voluptate atque iste.
+              </p>
+              <ul>
+                <li><i class="fas fa-calendar-alt"></i> May 21, 2019, 12:45</li>
+                <li><i class="fas fa-comments"></i> 10</li>
+                <li>
+                  <a href="blog-page.html" class="btn-dark uppercase-txt"
+                    >Read More</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="blog-box">
+              <div class="box-img">
+                <img src="img/windmill-3.jpg" alt="blog-img" />
+              </div>
+              <h2>Save energy = protect nature</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nostrum quia facere quas eum maiores excepturi eos
+                voluptate atque iste.
+              </p>
+              <ul>
+                <li><i class="fas fa-calendar-alt"></i> May 31, 2019, 15:25</li>
+                <li><i class="fas fa-comments"></i> 10</li>
+                <li>
+                  <a href="blog.html" class="btn-dark uppercase-txt"
+                    >Read More</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="blog-box">
+              <div class="box-img">
+                <img src="img/trekking-2.jpg" alt="blog-img" />
+              </div>
+              <h2>Trekking: how to start</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nostrum quia facere quas eum maiores excepturi eos
+                voluptate atque iste.
+              </p>
+              <ul>
+                <li>
+                  <i class="fas fa-calendar-alt"></i> June 11, 2019, 14:00
+                </li>
+                <li><i class="fas fa-comments"></i> 2</li>
+                <li>
+                  <a href="blog.html" class="btn-dark uppercase-txt"
+                    >Read More</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark">
+      <div class="container">
+        <div class="footer-content">
+          <div class="minor-info">
+            <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              aut, exercitationem labore tempora officiis, doloremque porro,
+              totam voluptate dolorum atque voluptatum laborum.
+            </p>
+          </div>
+          <div class="offer">
+            <h2>Get Offer Now</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              delectus itaque tempore, error rem dolores?
+            </p>
+            <div class="offer-btn">
+              <span
+                ><i class="far fa-envelope"></i
+                ><input type="email" placeholder="Enter Email"
+              /></span>
+              <button type="submit" class="btn-light">Subscribe</button>
+            </div>
+          </div>
+          <div class="quick-links">
+            <h2>Important Links</h2>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="offer.html">Offer</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; Copyright LeshyCamp 2019, All Rights Reserved</p>
+        <div class="socials">
+          <a href="http://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="http://www.twitter.com/" target="_blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="http://www.linkedin.com/" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="http://www.instagram.com/" target="_blank"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+
+    <!-- Animation on Scroll library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

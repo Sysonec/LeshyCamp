@@ -1,0 +1,420 @@
+.container {
+  max-width: $website-width;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+%btn-shared {
+  display: inline-block;
+  border: none;
+  padding: 0.8rem 2rem;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.bg {
+  &-main {
+    background: $main-color;
+    color: set-text-color($main-color);
+  }
+  &-light {
+    background: $light-color;
+    color: set-text-color($light-color);
+  }
+  &-dark {
+    background: $dark-color;
+    color: set-text-color($dark-color);
+  }
+  &-brown {
+    background: $brown-color;
+    color: set-text-color($brown-color);
+  }
+  &-medium {
+    background: $medium-color;
+    color: set-text-color($medium-color);
+  }
+}
+
+.btn {
+  &-main {
+    @extend %btn-shared;
+    color: #fff;
+    background-color: $main-color;
+  }
+
+  &-light {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $light-color;
+  }
+
+  &-dark {
+    @extend %btn-shared;
+    color: #fff;
+    background-color: $dark-color;
+  }
+
+  &-transparent {
+    @extend %btn-shared;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid $light-color;
+  }
+
+  &-special {
+    @extend %btn-shared;
+    background: transparent;
+    border: 2px solid $light-color;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding: 1.2rem 3rem;
+    font-size: 2rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: $main-color;
+      z-index: -1;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: left;
+      transform-origin: left;
+      -webkit-transition: -webkit-transform 0.5s ease-in-out;
+      transition: -webkit-transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+    }
+
+    &:hover:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+      -webkit-transform-origin: right;
+      transform-origin: right;
+    }
+  }
+}
+
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: $main-color;
+  color: $light-color;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  padding-bottom: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// Padding
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+// Margin
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+// Bottom Line
+.bottom-line {
+  height: 3.5px;
+  width: 5rem;
+  background: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.color {
+  &-main {
+    color: $main-color;
+  }
+
+  &-dark {
+    color: $dark-color;
+  }
+
+  &-light {
+    color: $light-color;
+  }
+
+  &-medium {
+    color: $medium-color;
+  }
+
+  &-brown {
+    color: $brown-color;
+  }
+}
+
+.current {
+  background: $main-color;
+}
+
+.uppercase-txt {
+  text-transform: uppercase;
+}
+
+.bold-txt {
+  font-weight: bold;
+}
+
+#btn-up {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: fixed;
+  z-index: 2;
+
+  a {
+    position: fixed;
+    padding: 1.15rem;
+    background: $special-color;
+    color: set-text-color($main-color);
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    right: 2rem;
+    top: 54rem;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+
+// Google Map
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+// Side Navbar
+#side-menu {
+  z-index: 2;
+}
+.open-slide {
+  div {
+    width: 32px;
+    height: 2px;
+    background: $light-color;
+    margin-bottom: 0.5rem;
+  }
+}
+.side-nav {
+  position: fixed;
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  background-color: $medium-color;
+  overflow: hidden;
+  padding-top: 3.3rem;
+  -webkit-transition: 0.4s $ease-in-out;
+  transition: 0.4s $ease-in-out;
+
+  i {
+    font-size: 2rem;
+  }
+
+  #hide {
+    opacity: 0;
+    height: 0;
+    -webkit-transition: 0.4s $ease-in-out;
+    transition: 0.4s $ease-in-out;
+    a:not(:last-of-type) {
+      border: none;
+    }
+  }
+
+  a {
+    padding: 5px 5px 45px 50px;
+    border-bottom: 1px solid $dark-color;
+    text-decoration: none;
+    color: $dark-color;
+    opacity: 0.8;
+    display: block;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    &:hover {
+      color: $light-color;
+      opacity: 1;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    i {
+      padding-right: 0.5rem;
+      font-size: 1.87rem;
+    }
+  }
+
+  .btn-close {
+    position: absolute;
+    top: -25px;
+    right: -8px;
+    font-size: 4rem;
+    margin-left: 1.2rem;
+    border: none;
+
+    &:hover {
+      background: none;
+      color: $light-color;
+    }
+
+    &:active {
+      opacity: 0;
+    }
+  }
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  div {
+    border: 10px solid $light-color;
+    background: $special-color;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    -webkit-animation: loader 2.5s $ease-in-out 0s infinite forwards;
+    animation: loader 2.5s $ease-in-out 0s infinite forwards;
+
+    @-webkit-keyframes loader {
+      0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(244, 244, 244, 1),
+          0 0 0 0 rgba(244, 244, 244, 1);
+        box-shadow: 0 0 0 0 rgba(244, 244, 244, 1),
+          0 0 0 0 rgba(244, 244, 244, 1);
+      }
+
+      40% {
+        -webkit-box-shadow: 0 0 0 40px rgba(244, 244, 244, 0),
+          0 0 0 0 rgba(244, 244, 244, 1);
+        box-shadow: 0 0 0 40px rgba(244, 244, 244, 0),
+          0 0 0 0 rgba(244, 244, 244, 1);
+      }
+
+      80% {
+        -webkit-box-shadow: 0 0 0 40px rgba(244, 244, 244, 0),
+          0 0 0 40px rgba(244, 244, 244, 0);
+        box-shadow: 0 0 0 40px rgba(244, 244, 244, 0),
+          0 0 0 40px rgba(244, 244, 244, 0);
+      }
+
+      100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(244, 244, 244, 0),
+          0 0 0 40px rgba(244, 244, 244, 0);
+        box-shadow: 0 0 0 0 rgba(244, 244, 244, 0),
+          0 0 0 40px rgba(244, 244, 244, 0);
+      }
+    }
+
+    @keyframes loader {
+      0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(244, 244, 244, 1),
+          0 0 0 0 rgba(244, 244, 244, 1);
+        box-shadow: 0 0 0 0 rgba(244, 244, 244, 1),
+          0 0 0 0 rgba(244, 244, 244, 1);
+      }
+
+      40% {
+        -webkit-box-shadow: 0 0 0 40px rgba(244, 244, 244, 0),
+          0 0 0 0 rgba(244, 244, 244, 1);
+        box-shadow: 0 0 0 40px rgba(244, 244, 244, 0),
+          0 0 0 0 rgba(244, 244, 244, 1);
+      }
+
+      80% {
+        -webkit-box-shadow: 0 0 0 40px rgba(244, 244, 244, 0),
+          0 0 0 40px rgba(244, 244, 244, 0);
+        box-shadow: 0 0 0 40px rgba(244, 244, 244, 0),
+          0 0 0 40px rgba(244, 244, 244, 0);
+      }
+
+      100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(244, 244, 244, 0),
+          0 0 0 40px rgba(244, 244, 244, 0);
+        box-shadow: 0 0 0 0 rgba(244, 244, 244, 0),
+          0 0 0 40px rgba(244, 244, 244, 0);
+      }
+    }
+
+    img {
+      width: 180px;
+      height: 90px;
+      margin-top: 1.5rem;
+      margin-left: -0.9rem;
+    }
+  }
+}
+
+.main {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s $ease;
+  transition: opacity 0.5s $ease;
+}
