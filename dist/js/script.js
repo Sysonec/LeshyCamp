@@ -124,13 +124,14 @@ $("#main-nav .subpage, .btn, #btn-up a, .scroll").on("click", function(event) {
 // Loader
 const loader = document.querySelector(".loader");
 const main = document.querySelector(".main");
+const scroll = document.querySelector("body");
 
 function init() {
   setTimeout(() => {
     loader.style.opacity = 0;
     loader.style.display = "none";
+    scroll.style.overflowY = "scroll";
 
-    main.style.display = "block";
     setTimeout(() => (main.style.opacity = 1), 50);
   }, 2000);
 }

@@ -28,10 +28,6 @@
     background: $dark-color;
     color: set-text-color($dark-color);
   }
-  &-brown {
-    background: $brown-color;
-    color: set-text-color($brown-color);
-  }
   &-medium {
     background: $medium-color;
     color: set-text-color($medium-color);
@@ -181,10 +177,6 @@ input[class^="btn-"]:hover {
   &-medium {
     color: $medium-color;
   }
-
-  &-brown {
-    color: $brown-color;
-  }
 }
 
 .current {
@@ -330,7 +322,7 @@ input[class^="btn-"]:hover {
 }
 
 .loader {
-  position: absolute;
+  position: fixed; //Position absolute in this case will show up the loader at the top of the page - scroll is hidden, loader is hidden
   top: 50%;
   left: 50%;
   margin: -100px 0 0 -100px;
