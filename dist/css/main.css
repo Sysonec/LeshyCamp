@@ -2708,8 +2708,9 @@ ul {
         padding: 1rem 2.25rem; }
   #header-home {
     color: #fff;
-    background: url("../img/clouds-forest.jpg") no-repeat fixed 25% 50%/cover;
+    background: url("../img/clouds-forest.jpg");
     background-attachment: fixed;
+    background-repeat: no-repeat;
     z-index: 1;
     position: relative; }
     #header-home::before {
