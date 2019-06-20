@@ -225,7 +225,8 @@ input[class^="btn-"]:hover {
     -webkit-transition: 0.4s;
     transition: 0.4s;
     font-size: 1.8rem;
-    font-weight: 700; }
+    font-weight: 700;
+    opacity: 0; }
     .side-nav a:hover {
       color: #f4f4f4;
       opacity: 1; }
@@ -2681,8 +2682,8 @@ ul {
     top: 4%;
     left: 3.5%; }
   #main-nav .search-bar {
-    position: fixed;
-    bottom: 90%;
+    position: absolute;
+    bottom: 37%;
     left: 83.5%; }
   #header-home, #header-about {
     height: 80vh; }
