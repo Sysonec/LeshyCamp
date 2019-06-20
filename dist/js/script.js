@@ -1,3 +1,9 @@
+// Fixing CSS on mobiles keyboard pull
+$("#comment-text-area").focus(function() {
+  var height = $("body").css("height");
+  $("body").css("height", height);
+});
+
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
@@ -66,7 +72,7 @@ function init() {
 
 // Slide Menu
 function openSlideMenu() {
-  document.getElementById("side-menu").style.width = "280px";
+  document.getElementById("side-menu").style.width = "305px";
 }
 
 function closeSlideMenu() {
@@ -77,7 +83,7 @@ function closeSlideMenu() {
 function showOffer() {
   document
     .getElementById("hide")
-    .setAttribute("style", "opacity: 1; height: 275px;");
+    .setAttribute("style", "opacity: 1; height: 275px;  pointer-events: all;");
 }
 
 function closeOffer() {
