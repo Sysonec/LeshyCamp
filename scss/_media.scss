@@ -1253,7 +1253,9 @@
 
     &-home {
       color: #fff;
-      background: url("../img/clouds-forest.jpg") no-repeat 25% 50% / cover;
+      background: url("../img/clouds-forest.jpg") no-repeat fixed 25% 50% /
+        cover;
+      background-attachment: fixed;
       z-index: 1;
       position: relative;
       &::before {
@@ -1281,7 +1283,8 @@
     margin: auto;
 
     &::before {
-      background: url("../img/trekking.jpg") no-repeat 20% 20% / cover;
+      background: url("../img/trekking.jpg") no-repeat fixed 20% 20% / cover;
+      background-attachment: fixed;
       width: 100%;
       height: 100%;
     }

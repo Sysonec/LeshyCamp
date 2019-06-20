@@ -511,7 +511,6 @@ ul {
     -o-object-fit: cover;
     object-fit: cover;
     position: fixed;
-    background-attachment: fixed;
     z-index: -1;
     width: 100vw;
     height: 100vh;
@@ -563,7 +562,6 @@ ul {
     top: 0;
     left: 0;
     background: url("../img/trekking.jpg") no-repeat fixed center center/cover;
-    background-attachment: fixed;
     width: 100%;
     height: 100%;
     opacity: 0.35;
@@ -638,7 +636,6 @@ ul {
 
 #newsletter {
   background: url("../img/forest-dark.jpg") no-repeat fixed center bottom/cover;
-  background-attachment: fixed;
   padding: 8rem 0;
   position: relative;
   z-index: 0; }
@@ -748,7 +745,6 @@ ul {
   color: #fff;
   height: 75vh;
   background: url("../img/clouds-forest.jpg") no-repeat fixed 20% 20%/cover;
-  background-attachment: fixed;
   z-index: 1;
   position: relative; }
   #header-about::before {
@@ -923,7 +919,6 @@ ul {
 
 #first-step {
   background: url("../img/mountain.jpg") no-repeat fixed center center/cover;
-  background-attachment: fixed;
   padding: 6rem 0;
   z-index: 0;
   position: relative; }
@@ -2713,7 +2708,8 @@ ul {
         padding: 1rem 2.25rem; }
   #header-home {
     color: #fff;
-    background: url("../img/clouds-forest.jpg") no-repeat 25% 50%/cover;
+    background: url("../img/clouds-forest.jpg") no-repeat fixed 25% 50%/cover;
+    background-attachment: fixed;
     z-index: 1;
     position: relative; }
     #header-home::before {
@@ -2730,7 +2726,8 @@ ul {
     z-index: -1;
     margin: auto; }
     #courses-intro::before {
-      background: url("../img/trekking.jpg") no-repeat 20% 20%/cover;
+      background: url("../img/trekking.jpg") no-repeat fixed 20% 20%/cover;
+      background-attachment: fixed;
       width: 100%;
       height: 100%; }
     #courses-intro .intro-content ul li a {
