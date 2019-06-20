@@ -1,3 +1,4 @@
+// Fixing Android keyboard messing up the design
 setTimeout(function() {
   let viewheight = $(window).height();
   let viewwidth = $(window).width();

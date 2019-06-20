@@ -2624,6 +2624,8 @@ ul {
         border-bottom: 1px solid #ccc; }
         #main-footer .footer-content .minor-info p {
           padding-top: 1.5rem; }
+        #main-footer .footer-content .minor-info img {
+          margin: auto; }
       #main-footer .footer-content .offer {
         padding-bottom: 3rem;
         border-bottom: 1px solid #ccc; }
@@ -2698,7 +2700,7 @@ ul {
     #header-home .header-content,
     #header-home .about-content, #header-about .header-content,
     #header-about .about-content {
-      padding-top: 80%; }
+      padding-top: 70%; }
       #header-home .header-content .btn-special,
       #header-home .about-content .btn-special, #header-about .header-content .btn-special,
       #header-about .about-content .btn-special {
@@ -3231,13 +3233,19 @@ ul {
       padding: 0 0 3rem 0;
       margin: auto;
       font-size: 1.25rem; }
+      #main-footer .footer-content .minor-info img {
+        margin: auto; }
     #main-footer .footer-content .offer {
       padding-bottom: 1.5rem; }
       #main-footer .footer-content .offer .offer-btn {
-        padding: 1rem 0; }
+        padding: 1rem 0;
+        margin-right: 11%; }
+        #main-footer .footer-content .offer .offer-btn input {
+          width: 75%; }
         #main-footer .footer-content .offer .offer-btn button {
           margin-top: 1.5rem;
-          position: static; }
+          position: static;
+          margin-left: 11%; }
     #main-footer .copyright {
       display: -webkit-box;
       display: -ms-flexbox;

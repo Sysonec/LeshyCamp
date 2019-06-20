@@ -1083,6 +1083,10 @@
         p {
           padding-top: 1.5rem;
         }
+
+        img {
+          margin: auto;
+        }
       }
 
       .offer {
@@ -1238,7 +1242,7 @@
 
       .header-content,
       .about-content {
-        padding-top: 80%;
+        padding-top: 70%;
 
         .btn-special {
           font-size: 1.5rem;
@@ -2180,6 +2184,10 @@
         padding: 0 0 3rem 0;
         margin: auto;
         font-size: 1.25rem;
+
+        img {
+          margin: auto;
+        }
       }
 
       .offer {
@@ -2187,10 +2195,16 @@
 
         .offer-btn {
           padding: 1rem 0;
+          margin-right: 11%;
+
+          input {
+            width: 75%;
+          }
 
           button {
             margin-top: 1.5rem;
             position: static;
+            margin-left: 11%;
           }
         }
       }
