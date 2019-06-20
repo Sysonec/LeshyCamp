@@ -2678,12 +2678,12 @@ ul {
     padding-bottom: 13px; }
   #main-nav .open-slide {
     position: fixed;
-    top: 4%;
-    left: 3.5%; }
+    top: 30px;
+    left: 15px; }
   #main-nav .search-bar {
     position: fixed;
-    bottom: 90%;
-    left: 83.5%; }
+    bottom: 575px;
+    left: 300px; }
   #header-home, #header-about {
     height: 80vh; }
     #header-home .header-content,
