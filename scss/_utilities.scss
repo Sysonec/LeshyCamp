@@ -262,8 +262,56 @@ input[class^="btn-"]:hover {
   -webkit-transition: 0.4s $ease-in-out;
   transition: 0.4s $ease-in-out;
 
+  .side-search {
+    margin-left: 0.5rem;
+    input {
+      height: 45px;
+      width: 0;
+      padding: 0;
+      border-radius: 28px;
+      border: 3px solid $special-color;
+      padding-right: 3rem;
+      background: rgba(244, 244, 244, 0.35);
+      -webkit-transition: all 0.5s $ease-in-out;
+      transition: all 0.5s $ease-in-out;
+      color: $special-color;
+      font-size: 1.15rem;
+
+      &::-webkit-input-placeholder {
+        color: $special-color;
+      }
+
+      &:-ms-input-placeholder {
+        color: $special-color;
+      }
+
+      &::-ms-input-placeholder {
+        color: $special-color;
+      }
+
+      &::placeholder {
+        color: $special-color;
+      }
+
+      &:focus {
+        width: 120px;
+        border-radius: 28px;
+        outline: none;
+        padding-left: 3.5rem;
+      }
+    }
+  }
+
   i {
     font-size: 2rem;
+  }
+
+  .fa-search {
+    position: absolute;
+    left: 18px;
+    top: 60px;
+    z-index: -1;
+    color: $dark-color;
   }
 
   #hide {
