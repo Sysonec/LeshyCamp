@@ -1,8 +1,12 @@
-// Fixing CSS on mobiles keyboard pull
-$("#comment-text-area").focus(function() {
-  var height = $("body").css("height");
-  $("body").css("height", height);
-});
+setTimeout(function() {
+  let viewheight = $(window).height();
+  let viewwidth = $(window).width();
+  let viewport = document.querySelector("meta[name=viewport]");
+  viewport.setAttribute(
+    "content",
+    "height=" + viewheight + "px, width=" + viewwidth + "px, initial-scale=1.0"
+  );
+}, 300);
 
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
