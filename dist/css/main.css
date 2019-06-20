@@ -225,8 +225,7 @@ input[class^="btn-"]:hover {
     -webkit-transition: 0.4s;
     transition: 0.4s;
     font-size: 1.8rem;
-    font-weight: 700;
-    opacity: 0; }
+    font-weight: 700; }
     .side-nav a:hover {
       color: #f4f4f4;
       opacity: 1; }
@@ -2677,14 +2676,16 @@ ul {
     padding: 25px 40px 25px 20px; }
   .side-nav #hide a {
     padding-bottom: 13px; }
-  #main-nav .open-slide {
-    position: fixed;
-    top: 4%;
-    left: 3.5%; }
-  #main-nav .search-bar {
-    position: absolute;
-    bottom: 37%;
-    left: 83.5%; }
+  #main-nav {
+    position: fixed; }
+    #main-nav .open-slide {
+      position: fixed;
+      top: 4%;
+      left: 3.5%; }
+    #main-nav .search-bar {
+      position: fixed;
+      bottom: 90%;
+      left: 83.5%; }
   #header-home, #header-about {
     height: 80vh; }
     #header-home .header-content,

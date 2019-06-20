@@ -1281,6 +1281,7 @@
 
   // Navbar
   #main-nav {
+    position: fixed;
     .open-slide {
       position: fixed;
       top: 4%;
@@ -1289,8 +1290,8 @@
 
     // Search Bar
     .search-bar {
-      position: absolute;
-      bottom: 37%;
+      position: fixed;
+      bottom: 90%;
       left: 83.5%;
     }
   }
