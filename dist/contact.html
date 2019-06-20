@@ -149,37 +149,49 @@
           <div class="form-content">
             <h2 class="section-heading text-center">Contact Us</h2>
             <div class="bottom-line"></div>
-            <form>
+            <form
+              method="POST"
+              data-netlify-recaptcha="true"
+              data-netlify="true"
+            >
               <div class="form-inputs">
                 <input
                   type="text"
                   placeholder="First Name"
                   class="form-input first-name"
+                  name="first-name"
                   required
                 />
                 <input
                   type="text"
                   placeholder="Last Name"
                   class="form-input last-name"
+                  name="last-name"
                   required
                 />
                 <input
                   type="text"
                   placeholder="Subject"
                   class="form-input subject"
+                  name="subject"
                   required
                 />
                 <input
                   type="email"
                   placeholder="Email Address"
                   class="form-input email"
+                  name="email"
                   required
                 />
                 <textarea
                   placeholder="Message"
                   class="form-input message"
+                  name="message"
                   required
                 ></textarea>
+                <div class="my-2">
+                  <div data-netlify-recaptcha="true"></div>
+                </div>
               </div>
               <div class="form-button">
                 <button type="submit" class="btn-dark">Submit</button>
