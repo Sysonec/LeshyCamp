@@ -13,6 +13,7 @@ body {
   line-height: 1.2;
   background-color: $medium-color;
   overflow: hidden;
+  overflow-y: hidden;
 }
 
 a {
@@ -232,10 +233,12 @@ ul {
 
 // header
 #header {
+  overflow-y: scroll;
   &-home {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.45);
     height: 100vh;
+    overflow-y: scroll;
 
     .video-wrap {
       #video-bg {

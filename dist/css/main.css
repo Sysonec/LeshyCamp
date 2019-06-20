@@ -345,7 +345,8 @@ body {
   font-family: "Dosis", sans-serif;
   line-height: 1.2;
   background-color: #ccc;
-  overflow: hidden; }
+  overflow: hidden;
+  overflow-y: hidden; }
 
 a {
   text-decoration: none;
@@ -503,24 +504,27 @@ ul {
     color: #f4f4f4;
     z-index: -1; }
 
-#header-home {
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.45);
-  height: 100vh; }
-  #header-home .video-wrap #video-bg {
-    -o-object-fit: cover;
-    object-fit: cover;
-    position: fixed;
-    z-index: -1;
-    width: 100vw;
+#header {
+  overflow-y: scroll; }
+  #header-home {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.45);
     height: 100vh;
-    top: 0;
-    left: 0; }
-  #header-home .header-content {
-    text-align: center;
-    padding-top: 30%; }
-    #header-home .header-content p {
-      padding-bottom: 1.2rem; }
+    overflow-y: scroll; }
+    #header-home .video-wrap #video-bg {
+      -o-object-fit: cover;
+      object-fit: cover;
+      position: fixed;
+      z-index: -1;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0; }
+    #header-home .header-content {
+      text-align: center;
+      padding-top: 30%; }
+      #header-home .header-content p {
+        padding-bottom: 1.2rem; }
 
 #showcase .showcase-content {
   display: grid;
@@ -2695,39 +2699,40 @@ ul {
     padding: 25px 40px 25px 20px; }
   .side-nav #hide a {
     padding-bottom: 13px; }
-  #header-home, #header-about {
-    height: 100vh; }
-    #header-home .header-content,
-    #header-home .about-content, #header-about .header-content,
-    #header-about .about-content {
-      padding-top: 70%; }
-      #header-home .header-content .btn-special,
-      #header-home .about-content .btn-special, #header-about .header-content .btn-special,
-      #header-about .about-content .btn-special {
-        font-size: 1.5rem;
-        padding: 1rem 2.25rem; }
-  #header-home {
-    color: #fff;
-    background: url("../img/clouds-forest.jpg") no-repeat fixed 25% 50%/cover;
-    background-attachment: fixed;
-    z-index: 1;
-    position: relative; }
-    #header-home::before {
-      content: "";
-      background: rgba(0, 0, 0, 0.45);
-      z-index: -1;
-      position: absolute;
-      width: 100%;
-      height: 100%; }
-    #header-home .video-wrap #video-bg {
-      display: none; }
+  #header {
+    overflow-y: scroll; }
+    #header-home, #header-about {
+      height: 100vh; }
+      #header-home .header-content,
+      #header-home .about-content, #header-about .header-content,
+      #header-about .about-content {
+        padding-top: 70%; }
+        #header-home .header-content .btn-special,
+        #header-home .about-content .btn-special, #header-about .header-content .btn-special,
+        #header-about .about-content .btn-special {
+          font-size: 1.5rem;
+          padding: 1rem 2.25rem; }
+    #header-home {
+      color: #fff;
+      background: url("../img/clouds-forest.jpg") no-repeat fixed 25% 50%/cover;
+      overflow-y: scroll;
+      z-index: 1;
+      position: relative; }
+      #header-home::before {
+        content: "";
+        background: rgba(0, 0, 0, 0.45);
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        height: 100%; }
+      #header-home .video-wrap #video-bg {
+        display: none; }
   #courses-intro {
     padding-bottom: 1rem;
     z-index: -1;
     margin: auto; }
     #courses-intro::before {
-      background: url("../img/trekking.jpg") no-repeat fixed 20% 20%/cover;
-      background-attachment: fixed;
+      background: url("../img/trekking.jpg") no-repeat 20% 20%/cover;
       width: 100%;
       height: 100%; }
     #courses-intro .intro-content ul li a {
