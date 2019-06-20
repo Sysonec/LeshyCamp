@@ -1236,7 +1236,6 @@
 
   // Header
   #header {
-    overflow-y: scroll;
     &-home,
     &-about {
       height: 100vh;
@@ -1256,7 +1255,7 @@
       color: #fff;
       background: url("../img/clouds-forest.jpg") no-repeat fixed 25% 50% /
         cover;
-      overflow-y: scroll;
+      background-attachment: fixed;
       z-index: 1;
       position: relative;
       &::before {
