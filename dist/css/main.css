@@ -511,6 +511,7 @@ ul {
     -o-object-fit: cover;
     object-fit: cover;
     position: fixed;
+    background-attachment: fixed;
     z-index: -1;
     width: 100vw;
     height: 100vh;
@@ -562,6 +563,7 @@ ul {
     top: 0;
     left: 0;
     background: url("../img/trekking.jpg") no-repeat fixed center center/cover;
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
     opacity: 0.35;
@@ -636,6 +638,7 @@ ul {
 
 #newsletter {
   background: url("../img/forest-dark.jpg") no-repeat fixed center bottom/cover;
+  background-attachment: fixed;
   padding: 8rem 0;
   position: relative;
   z-index: 0; }
@@ -745,6 +748,7 @@ ul {
   color: #fff;
   height: 75vh;
   background: url("../img/clouds-forest.jpg") no-repeat fixed 20% 20%/cover;
+  background-attachment: fixed;
   z-index: 1;
   position: relative; }
   #header-about::before {
@@ -919,6 +923,7 @@ ul {
 
 #first-step {
   background: url("../img/mountain.jpg") no-repeat fixed center center/cover;
+  background-attachment: fixed;
   padding: 6rem 0;
   z-index: 0;
   position: relative; }
@@ -3239,13 +3244,13 @@ ul {
       padding-bottom: 1.5rem; }
       #main-footer .footer-content .offer .offer-btn {
         padding: 1rem 0;
-        margin-right: 11%; }
+        margin-right: 32%; }
         #main-footer .footer-content .offer .offer-btn input {
-          width: 75%; }
+          width: 99%; }
         #main-footer .footer-content .offer .offer-btn button {
           margin-top: 1.5rem;
           position: static;
-          margin-left: 11%; }
+          margin-left: 25%; }
     #main-footer .copyright {
       display: -webkit-box;
       display: -ms-flexbox;
