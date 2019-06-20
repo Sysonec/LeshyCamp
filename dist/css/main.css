@@ -156,7 +156,8 @@ input[class^="btn-"]:hover {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   position: fixed;
-  z-index: 2; }
+  z-index: 2;
+  opacity: 0; }
   #btn-up a {
     position: fixed;
     padding: 1.15rem;

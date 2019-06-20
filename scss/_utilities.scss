@@ -203,6 +203,7 @@ input[class^="btn-"]:hover {
   transition: all 0.5s ease;
   position: fixed;
   z-index: 2;
+  opacity: 0; //This fixes back to top button appearing on the page when the website loads
 
   a {
     position: fixed;
