@@ -1,14 +1,3 @@
-// Fixing Android keyboard messing up the design
-setTimeout(function() {
-  let viewheight = $(window).height();
-  let viewwidth = $(window).width();
-  let viewport = document.querySelector("meta[name=viewport]");
-  viewport.setAttribute(
-    "content",
-    "height=" + viewheight + "px, width=" + viewwidth + "px, initial-scale=1.0"
-  );
-}, 300);
-
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
     this.txtElement = txtElement;

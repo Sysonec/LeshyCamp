@@ -562,8 +562,6 @@
 
   // Navbar
   #main-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1242,7 +1240,7 @@
 
       .header-content,
       .about-content {
-        padding-top: 70%;
+        padding-top: 80%;
 
         .btn-special {
           font-size: 1.5rem;
@@ -2184,10 +2182,6 @@
         padding: 0 0 3rem 0;
         margin: auto;
         font-size: 1.25rem;
-
-        img {
-          margin: auto;
-        }
       }
 
       .offer {
@@ -2195,16 +2189,10 @@
 
         .offer-btn {
           padding: 1rem 0;
-          margin-right: 32%;
-
-          input {
-            width: 99%;
-          }
 
           button {
             margin-top: 1.5rem;
             position: static;
-            margin-left: 25%;
           }
         }
       }
@@ -2668,7 +2656,7 @@
         font-size: 1.1rem;
 
         &:focus {
-          width: 120px;
+          width: 100px;
           padding-left: 2.8rem;
         }
       }
@@ -2700,33 +2688,7 @@
 
       .header-content,
       .about-content {
-        padding-top: 15%;
-
-        .btn-special {
-          font-size: 1.5rem;
-          padding: 1rem 2.25rem;
-        }
-      }
-    }
-
-    &-home {
-      color: #fff;
-      background: url("../img/clouds-forest.jpg") no-repeat 25% 50% / cover;
-      z-index: 1;
-      position: relative;
-      &::before {
-        content: "";
-        background: rgba(0, 0, 0, 0.45);
-        z-index: -1;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-      }
-
-      .video-wrap {
-        #video-bg {
-          display: none;
-        }
+        padding-top: 20%;
       }
     }
   }
@@ -2989,64 +2951,6 @@
           margin-left: 10%;
           padding-right: 10%;
         }
-      }
-    }
-  }
-}
-
-//Landscape Side Navbar Pixel 2/XL , iPhone 6, 7, 8 +
-@media (min-height: 375px) and (max-height: 415px) {
-  .side-nav {
-    a {
-      font-size: 1.3rem;
-      padding: 10px 40px 20px 10px;
-    }
-
-    .side-search {
-      input {
-        height: 40px;
-        font-size: 1.1rem;
-        padding-right: 2.5rem;
-
-        &:focus {
-          width: 120px;
-        }
-      }
-
-      .fa-search {
-        left: 21px;
-        top: 25px;
-      }
-    }
-  }
-}
-
-//Landscape Side Navbar iPhone X, iPhone 6, 7, 8
-@media (min-height: 320px) and (max-height: 375px) {
-  .side-nav {
-    a {
-      font-size: 1.3rem;
-      padding: 6.65px 40px 6.65px 12px;
-
-      i {
-        font-size: 1.3rem;
-      }
-    }
-
-    .side-search {
-      input {
-        height: 37px;
-        font-size: 1.1rem;
-        padding-right: 2.4rem;
-
-        &:focus {
-          width: 120px;
-        }
-      }
-
-      .fa-search {
-        left: 20px;
-        top: 25px;
       }
     }
   }
