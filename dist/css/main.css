@@ -2673,7 +2673,7 @@ ul {
     width: 45%;
     height: 32%; } }
 
-@media screen and (max-aspect-ratio: 13 / 9) and (max-width: 600px) {
+@media screen and (max-aspect-ratio: 13 / 9) {
   .lead {
     font-size: 1.1rem; }
   .section-heading {
@@ -3452,7 +3452,7 @@ ul {
       line-height: 25px;
       font-size: 1.5rem; } }
 
-@media screen and (min-aspect-ratio: 13 / 9) and (max-height: 500px) {
+@media screen and (min-aspect-ratio: 13 / 9) {
   #btn-up a {
     width: 15px;
     height: 15px;
