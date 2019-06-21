@@ -2600,6 +2600,8 @@ ul {
         margin: auto; }
   #contact-form .form-content .form-inputs .form-input {
     font-size: 1.06rem; }
+    #contact-form .form-content .form-inputs .form-input input {
+      width: 100%; }
   #contact-form .form-content .form-button button {
     width: 40%;
     font-size: 1.5rem; }
@@ -3204,9 +3206,9 @@ ul {
         grid-gap: 0;
         padding: 1.5rem 0; }
         #contact-form .form-content .form-inputs input {
-          width: 140%; }
+          width: 100%; }
         #contact-form .form-content .form-inputs textarea {
-          width: 140%; }
+          width: 100%; }
       #contact-form .form-content .form-button button {
         width: 100%; }
   #contact-info {
