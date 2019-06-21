@@ -157,10 +157,12 @@ function initMap() {
   });
 }
 
-jQuery(document).ready(function($) {
-  //wait for the DOM to load
-  if ($(window).width() > 640) {
-    //check if screen width is less than 640px (i.e. mobile)
-    $("#form-inputs").css({ height: $(window).height() });
-  }
-});
+setTimeout(function() {
+  let viewheight = $(window).height();
+  let viewwidth = $(window).width();
+  let viewport = document.querySelector("meta[name=viewport]");
+  viewport.setAttribute(
+    "content",
+    "height=" + viewheight + "px, width=" + viewwidth + "px, initial-scale=1.0"
+  );
+}, 300);
