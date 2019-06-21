@@ -3,8 +3,65 @@
   .open-slide {
     display: none;
   }
+}
 
-  // Search Bar
+// Desktop Fixes
+@media (min-width: 1600px) and (max-width: 1680px) {
+  // Homepage
+  // Section: Showcase
+  #showcase {
+    .showcase-content {
+      .showcase-img {
+        height: 520px;
+        img {
+          height: 520px;
+          width: 840px;
+        }
+      }
+    }
+  }
+
+  // About Page
+  // Section: About Introduction
+  #about-intro {
+    .about-intro-content {
+      img {
+        margin-left: 10%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+  // Header
+  #header {
+    &-home,
+    &-about {
+      height: 65vh;
+
+      .header-content,
+      .about-content {
+        padding-top: 20%;
+      }
+    }
+
+    &-home {
+    }
+  }
+
+  //Homepage
+  // Section: Showcase
+  #showcase {
+    .showcase-content {
+      .showcase-img {
+        height: 500px;
+        img {
+          height: 500px;
+          width: 730px;
+        }
+      }
+    }
+  }
 }
 
 // iPad Pro and higher

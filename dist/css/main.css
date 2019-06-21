@@ -545,9 +545,11 @@ ul {
     #showcase .showcase-content .description h3 {
       font-size: 1.5rem;
       margin-top: 1rem; }
-  #showcase .showcase-content img {
-    height: 700px;
-    width: 950px; }
+  #showcase .showcase-content .showcase-img {
+    height: 600px; }
+    #showcase .showcase-content .showcase-img img {
+      height: 600px;
+      width: 950px; }
 
 #courses-intro {
   background: #333;
@@ -1932,11 +1934,13 @@ ul {
     color: #f4f4f4;
     border: 2px solid #f4f4f4;
     -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    width: 850px;
+    margin: auto; }
     #contact-form .form-content .form-inputs {
       display: grid;
       grid-template-areas: "first-name last-name" "subject email" "message message";
-      grid-gap: 1.5rem;
+      grid-gap: 1rem;
       padding: 1.5rem 0; }
       #contact-form .form-content .form-inputs .first-name {
         grid-area: first-name; }
@@ -1954,10 +1958,10 @@ ul {
       #contact-form .form-content .form-inputs textarea {
         width: 95%; }
       #contact-form .form-content .form-inputs .form-input {
-        padding: 1rem 0 1rem 1.8rem;
-        margin: 0.8rem 0;
+        padding: 0.9rem 0 0.9rem 1.6rem;
+        margin: 0.6rem 0;
         justify-self: center;
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         font-family: sans-serif;
         background: transparent;
         color: #f4f4f4;
@@ -2131,6 +2135,28 @@ ul {
 @media (min-width: 1100px) {
   .open-slide {
     display: none; } }
+
+@media (min-width: 1600px) and (max-width: 1680px) {
+  #showcase .showcase-content .showcase-img {
+    height: 520px; }
+    #showcase .showcase-content .showcase-img img {
+      height: 520px;
+      width: 840px; }
+  #about-intro .about-intro-content img {
+    margin-left: 10%; } }
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+  #header-home, #header-about {
+    height: 65vh; }
+    #header-home .header-content,
+    #header-home .about-content, #header-about .header-content,
+    #header-about .about-content {
+      padding-top: 20%; }
+  #showcase .showcase-content .showcase-img {
+    height: 500px; }
+    #showcase .showcase-content .showcase-img img {
+      height: 500px;
+      width: 730px; } }
 
 @media (min-width: 900px) and (max-width: 1200px) {
   .loader {

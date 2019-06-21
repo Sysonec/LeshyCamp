@@ -293,9 +293,12 @@ ul {
       }
     }
 
-    img {
-      height: 700px;
-      width: 950px;
+    .showcase-img {
+      height: 600px;
+      img {
+        height: 600px;
+        width: 950px;
+      }
     }
   }
 }
@@ -2199,6 +2202,8 @@ ul {
     border: 2px solid $light-color;
     -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    width: 850px;
+    margin: auto;
 
     .form-inputs {
       display: grid;
@@ -2206,7 +2211,7 @@ ul {
         "first-name last-name"
         "subject email"
         "message message";
-      grid-gap: 1.5rem;
+      grid-gap: 1rem;
       padding: 1.5rem 0;
 
       .first-name {
@@ -2239,10 +2244,10 @@ ul {
       }
 
       .form-input {
-        padding: 1rem 0 1rem 1.8rem;
-        margin: 0.8rem 0;
+        padding: 0.9rem 0 0.9rem 1.6rem;
+        margin: 0.6rem 0;
         justify-self: center;
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         font-family: sans-serif;
         background: transparent;
         color: $light-color;
