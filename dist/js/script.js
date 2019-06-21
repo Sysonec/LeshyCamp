@@ -156,3 +156,11 @@ function initMap() {
     map: map
   });
 }
+
+jQuery(document).ready(function($) {
+  //wait for the DOM to load
+  if ($(window).width() > 640) {
+    //check if screen width is less than 640px (i.e. mobile)
+    $("#my-element").css({ height: $(window).height() });
+  }
+});
