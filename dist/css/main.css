@@ -2673,7 +2673,7 @@ ul {
     width: 45%;
     height: 32%; } }
 
-@media screen and (max-width: 600px), screen and (max-height: 500px) {
+@media screen and (max-width: 600px) {
   .lead {
     font-size: 1.1rem; }
   .section-heading {

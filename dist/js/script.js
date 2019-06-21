@@ -1,3 +1,36 @@
+var InitialRun = true; // After the initial bootstrapping, this is set to false;
+var MobileOrientation = "desktop";
+function checkOrientation(winW, winH) {
+  // winW and winH are the window's width and hieght, respectively
+  if (InitialRun) {
+    if (winW > winH) {
+      $("body").attr("data-height", winW);
+      $("body").attr("data-width", winH);
+      MobileOrientation = "landscape";
+      $("body").attr("data-orientation", "landscape");
+    } else {
+      $("body").attr("data-height", winH);
+      $("body").attr("data-width", winW);
+      MobileOrientation = "portrait";
+      $("body").attr("data-orientation", "portrait");
+    }
+  } else {
+    if (winW > winH && winW != $("body").data("width")) {
+      MobileOrientation = "landscape";
+      $("body").hdata("orientation", "landscape"); //TODO:uncomment
+      $("body, #wrapper").css({ height: "100%", "overflow-y": "hidden" });
+      //$('body').attr('data-orientation','portrait');
+    } else {
+      MobileOrientation = "portrait";
+      $("body").attr("data-orientation", "portrait");
+      $("body, #wrapper").css({
+        height: $("body").data("height"),
+        "overflow-y": "auto"
+      });
+    }
+  }
+}
+
 class TypeWriter {
   constructor(txtElement, words, wait = 3000) {
     this.txtElement = txtElement;
