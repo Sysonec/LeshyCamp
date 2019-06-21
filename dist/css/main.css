@@ -345,7 +345,8 @@ body {
   font-family: "Dosis", sans-serif;
   line-height: 1.2;
   background-color: #ccc;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100%; }
 
 a {
   text-decoration: none;
