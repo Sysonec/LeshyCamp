@@ -3496,7 +3496,7 @@ ul {
     #header-home .header-content,
     #header-home .about-content, #header-about .header-content,
     #header-about .about-content {
-      padding-top: 20%; }
+      padding-top: 15%; }
       #header-home .header-content .btn-special,
       #header-home .about-content .btn-special, #header-about .header-content .btn-special,
       #header-about .about-content .btn-special {
@@ -3537,7 +3537,7 @@ ul {
   #courses .courses-content .courses-toggle-wrap .courses-boxes .courses-box-description .modal-content-2,
   #courses .courses-content .courses-toggle-wrap .courses-boxes .courses-box-description .modal-content-3 {
     width: 30%;
-    height: 72%; }
+    height: 52%; }
   #courses .courses-content .courses-toggle-wrap .courses-boxes .courses-box-description .bottom-btn {
     margin-left: 19%; }
   #courses .courses-content .courses-toggle-wrap .courses-boxes .courses-box-description .locations,
