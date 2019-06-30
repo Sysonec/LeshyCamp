@@ -3,7 +3,7 @@
   padding: 0 1.5rem;
   margin: auto;
   overflow: hidden; }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     .container {
       padding: 0 1rem; } }
 
@@ -82,22 +82,22 @@
   @media (max-width: 1400px) {
     .btn-special {
       font-size: 1.9rem; } }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     .btn-special {
       font-size: 1.7rem;
       padding: 1.2rem 2.6rem; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     .btn-special {
       padding: 1.3rem 2.4rem;
       white-space: nowrap; } }
-  @media screen and (max-width: 350px) {
+  @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
     .btn-special {
       padding: 1.05rem 2rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     .btn-special {
       padding: 0.8rem 1.4rem;
       font-size: 1.4rem; } }
-  @media screen and (max-height: 450px) {
+  @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
     .btn-special {
       padding: 1rem 2rem;
       font-size: 1.8rem; } }
@@ -116,10 +116,10 @@ input[class^="btn-"]:hover {
   @media (max-width: 1400px) {
     .lead {
       font-size: 1.25rem; } }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     .lead {
       font-size: 1.2rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     .lead {
       font-size: 1rem; } }
 
@@ -132,19 +132,19 @@ input[class^="btn-"]:hover {
   @media (max-width: 1400px) {
     .section-heading {
       font-size: 2.6rem; } }
-  @media screen and (max-width: 1300px) {
+  @media (max-width: 1300px) {
     .section-heading {
       font-size: 2.4rem; } }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     .section-heading {
       font-size: 2.25rem; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     .section-heading {
       font-size: 2.1rem; } }
-  @media screen and (max-width: 350px) {
+  @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
     .section-heading {
       font-size: 1.85rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     .section-heading {
       font-size: 1.7rem; } }
 
@@ -243,7 +243,7 @@ input[class^="btn-"]:hover {
         height: 21px; }
         #btn-up a i {
           font-size: 1.7rem; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #btn-up a {
         top: 40rem;
         right: 0.5rem;
@@ -251,7 +251,7 @@ input[class^="btn-"]:hover {
         height: 15px; }
         #btn-up a i {
           font-size: 1.4rem; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #btn-up a {
         top: 40rem;
         right: 0.5rem;
@@ -260,10 +260,10 @@ input[class^="btn-"]:hover {
         line-height: 12px; }
         #btn-up a i {
           font-size: 1.4rem; } }
-    @media screen and (max-width: 380px) {
+    @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
       #btn-up a {
         top: 33rem; } }
-    @media screen and (max-width: 350px) {
+    @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
       #btn-up a {
         top: 28rem;
         width: 9px;
@@ -278,19 +278,19 @@ input[class^="btn-"]:hover {
   @media (max-width: 1400px) {
     #map {
       height: 420px; } }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #map {
       height: 350px; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #map {
       height: 370px; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #map {
       height: 270px; } }
-  @media screen and (max-width: 380px) {
+  @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
     #map {
       height: 250px; } }
-  @media screen and (max-height: 450px) {
+  @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
     #map {
       height: 270px; } }
 
@@ -307,7 +307,7 @@ input[class^="btn-"]:hover {
   .open-slide {
     display: none; } }
 
-@media screen and (max-width: 1003px) {
+@media (max-width: 1003px) {
   .open-slide {
     position: absolute;
     top: 50%;
@@ -355,7 +355,7 @@ input[class^="btn-"]:hover {
         border-radius: 28px;
         outline: none;
         padding-left: 3.5rem; }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       .side-nav .side-search input {
         font-size: 1rem; }
         .side-nav .side-search input:focus {
@@ -392,23 +392,23 @@ input[class^="btn-"]:hover {
     font-weight: 700;
     display: flex;
     align-items: center; }
-    @media screen and (max-width: 350px) {
+    @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
       .side-nav a {
         padding: 27px 5px 27px 15px;
         font-size: 1.45rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       .side-nav a {
         padding: 12px 5px 12px 18px;
         font-size: 1.25rem; } }
-    @media screen and (max-height: 450px) {
+    @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
       .side-nav a {
         padding: 14.5px 5px 14.5px 20px;
         font-size: 1.4rem; } }
-    @media screen and (max-height: 400px) {
+    @media (max-height: 400px) and (min-aspect-ratio: 13 / 9) {
       .side-nav a {
         padding: 11.2px 5px 11.2px 20px;
         font-size: 1.25rem; } }
-    @media screen and (max-height: 350px) {
+    @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
       .side-nav a {
         padding: 8px 5px 8px 20px;
         font-size: 1.25rem; } }
@@ -420,13 +420,13 @@ input[class^="btn-"]:hover {
     .side-nav a i {
       padding-right: 0.5rem;
       font-size: 1.9rem; }
-      @media screen and (max-width: 350px) {
+      @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
         .side-nav a i {
           font-size: 1.8rem; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         .side-nav a i {
           font-size: 1.4rem; } }
-      @media screen and (max-height: 450px) {
+      @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
         .side-nav a i {
           font-size: 1.6rem; } }
   .side-nav .btn-close {
@@ -437,20 +437,20 @@ input[class^="btn-"]:hover {
     margin-left: 1.2rem;
     border: none;
     padding-top: 2rem; }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       .side-nav .btn-close {
         top: -30px;
         right: 22px; } }
-    @media screen and (max-width: 350px) {
+    @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
       .side-nav .btn-close {
         font-size: 3.5rem;
         top: -25px; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       .side-nav .btn-close {
         font-size: 3rem;
         top: -20px;
         right: 100px; } }
-    @media screen and (max-height: 450px) {
+    @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
       .side-nav .btn-close {
         font-size: 3.5rem;
         right: 23px;
@@ -472,28 +472,28 @@ input[class^="btn-"]:hover {
       padding-right: 0.5rem;
       font-size: 2rem;
       color: rgba(70, 70, 70, 0.9); }
-    @media screen and (max-width: 350px) {
+    @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
       .side-nav #open-offer {
         top: 270px;
         left: 250px; }
         .side-nav #open-offer i {
           font-size: 1.7rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       .side-nav #open-offer {
         top: 185px;
         left: 180px; }
         .side-nav #open-offer i {
           font-size: 1.5rem; } }
-    @media screen and (max-height: 450px) {
+    @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
       .side-nav #open-offer {
         top: 205px;
         left: 255px; }
         .side-nav #open-offer i {
           font-size: 1.55rem; } }
-    @media screen and (max-height: 400px) {
+    @media (max-height: 400px) and (min-aspect-ratio: 13 / 9) {
       .side-nav #open-offer {
         top: 185px; } }
-    @media screen and (max-height: 350px) {
+    @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
       .side-nav #open-offer {
         top: 165px; } }
   .side-nav #close-offer {
@@ -508,27 +508,27 @@ input[class^="btn-"]:hover {
       padding-right: 0.5rem;
       font-size: 2rem;
       color: rgba(70, 70, 70, 0.9); }
-    @media screen and (max-width: 350px) {
+    @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
       .side-nav #close-offer {
         top: 350px; }
         .side-nav #close-offer i {
           font-size: 1.7rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       .side-nav #close-offer {
         top: 230px;
         left: 180px; }
         .side-nav #close-offer i {
           font-size: 1.5rem; } }
-    @media screen and (max-height: 450px) {
+    @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
       .side-nav #close-offer {
         top: 255px;
         left: 255px; }
         .side-nav #close-offer i {
           font-size: 1.55rem; } }
-    @media screen and (max-height: 400px) {
+    @media (max-height: 400px) and (min-aspect-ratio: 13 / 9) {
       .side-nav #close-offer {
         top: 230px; } }
-    @media screen and (max-height: 350px) {
+    @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
       .side-nav #close-offer {
         top: 205px; } }
 
@@ -619,17 +619,17 @@ ul {
         width: 150px;
         height: 75px;
         margin-top: 0.6rem; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       .logo-header {
         position: absolute;
         left: 50%;
         transform: translateX(-50%); } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       .logo-header {
         width: 130px;
         height: 65px;
         margin-top: 0.3rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       .logo-header {
         width: 100px;
         height: 50px; } }
@@ -651,10 +651,10 @@ ul {
   -webkit-transition: all 0.5s cubic-bezier(0.1, 0.06, 0.37, 1.01);
   transition: all 0.5s cubic-bezier(0.1, 0.06, 0.37, 1.01);
   height: 5.9rem; }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #main-nav {
       height: 4.85rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #main-nav {
       height: 3.8rem; } }
   #main-nav ul {
@@ -673,7 +673,7 @@ ul {
     border-bottom: 2px solid #f4f4f4;
     -webkit-transition: all 0.5s cubic-bezier(0.1, 0.06, 0.37, 1.01);
     transition: all 0.5s cubic-bezier(0.1, 0.06, 0.37, 1.01); }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #main-nav li {
         padding: 1.1rem 1.8rem; } }
     #main-nav li:hover {
@@ -737,7 +737,7 @@ ul {
             border-radius: 5px; }
   #main-nav ul li ul {
     display: none; }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #main-nav ul {
       display: none; } }
   #main-nav ul li:hover i {
@@ -765,7 +765,7 @@ ul {
     color: #f4f4f4;
     font-size: 1.15rem;
     cursor: pointer; }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #main-nav .search-btn input {
         font-size: 1.1rem; } }
     #main-nav .search-btn input::-webkit-input-placeholder {
@@ -782,7 +782,7 @@ ul {
       outline: none;
       padding-left: 2rem;
       cursor: text; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #main-nav .search-btn input:focus {
           width: 95px; } }
   #main-nav .search-btn::before {
@@ -796,15 +796,15 @@ ul {
     line-height: 50px;
     color: #f4f4f4;
     z-index: -1; }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #main-nav .search-btn::before {
         right: 43px; } }
 
 #header-home {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.45);
-  height: 100vh; }
-  @media screen and (max-width: 599px) {
+  height: 100vmax; }
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #header-home {
       color: #fff;
       height: 100vh;
@@ -818,7 +818,7 @@ ul {
         position: absolute;
         width: 100%;
         height: 100%; } }
-  @media screen and (max-height: 450px) {
+  @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
     #header-home {
       color: #fff;
       height: 100vh;
@@ -841,10 +841,10 @@ ul {
     height: 100vh;
     top: 0;
     left: 0; }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #header-home .video-wrap #video-bg {
         display: none; } }
-    @media screen and (max-height: 450px) {
+    @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
       #header-home .video-wrap #video-bg {
         display: none; } }
   #header-home .header-content {
@@ -855,40 +855,40 @@ ul {
     transform: translate(-50%, -55%); }
     #header-home .header-content p {
       padding-bottom: 1.2rem; }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #header-home .header-content {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #header-home .header-content {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #header-home .header-content {
         top: 70%;
         left: 50%;
         transform: translate(-50%, -70%); } }
-    @media screen and (max-height: 450px) {
+    @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
       #header-home .header-content {
         top: 70%;
         left: 50%;
         transform: translate(-50%, -70%); } }
-    @media screen and (max-height: 400px) {
+    @media (max-height: 400px) and (min-aspect-ratio: 13 / 9) {
       #header-home .header-content {
         top: 80%;
         left: 50%;
         transform: translate(-50%, -80%); } }
 
-@media screen and (max-width: 1003px) {
+@media (max-width: 1003px) {
   #showcase {
     padding: 2.5rem 0; } }
 
 #showcase .showcase-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #showcase .showcase-content {
       grid-template-columns: 1fr; } }
   #showcase .showcase-content .description {
@@ -911,7 +911,7 @@ ul {
     #showcase .showcase-content .description h3 {
       font-size: 1.5rem;
       margin-top: 1rem; }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #showcase .showcase-content .description h3 {
           font-size: 1.4rem; } }
   #showcase .showcase-content .showcase-img {
@@ -919,7 +919,7 @@ ul {
     #showcase .showcase-content .showcase-img img {
       height: 100%;
       width: 100%; }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #showcase .showcase-content .showcase-img {
         display: none; } }
 
@@ -950,7 +950,7 @@ ul {
     -ms-flex-pack: center;
     justify-content: center;
     padding-top: 2rem; }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #courses-intro .intro-content ul {
         padding-top: 1rem; } }
     #courses-intro .intro-content ul li {
@@ -964,12 +964,12 @@ ul {
         -webkit-transition: all 0.4s cubic-bezier(0.1, 0.06, 0.37, 1.01);
         transition: all 0.4s cubic-bezier(0.1, 0.06, 0.37, 1.01);
         cursor: pointer; }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #courses-intro .intro-content ul li a {
             font-size: 0.95rem;
             margin: 0.8rem;
             padding: 0.5rem 0.45rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses-intro .intro-content ul li a {
             font-size: 0.75rem;
             margin: 0.2rem;
@@ -982,7 +982,7 @@ ul {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3rem;
     margin: auto; }
-    @media screen and (max-width: 1300px) {
+    @media (max-width: 1300px) {
       #courses-intro .intro-boxes {
         grid-gap: 1rem; } }
     #courses-intro .intro-boxes .intro-img {
@@ -998,31 +998,31 @@ ul {
           #courses-intro .intro-boxes .intro-img .img-wrap img {
             height: 91%;
             width: 91%; } }
-        @media screen and (max-width: 1300px) {
+        @media (max-width: 1300px) {
           #courses-intro .intro-boxes .intro-img .img-wrap img {
             height: 85%;
             width: 85%; } }
-        @media screen and (max-width: 1200px) {
+        @media (max-width: 1200px) {
           #courses-intro .intro-boxes .intro-img .img-wrap img {
             height: 90%;
             width: 90%; } }
-        @media screen and (max-width: 1003px) {
+        @media (max-width: 1003px) {
           #courses-intro .intro-boxes .intro-img .img-wrap img {
             height: 55%;
             width: 55%; } }
-        @media screen and (max-width: 672px) {
+        @media (max-width: 672px) {
           #courses-intro .intro-boxes .intro-img .img-wrap img {
             height: 70%;
             width: 70%; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #courses-intro .intro-boxes .intro-img .img-wrap img {
             height: 95%;
             width: 95%; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses-intro .intro-boxes .intro-img .img-wrap img {
             height: 80%;
             width: 80%; } }
-        @media screen and (max-height: 350px) {
+        @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
           #courses-intro .intro-boxes .intro-img .img-wrap img {
             height: 60%;
             width: 60%; } }
@@ -1033,16 +1033,16 @@ ul {
         @media (max-width: 1500px) {
           #courses-intro .intro-boxes .intro-img .btn-wrap a {
             font-size: 1.45rem; } }
-        @media screen and (max-width: 1003px) {
+        @media (max-width: 1003px) {
           #courses-intro .intro-boxes .intro-img .btn-wrap a {
             width: 35%; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #courses-intro .intro-boxes .intro-img .btn-wrap a {
             width: 65%; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses-intro .intro-boxes .intro-img .btn-wrap a {
             font-size: 0.9rem; } }
-        @media screen and (max-height: 350px) {
+        @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
           #courses-intro .intro-boxes .intro-img .btn-wrap a {
             width: 40%; } }
       #courses-intro .intro-boxes .intro-img .stats {
@@ -1061,10 +1061,10 @@ ul {
           @media (max-width: 1500px) {
             #courses-intro .intro-boxes .intro-img .stats span {
               font-size: 1.15rem; } }
-          @media screen and (max-width: 250px) {
+          @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
             #courses-intro .intro-boxes .intro-img .stats span {
               font-size: 0.95rem; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #courses-intro .intro-boxes {
         grid-gap: 4rem;
         grid-template-columns: 1fr; } }
@@ -1089,10 +1089,10 @@ ul {
       @media (max-width: 1400px) {
         #cover .cover-content .cover-boxes .cover-box i {
           padding: 1.8rem; } }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #cover .cover-content .cover-boxes .cover-box i {
           padding: 1.65rem; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #cover .cover-content .cover-boxes .cover-box i {
           padding: 1.25rem;
           font-size: 2.4rem; } }
@@ -1101,17 +1101,17 @@ ul {
       grid-gap: 3.5rem; }
       #cover .cover-content .cover-boxes i {
         font-size: 3.6rem; } }
-  @media screen and (max-width: 1300px) {
+  @media (max-width: 1300px) {
     #cover .cover-content .cover-boxes {
       grid-gap: 3.2rem; }
       #cover .cover-content .cover-boxes i {
         font-size: 3.4rem; } }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #cover .cover-content .cover-boxes {
       grid-gap: 3rem; }
       #cover .cover-content .cover-boxes i {
         font-size: 3rem; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #cover .cover-content .cover-boxes {
       grid-template-columns: 1fr;
       grid-gap: 2rem; }
@@ -1122,10 +1122,10 @@ ul {
         #cover .cover-content .cover-boxes .cover-box p {
           width: 70%;
           margin: auto; } }
-  @media screen and (max-width: 672px) {
+  @media (max-width: 672px) {
     #cover .cover-content .cover-boxes .cover-box p {
       width: 75%; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #cover .cover-content .cover-boxes .cover-box {
       padding: 1.5rem 0; }
       #cover .cover-content .cover-boxes .cover-box p {
@@ -1166,10 +1166,10 @@ ul {
     #newsletter .newsletter-content p {
       width: 70%;
       margin: auto; }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #newsletter .newsletter-content p {
           width: 75%; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #newsletter .newsletter-content p {
           width: 100%; } }
     #newsletter .newsletter-content .news-inputs {
@@ -1182,20 +1182,20 @@ ul {
         border: 1px solid #f4f4f4;
         background: rgba(0, 0, 0, 0.7);
         color: #f4f4f4; }
-        @media screen and (max-width: 1003px) {
+        @media (max-width: 1003px) {
           #newsletter .newsletter-content .news-inputs .news-email {
             width: 30%;
             font-size: 1.1rem; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #newsletter .newsletter-content .news-inputs .news-email {
             width: 65%;
             margin: 1.2rem auto; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #newsletter .newsletter-content .news-inputs .news-email {
             width: 60%;
             margin: 1.2rem auto;
             font-size: 0.95rem; } }
-        @media screen and (max-height: 350px) {
+        @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
           #newsletter .newsletter-content .news-inputs .news-email {
             width: 38%;
             margin-right: 1rem; } }
@@ -1217,10 +1217,10 @@ ul {
         -webkit-transition: all 0.5s cubic-bezier(0.1, 0.06, 0.37, 1.01);
         transition: all 0.5s cubic-bezier(0.1, 0.06, 0.37, 1.01);
         background: rgba(0, 0, 0, 0.7); }
-        @media screen and (max-width: 1003px) {
+        @media (max-width: 1003px) {
           #newsletter .newsletter-content .news-inputs .btn-news {
             font-size: 1.5rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #newsletter .newsletter-content .news-inputs .btn-news {
             font-size: 1.3rem; } }
         #newsletter .newsletter-content .news-inputs .btn-news:hover {
@@ -1278,7 +1278,7 @@ ul {
         @media (max-width: 1500px) {
           #blog-intro .blog-content .blog-boxes .blog-box {
             width: 82%; } }
-        @media screen and (max-width: 1200px) {
+        @media (max-width: 1200px) {
           #blog-intro .blog-content .blog-boxes .blog-box {
             width: 90%; }
             #blog-intro .blog-content .blog-boxes .blog-box h2 {
@@ -1291,7 +1291,7 @@ ul {
                 font-size: 1.25rem; }
               #blog-intro .blog-content .blog-boxes .blog-box ul li a {
                 font-size: 0.9rem; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #blog-intro .blog-content .blog-boxes {
           grid-template-columns: 1fr;
           grid-gap: 5.5rem;
@@ -1307,13 +1307,13 @@ ul {
             font-size: 1.6rem; }
           #blog-intro .blog-content .blog-boxes .blog-box p {
             font-size: 1.2rem; } }
-  @media screen and (max-width: 1003px) and (max-width: 672px) {
+  @media (max-width: 1003px) and (max-width: 672px) {
     #blog-intro .blog-content .blog-boxes {
       width: 70%; }
       #blog-intro .blog-content .blog-boxes .blog-box p {
         width: 90%;
         margin: auto; } }
-  @media screen and (max-width: 1003px) and (max-width: 599px) {
+  @media (max-width: 1003px) and (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #blog-intro .blog-content .blog-boxes {
       width: 100%;
       padding: 1.5rem 0; }
@@ -1329,7 +1329,7 @@ ul {
       #blog-intro .blog-content .blog-boxes .blog-box p {
         font-size: 1.1rem;
         width: 80%; } }
-  @media screen and (max-width: 1003px) and (max-width: 350px) {
+  @media (max-width: 1003px) and (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
     #blog-intro .blog-content .blog-boxes .blog-box {
       width: 200%; }
       #blog-intro .blog-content .blog-boxes .blog-box ul li {
@@ -1346,7 +1346,7 @@ ul {
       #blog-intro .blog-content .blog-boxes .blog-box p {
         font-size: 1.1rem;
         width: 80%; } }
-  @media screen and (max-width: 1003px) and (max-width: 250px) {
+  @media (max-width: 1003px) and (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #blog-intro .blog-content .blog-boxes .blog-box ul li {
       display: none; }
     #blog-intro .blog-content .blog-boxes .blog-box h2 {
@@ -1354,11 +1354,11 @@ ul {
     #blog-intro .blog-content .blog-boxes .blog-box p {
       font-size: 1rem;
       width: 80%; } }
-  @media screen and (max-width: 1003px) and (max-height: 450px) {
+  @media (max-width: 1003px) and (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
     #blog-intro .blog-content .blog-boxes .blog-box p {
       width: 80%;
       margin: auto; } }
-  @media screen and (max-width: 1003px) and (max-height: 350px) {
+  @media (max-width: 1003px) and (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
     #blog-intro .blog-content .blog-boxes .blog-box {
       width: 58%; } }
 
@@ -1381,10 +1381,10 @@ ul {
   @media (max-width: 1400px) {
     #header-about {
       height: 85vh; } }
-  @media screen and (max-height: 600px) {
+  @media (max-height: 600px) {
     #header-about {
       height: 90vh; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #header-about {
       height: 100vh; } }
   #header-about .about-content {
@@ -1396,27 +1396,27 @@ ul {
       padding: 0.2rem; }
     #header-about .about-content p {
       padding-bottom: 1.5rem; }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #header-about .about-content {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #header-about .about-content {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #header-about .about-content {
         top: 70%;
         left: 50%;
         transform: translate(-50%, -70%); } }
-    @media screen and (max-height: 450px) {
+    @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
       #header-about .about-content {
         top: 70%;
         left: 50%;
         transform: translate(-50%, -70%); } }
-    @media screen and (max-height: 400px) {
+    @media (max-height: 400px) and (min-aspect-ratio: 13 / 9) {
       #header-about .about-content {
         top: 80%;
         left: 50%;
@@ -1427,7 +1427,7 @@ ul {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3.5rem;
   line-height: 1.3; }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #about-intro .about-intro-content {
       grid-template-columns: 1fr; } }
   #about-intro .about-intro-content button {
@@ -1450,7 +1450,7 @@ ul {
     -ms-flex-pack: center;
     justify-content: center;
     padding-top: 2rem; }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #about-intro .about-intro-content .read-btn {
         margin-top: 1rem; } }
   @media (max-width: 1500px) {
@@ -1461,11 +1461,11 @@ ul {
       width: 90%; }
     #about-intro .about-intro-content button {
       font-size: 1.45rem; } }
-  @media screen and (max-width: 1300px) {
+  @media (max-width: 1300px) {
     #about-intro .about-intro-content img {
       height: 58%;
       width: 85%; } }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #about-intro .about-intro-content h3 {
       font-size: 2.4rem; }
     #about-intro .about-intro-content img {
@@ -1475,7 +1475,7 @@ ul {
       padding-top: 1.2rem; }
       #about-intro .about-intro-content .read-btn button {
         font-size: 1.4rem; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #about-intro .about-intro-content div {
       border-bottom: 1px solid #ccc; }
       #about-intro .about-intro-content div:last-of-type {
@@ -1494,7 +1494,7 @@ ul {
       margin-left: 15%;
       width: 75%;
       height: 75%; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #about-intro .about-intro-content h3 {
       font-size: 2.1rem; }
     #about-intro .about-intro-content h2:last-of-type {
@@ -1505,7 +1505,7 @@ ul {
       width: 100%;
       height: 100%;
       margin-left: 0; } }
-  @media screen and (max-width: 350px) {
+  @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
     #about-intro .about-intro-content h3 {
       font-size: 1.9rem; }
     #about-intro .about-intro-content h2:last-of-type {
@@ -1513,7 +1513,7 @@ ul {
     #about-intro .about-intro-content .read-btn button {
       font-size: 1.3rem;
       padding: 1rem 1.3rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #about-intro .about-intro-content h3 {
       font-size: 1.5rem; }
     #about-intro .about-intro-content h2:last-of-type {
@@ -1521,7 +1521,7 @@ ul {
     #about-intro .about-intro-content .read-btn button {
       font-size: 1.2rem;
       padding: 0.9rem 1.2rem; } }
-  @media screen and (max-height: 450px) {
+  @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
     #about-intro .about-intro-content img {
       margin: 0;
       width: 100%; } }
@@ -1538,21 +1538,21 @@ ul {
       #staff .staff-content .tutors {
         grid-gap: 4rem;
         padding: 7rem; } }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #staff .staff-content .tutors {
         grid-gap: 2.25rem;
         padding: 3rem; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #staff .staff-content .tutors {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2.5rem;
         padding: 3.5rem; } }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #staff .staff-content .tutors {
         grid-gap: 5rem;
         padding: 0.5rem;
         grid-template-columns: 1fr; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #staff .staff-content .tutors {
         grid-gap: 3.5rem;
         padding-top: 2rem; } }
@@ -1564,15 +1564,15 @@ ul {
         -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
         border: 15px solid #333; }
-        @media screen and (max-width: 672px) {
+        @media (max-width: 672px) {
           #staff .staff-content .tutors .tutor img {
             width: 60%;
             height: 60%; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #staff .staff-content .tutors .tutor img {
             width: 80%;
             height: 80%; } }
-        @media screen and (max-height: 400px) {
+        @media (max-height: 400px) and (min-aspect-ratio: 13 / 9) {
           #staff .staff-content .tutors .tutor img {
             width: 50%;
             height: 50%; } }
@@ -1603,17 +1603,17 @@ ul {
           opacity: 1;
           -webkit-transform: scale(1) translateX(0) translateY(0) opacity(1);
           transform: scale(1) translateX(0) translateY(0) opacity(1); }
-        @media screen and (max-width: 1003px) {
+        @media (max-width: 1003px) {
           #staff .staff-content .tutors .tutor .txt-wrapper {
             width: 84%; } }
-        @media screen and (max-width: 672px) {
+        @media (max-width: 672px) {
           #staff .staff-content .tutors .tutor .txt-wrapper {
             width: 57%; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #staff .staff-content .tutors .tutor .txt-wrapper {
             width: 75%;
             height: 90%; } }
-        @media screen and (max-height: 400px) {
+        @media (max-height: 400px) and (min-aspect-ratio: 13 / 9) {
           #staff .staff-content .tutors .tutor .txt-wrapper {
             width: 48%; } }
         #staff .staff-content .tutors .tutor .txt-wrapper p {
@@ -1623,10 +1623,10 @@ ul {
           @media (max-width: 1500px) {
             #staff .staff-content .tutors .tutor .txt-wrapper p {
               font-size: 1.2rem; } }
-          @media screen and (max-width: 1003px) {
+          @media (max-width: 1003px) {
             #staff .staff-content .tutors .tutor .txt-wrapper p {
               font-size: 1.2rem; } }
-          @media screen and (max-width: 250px) {
+          @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
             #staff .staff-content .tutors .tutor .txt-wrapper p:last-of-type {
               display: none; } }
           #staff .staff-content .tutors .tutor .txt-wrapper p:first-of-type {
@@ -1634,14 +1634,14 @@ ul {
             @media (max-width: 1400px) {
               #staff .staff-content .tutors .tutor .txt-wrapper p:first-of-type {
                 font-size: 1.3rem; } }
-            @media screen and (max-width: 1003px) {
+            @media (max-width: 1003px) {
               #staff .staff-content .tutors .tutor .txt-wrapper p:first-of-type {
                 font-size: 1.4rem;
                 white-space: nowrap; } }
-            @media screen and (max-width: 599px) {
+            @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
               #staff .staff-content .tutors .tutor .txt-wrapper p:first-of-type {
                 font-size: 1.3rem; } }
-            @media screen and (max-width: 250px) {
+            @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
               #staff .staff-content .tutors .tutor .txt-wrapper p:first-of-type {
                 font-size: 1rem;
                 white-space: normal;
@@ -1649,28 +1649,28 @@ ul {
         #staff .staff-content .tutors .tutor .txt-wrapper h2 {
           font-size: 2rem;
           margin-top: 25%; }
-          @media screen and (max-width: 1200px) {
+          @media (max-width: 1200px) {
             #staff .staff-content .tutors .tutor .txt-wrapper h2 {
               font-size: 1.8rem;
               margin-top: 15%; } }
-          @media screen and (max-width: 1003px) {
+          @media (max-width: 1003px) {
             #staff .staff-content .tutors .tutor .txt-wrapper h2 {
               font-size: 2rem;
               margin-top: 15%; } }
-          @media screen and (max-width: 672px) {
+          @media (max-width: 672px) {
             #staff .staff-content .tutors .tutor .txt-wrapper h2 {
               margin-top: 30%; } }
-          @media screen and (max-width: 599px) {
+          @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
             #staff .staff-content .tutors .tutor .txt-wrapper h2 {
               font-size: 1.8rem;
               margin-top: 35%; } }
-          @media screen and (max-width: 380px) {
+          @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
             #staff .staff-content .tutors .tutor .txt-wrapper h2 {
               margin-top: 20%; } }
-          @media screen and (max-width: 350px) {
+          @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
             #staff .staff-content .tutors .tutor .txt-wrapper h2 {
               margin-top: 10%; } }
-          @media screen and (max-width: 250px) {
+          @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
             #staff .staff-content .tutors .tutor .txt-wrapper h2 {
               font-size: 1.3rem;
               margin-top: 30%; } }
@@ -1682,7 +1682,7 @@ ul {
           opacity: 1;
           -webkit-transition: opacity 0.4s cubic-bezier(0.1, 0.06, 0.37, 1.01);
           transition: opacity 0.4s cubic-bezier(0.1, 0.06, 0.37, 1.01); }
-          @media screen and (max-width: 250px) {
+          @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
             #staff .staff-content .tutors .tutor .txt-wrapper a {
               font-size: 1.2rem; } }
           #staff .staff-content .tutors .tutor .txt-wrapper a:hover {
@@ -1693,19 +1693,19 @@ ul {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 3rem;
   padding: 4rem 0; }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #values .values-content .values-info {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 5rem 0; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #values .values-content .values-info {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 8rem 0; } }
-  @media screen and (max-width: 672px) {
+  @media (max-width: 672px) {
     #values .values-content .values-info {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 3rem 0; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #values .values-content .values-info {
       grid-template-columns: 1fr;
       grid-gap: 0.5rem 0;
@@ -1714,29 +1714,29 @@ ul {
   #values .values-content .values-info .value img {
     width: 100%;
     height: 100%; }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #values .values-content .values-info .value img {
         width: 90%;
         height: 90%; } }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #values .values-content .values-info .value img {
         width: 90%;
         height: 100%; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #values .values-content .values-info .value img {
         width: 100%;
         height: 100%;
         padding-top: 2rem; } }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #values .values-content .values-info .value-info {
       margin-top: 20%; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #values .values-content .values-info .value-info {
       margin-top: 12%; } }
-  @media screen and (max-width: 672px) {
+  @media (max-width: 672px) {
     #values .values-content .values-info .value-info {
       margin-top: 2%; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #values .values-content .values-info .value-info {
       margin-top: 0;
       padding-bottom: 4rem;
@@ -1756,15 +1756,15 @@ ul {
     @media (max-width: 1400px) {
       #values .values-content .values-info .value-info p {
         font-size: 1.22rem; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #values .values-content .values-info .value-info h3 {
       font-size: 1.6rem; }
     #values .values-content .values-info .value-info p {
       font-size: 1.2rem; } }
-  @media screen and (max-width: 350px) {
+  @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
     #values .values-content .values-info .value-info h3 {
       font-size: 1.5rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #values .values-content .values-info .value-info h3 {
       font-size: 1.2rem; }
     #values .values-content .values-info .value-info p {
@@ -1784,13 +1784,13 @@ ul {
   @media (max-width: 1500px) {
     #testimonials .testimonials-content .testimonials-clients {
       grid-gap: 0; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #testimonials .testimonials-content .testimonials-clients {
       grid-gap: 0.5rem; } }
-  @media screen and (max-width: 672px) {
+  @media (max-width: 672px) {
     #testimonials .testimonials-content .testimonials-clients {
       grid-gap: 1rem; } }
-  @media screen and (max-width: 672px) {
+  @media (max-width: 672px) {
     #testimonials .testimonials-content .testimonials-clients {
       grid-template-columns: 1fr; } }
   #testimonials .testimonials-content .testimonials-clients .testimonials-client {
@@ -1810,12 +1810,12 @@ ul {
           margin-top: 0.5rem;
           width: 90px;
           height: 90px; } }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #testimonials .testimonials-content .testimonials-clients .testimonials-client img {
           margin-top: 0.3rem;
           width: 80px;
           height: 80px; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #testimonials .testimonials-content .testimonials-clients .testimonials-client img {
           margin-top: 0;
           width: 70px;
@@ -1844,7 +1844,7 @@ ul {
           padding-bottom: 1.2rem; }
         #testimonials .testimonials-content .testimonials-clients .testimonials-client i {
           font-size: 1.75rem; } }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #testimonials .testimonials-content .testimonials-clients .testimonials-client h3 {
         padding-bottom: 0.2rem;
         font-size: 1.6rem; }
@@ -1856,7 +1856,7 @@ ul {
         padding-bottom: 1rem; }
       #testimonials .testimonials-content .testimonials-clients .testimonials-client i {
         font-size: 1.6rem; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #testimonials .testimonials-content .testimonials-clients .testimonials-client h3 {
         padding-top: 0.25rem;
         font-size: 1.4rem; }
@@ -1869,10 +1869,10 @@ ul {
         font-size: 1.1rem; }
       #testimonials .testimonials-content .testimonials-clients .testimonials-client i {
         font-size: 1.4rem; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #testimonials .testimonials-content .testimonials-clients .testimonials-client:last-child {
         display: none; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #testimonials .testimonials-content .testimonials-clients .testimonials-client h3 {
         font-size: 1.1rem; }
       #testimonials .testimonials-content .testimonials-clients .testimonials-client .lead {
@@ -1883,13 +1883,13 @@ ul {
 #what-offer {
   padding: 7rem 2rem;
   line-height: 1.3; }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #what-offer {
       padding: 4rem 0; } }
   #what-offer .what-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #what-offer .what-content {
         grid-template-columns: 1fr; } }
     #what-offer .what-content .what-description p {
@@ -1902,25 +1902,25 @@ ul {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #what-offer .what-content .what-description .read-btn a {
           font-size: 1.7rem; } }
-      @media screen and (max-width: 350px) {
+      @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
         #what-offer .what-content .what-description .read-btn a {
           font-size: 1.4rem;
           padding: 1rem 1.8rem; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #what-offer .what-content .what-description .read-btn a {
           font-size: 1.2rem;
           padding: 0.9rem 1.3rem; } }
     #what-offer .what-content .what-image img {
       width: 100%;
       height: 100%; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #what-offer .what-content .what-image img {
           width: 110%;
           height: 85%; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #what-offer .what-content .what-image img {
           display: none; } }
 
@@ -1932,10 +1932,10 @@ ul {
   @media (max-width: 1400px) {
     #first-step {
       padding: 4rem 0; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #first-step {
       padding: 2.5rem 0; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #first-step {
       padding: 2rem 0; } }
   #first-step::before {
@@ -1962,19 +1962,19 @@ ul {
     line-height: 30px;
     text-align: center;
     overflow: hidden; }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #first-step .first-step-content a {
         width: 25px;
         height: 25px;
         line-height: 25px;
         font-size: 1.5rem; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #first-step .first-step-content a {
         width: 20px;
         height: 20px;
         line-height: 20px;
         font-size: 1.4rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #first-step .first-step-content a {
         width: 15px;
         height: 15px;
@@ -1983,12 +1983,12 @@ ul {
 
 #events {
   padding: 6rem 0; }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #events {
       padding: 3rem 0; } }
   #events .events-content .bottom-line {
     margin-bottom: 5rem; }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #events .events-content .bottom-line {
         margin-bottom: 2.25rem; } }
   #events .events-content .event-boxes {
@@ -1998,7 +1998,7 @@ ul {
     #events .events-content .event-boxes img {
       width: 100%;
       height: 100%; }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #events .events-content .event-boxes {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 5rem 1.5rem; }
@@ -2008,7 +2008,7 @@ ul {
           margin-left: 25%; }
           #events .events-content .event-boxes img:last-of-type {
             height: 150%; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #events .events-content .event-boxes {
         grid-gap: 7.5rem 1.5rem; }
         #events .events-content .event-boxes img {
@@ -2017,7 +2017,7 @@ ul {
           margin-left: 10%; }
           #events .events-content .event-boxes img:last-of-type {
             height: 110%; } }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #events .events-content .event-boxes {
         grid-gap: 4rem 0; }
         #events .events-content .event-boxes img {
@@ -2026,7 +2026,7 @@ ul {
           margin: auto; }
           #events .events-content .event-boxes img:last-of-type {
             height: 370px; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #events .events-content .event-boxes {
         display: flex;
         flex-direction: column;
@@ -2042,20 +2042,20 @@ ul {
           #events .events-content .event-boxes img:last-of-type {
             height: 375px;
             padding: 0; } }
-    @media screen and (max-width: 380px) {
+    @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
       #events .events-content .event-boxes img {
         width: 300px;
         height: 375px;
         margin: auto;
         padding-bottom: 2rem; } }
-    @media screen and (max-width: 350px) {
+    @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
       #events .events-content .event-boxes {
         grid-gap: 1rem 0; }
         #events .events-content .event-boxes img {
           width: 250px;
           height: 300px;
           margin: auto; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #events .events-content .event-boxes img {
         width: 180px;
         height: 200px; }
@@ -2065,46 +2065,46 @@ ul {
       font-size: 1.2rem;
       line-height: 1.2;
       padding-right: 2rem; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #events .events-content .event-boxes .event-box {
           margin-top: 3rem; } }
-  @media screen and (max-width: 1200px) and (max-width: 672px) {
+  @media (max-width: 1200px) and (max-width: 672px) {
     #events .events-content .event-boxes .event-box {
       margin: 0 0 0 10%; }
       #events .events-content .event-boxes .event-box:last-child {
         margin-top: 10%; } }
-  @media screen and (max-width: 1200px) and (max-width: 599px) {
+  @media (max-width: 1200px) and (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #events .events-content .event-boxes .event-box {
       padding: 0 0 5rem 0;
       margin: 0; }
       #events .events-content .event-boxes .event-box:last-child {
         padding-bottom: 0; } }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
           #events .events-content .event-boxes .event-box:last-child {
             margin-bottom: 1rem; } }
       #events .events-content .event-boxes .event-box h2 {
         padding-bottom: 0.8rem; }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #events .events-content .event-boxes .event-box h2 {
             font-size: 1.5rem; } }
       #events .events-content .event-boxes .event-box p {
         padding-bottom: 1rem; }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #events .events-content .event-boxes .event-box p {
             width: 100%; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #events .events-content .event-boxes .event-box p {
             font-size: 1rem; } }
-      @media screen and (max-width: 350px) {
+      @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
         #events .events-content .event-boxes .event-box .btn-dark {
           font-size: 1.4rem;
           padding: 1rem 1.8rem; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #events .events-content .event-boxes .event-box .btn-dark {
           font-size: 1.3rem;
           padding: 0.8rem 1.5rem; } }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   #courses {
     padding: 3rem 0; } }
 
@@ -2124,13 +2124,13 @@ ul {
   @media (max-width: 1400px) {
     #courses .courses-content .courses-toggle {
       font-size: 0.75rem; } }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #courses .courses-content .courses-toggle {
       font-size: 0.65rem; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #courses .courses-content .courses-toggle {
       font-size: 0.55rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #courses .courses-content .courses-toggle {
       font-size: 0.45rem; } }
 
@@ -2139,13 +2139,13 @@ ul {
 
 #courses .courses-content #courses-toggle:checked ~ .courses-toggle-wrap {
   max-height: 200vh; }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #courses .courses-content #courses-toggle:checked ~ .courses-toggle-wrap {
       max-height: 270vh; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #courses .courses-content #courses-toggle:checked ~ .courses-toggle-wrap {
       max-height: 1000vh; } }
-  @media screen and (max-height: 450px) {
+  @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
     #courses .courses-content #courses-toggle:checked ~ .courses-toggle-wrap {
       max-height: 1700vh; } }
 
@@ -2164,7 +2164,7 @@ ul {
   border: 2px solid #333;
   border-radius: 5px;
   background: rgba(244, 244, 244, 0.5); }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #courses .courses-content .courses-boxes {
       display: flex;
       flex-direction: column;
@@ -2174,37 +2174,37 @@ ul {
       padding: 0; } }
   #courses .courses-content .courses-boxes .courses-box-image {
     padding-bottom: 3rem; }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #courses .courses-content .courses-boxes .courses-box-image {
         padding-bottom: 1.5rem; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #courses .courses-content .courses-boxes .courses-box-image {
         padding-bottom: 1rem; } }
     #courses .courses-content .courses-boxes .courses-box-image img {
       border-radius: 5px;
       height: 100%;
       width: 100%; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #courses .courses-content .courses-boxes .courses-box-image img {
           height: 80%;
           width: 102%;
           margin-top: 5rem; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #courses .courses-content .courses-boxes .courses-box-image img {
           height: 90%;
           width: 90%;
           margin-top: 1rem; } }
-      @media screen and (max-width: 672px) {
+      @media (max-width: 672px) {
         #courses .courses-content .courses-boxes .courses-box-image img {
           height: 95%;
           width: 95%; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #courses .courses-content .courses-boxes .courses-box-image img {
           height: 90%;
           width: 90%; } }
   #courses .courses-content .courses-boxes .courses-box-description {
     padding-bottom: 4rem; }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #courses .courses-content .courses-boxes .courses-box-description:last-child {
         padding-bottom: 1.5rem; } }
     #courses .courses-content .courses-boxes .courses-box-description h2 {
@@ -2212,14 +2212,14 @@ ul {
       padding-bottom: 1rem; }
     #courses .courses-content .courses-boxes .courses-box-description p {
       font-size: 1.25rem; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #courses .courses-content .courses-boxes .courses-box-description p {
           font-size: 1.15rem; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #courses .courses-content .courses-boxes .courses-box-description p {
           width: 90%;
           margin: auto; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #courses .courses-content .courses-boxes .courses-box-description {
         padding-bottom: 6rem; }
         #courses .courses-content .courses-boxes .courses-box-description:last-child {
@@ -2230,7 +2230,7 @@ ul {
           font-size: 1.15rem;
           width: 90%;
           margin: auto; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #courses .courses-content .courses-boxes .courses-box-description {
         padding-bottom: 5rem; }
         #courses .courses-content .courses-boxes .courses-box-description h2 {
@@ -2258,37 +2258,37 @@ ul {
       align-items: center;
       padding: 0.45rem 0;
       font-size: 0.8rem; }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #courses .courses-content .courses-boxes .courses-box-description .review {
           white-space: nowrap; } }
       #courses .courses-content .courses-boxes .courses-box-description .review .review-number p {
         font-size: 0.95rem; }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .review .review-number p {
             font-size: 0.85rem; } }
       #courses .courses-content .courses-boxes .courses-box-description .review span {
         padding-left: 0.4rem; }
       #courses .courses-content .courses-boxes .courses-box-description .review i {
         padding: 0.5rem 0 0.5rem 0.2rem; }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .review i {
             font-size: 0.65rem; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #courses .courses-content .courses-boxes .courses-box-description .review {
           margin: auto; } }
     #courses .courses-content .courses-boxes .courses-box-description .detailed-info {
       padding: 1.5rem 0 0.3rem 0;
       font-size: 1.1rem; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #courses .courses-content .courses-boxes .courses-box-description .detailed-info {
           white-space: nowrap; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #courses .courses-content .courses-boxes .courses-box-description .detailed-info {
           padding: 1.8rem 0 1rem 0; } }
-      @media screen and (max-width: 672px) {
+      @media (max-width: 672px) {
         #courses .courses-content .courses-boxes .courses-box-description .detailed-info {
           white-space: normal; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #courses .courses-content .courses-boxes .courses-box-description .detailed-info {
           width: 90%;
           margin: auto;
@@ -2302,12 +2302,12 @@ ul {
         #courses .courses-content .courses-boxes .courses-box-description .detailed-info span i {
           padding: 0 0.2rem 0.3rem 0;
           color: #333; }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .detailed-info span {
             border: none;
             font-size: 1.05rem;
             padding-top: 0.5rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .detailed-info span {
             font-size: 0.95rem;
             padding-top: 0.3rem; } }
@@ -2316,7 +2316,7 @@ ul {
     #courses .courses-content .courses-boxes .courses-box-description .locations-3 {
       position: relative;
       padding: 1rem 0; }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #courses .courses-content .courses-boxes .courses-box-description .locations,
         #courses .courses-content .courses-boxes .courses-box-description .locations-2,
         #courses .courses-content .courses-boxes .courses-box-description .locations-3 {
@@ -2336,7 +2336,7 @@ ul {
         cursor: pointer;
         color: #333;
         right: 32.5%; }
-        @media screen and (max-width: 1003px) {
+        @media (max-width: 1003px) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-3,
@@ -2348,7 +2348,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-toggle-3 {
             right: 30%;
             font-size: 0.9rem; } }
-        @media screen and (max-width: 672px) {
+        @media (max-width: 672px) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-3,
@@ -2359,7 +2359,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-toggle-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-toggle-3 {
             right: 25%; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-3,
@@ -2370,7 +2370,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-toggle-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-toggle-3 {
             right: 15%; } }
-        @media screen and (max-width: 380px) {
+        @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-3,
@@ -2382,7 +2382,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-toggle-3 {
             font-size: 0.9rem;
             right: 10%; } }
-        @media screen and (max-width: 350px) {
+        @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-3,
@@ -2393,7 +2393,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-toggle-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-toggle-3 {
             font-size: 0.8rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-3,
@@ -2405,7 +2405,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-toggle-3 {
             font-size: 0.6rem;
             right: 7%; } }
-        @media screen and (max-height: 350px) {
+        @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-toggle-3,
@@ -2452,7 +2452,7 @@ ul {
         border-bottom: #ccc;
         width: 70%;
         font-size: 1.1rem; }
-        @media screen and (max-width: 1003px) {
+        @media (max-width: 1003px) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-3,
@@ -2464,7 +2464,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-3 {
             width: 45%;
             margin: auto; } }
-        @media screen and (max-width: 672px) {
+        @media (max-width: 672px) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-3,
@@ -2475,7 +2475,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-3 {
             width: 55%; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-3,
@@ -2486,7 +2486,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-3 {
             width: 80%; } }
-        @media screen and (max-width: 380px) {
+        @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-3,
@@ -2498,7 +2498,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-3 {
             font-size: 1.1rem;
             width: 92%; } }
-        @media screen and (max-width: 350px) {
+        @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-3,
@@ -2509,7 +2509,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-3 {
             font-size: 1rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-3,
@@ -2520,7 +2520,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-3 {
             padding: 0.8rem 0; } }
-        @media screen and (max-height: 350px) {
+        @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-3,
@@ -2542,7 +2542,7 @@ ul {
         #courses .courses-content .courses-boxes .courses-box-description .locations-3 .location-title-3 h3 {
           padding-left: 1rem;
           color: #333; }
-          @media screen and (max-width: 250px) {
+          @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
             #courses .courses-content .courses-boxes .courses-box-description .locations .location-title h3,
             #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-2 h3,
             #courses .courses-content .courses-boxes .courses-box-description .locations .location-title-3 h3,
@@ -2573,7 +2573,7 @@ ul {
         font-size: 1.15rem;
         -webkit-transition: max-height 0.4s cubic-bezier(0.49, 0.01, 0.48, 0.98);
         transition: max-height 0.4s cubic-bezier(0.49, 0.01, 0.48, 0.98); }
-        @media screen and (max-width: 1003px) {
+        @media (max-width: 1003px) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-3,
@@ -2586,7 +2586,7 @@ ul {
             width: 45%;
             position: static;
             margin: auto; } }
-        @media screen and (max-width: 672px) {
+        @media (max-width: 672px) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-3,
@@ -2597,7 +2597,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-3 {
             width: 55%; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-3,
@@ -2608,7 +2608,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-3 {
             width: 80%; } }
-        @media screen and (max-width: 380px) {
+        @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-3,
@@ -2620,7 +2620,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-3 {
             font-size: 1.1rem;
             width: 92%; } }
-        @media screen and (max-width: 350px) {
+        @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-3,
@@ -2632,7 +2632,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-3 {
             white-space: nowrap;
             font-size: 0.97rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-3,
@@ -2643,7 +2643,7 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-3 {
             white-space: normal; } }
-        @media screen and (max-height: 350px) {
+        @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-2,
           #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes-3,
@@ -2714,7 +2714,7 @@ ul {
             background: #f4f4f4;
             width: 100vw;
             cursor: pointer; }
-            @media screen and (max-width: 1003px) {
+            @media (max-width: 1003px) {
               #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes .locations-box:hover,
               #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes .locations-box-2:hover,
               #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes .locations-box-3:hover,
@@ -2743,7 +2743,7 @@ ul {
               #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-3 .locations-box-2:hover,
               #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-3 .locations-box-3:hover {
                 width: 65vw; } }
-            @media screen and (max-width: 380px) {
+            @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
               #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes .locations-box:hover,
               #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes .locations-box-2:hover,
               #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes .locations-box-3:hover,
@@ -2772,7 +2772,7 @@ ul {
               #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-3 .locations-box-2:hover,
               #courses .courses-content .courses-boxes .courses-box-description .locations-3 .locations-boxes-3 .locations-box-3:hover {
                 width: 74vw; } }
-            @media screen and (max-width: 250px) {
+            @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
               #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes .locations-box:hover,
               #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes .locations-box-2:hover,
               #courses .courses-content .courses-boxes .courses-box-description .locations .locations-boxes .locations-box-3:hover,
@@ -2808,15 +2808,15 @@ ul {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #courses .courses-content .courses-boxes .courses-box-description .bottom-btn {
           margin: auto;
           justify-content: center; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #courses .courses-content .courses-boxes .courses-box-description .bottom-btn {
           margin-left: 0.7rem;
           justify-content: center; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #courses .courses-content .courses-boxes .courses-box-description .bottom-btn {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
@@ -2831,15 +2831,15 @@ ul {
         @media (max-width: 1400px) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .btn-dark {
             font-size: 1.35rem; } }
-        @media screen and (max-width: 380px) {
+        @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .btn-dark {
             font-size: 1.2rem;
             padding: 0.55rem 0.7rem; } }
-        @media screen and (max-width: 350px) {
+        @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .btn-dark {
             font-size: 1.05rem;
             padding: 0.6rem 0.8rem; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .view-btn {
           grid-column: 1 / span 3;
           font-size: 1.1rem;
@@ -2858,15 +2858,15 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-favorite {
             font-size: 1.45rem;
             padding: 0.55rem 1rem; } }
-        @media screen and (max-width: 380px) {
+        @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-favorite {
             font-size: 1.2rem;
             padding: 0.55rem 0.8rem; } }
-        @media screen and (max-width: 350px) {
+        @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-favorite {
             font-size: 1.05rem;
             padding: 0.6rem 0.8rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-favorite {
             grid-row: 2 / span 2;
             font-size: 1.2rem;
@@ -2884,15 +2884,15 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-thumbs-up {
             font-size: 1.45rem;
             padding: 0.55rem 1rem; } }
-        @media screen and (max-width: 380px) {
+        @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-thumbs-up {
             font-size: 1.2rem;
             padding: 0.55rem 0.8rem; } }
-        @media screen and (max-width: 350px) {
+        @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-thumbs-up {
             font-size: 1.05rem;
             padding: 0.6rem 0.8rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-thumbs-up {
             grid-row: 2 / span 2;
             font-size: 1.2rem;
@@ -2911,15 +2911,15 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-calendar {
             font-size: 1.45rem;
             padding: 0.55rem 1rem; } }
-        @media screen and (max-width: 380px) {
+        @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-calendar {
             font-size: 1.2rem;
             padding: 0.55rem 0.8rem; } }
-        @media screen and (max-width: 350px) {
+        @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-calendar {
             font-size: 1.05rem;
             padding: 0.6rem 0.8rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .icon-calendar {
             grid-row: 2 / span 2;
             font-size: 1.2rem;
@@ -3040,7 +3040,7 @@ ul {
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2 .icon-check,
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 .icon-check {
               font-size: 0.85rem; } }
-        @media screen and (max-width: 1300px) {
+        @media (max-width: 1300px) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
@@ -3049,7 +3049,7 @@ ul {
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2 .icon-check,
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 .icon-check {
               font-size: 0.8rem; } }
-        @media screen and (max-width: 1200px) {
+        @media (max-width: 1200px) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content .icon-check,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2 .icon-check,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 .icon-check {
@@ -3063,12 +3063,12 @@ ul {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 a {
             font-size: 1.5rem;
             padding: 1rem 2.8rem; } }
-        @media screen and (max-height: 600px) {
+        @media (max-height: 600px) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
             height: 32%; } }
-        @media screen and (max-width: 1003px) {
+        @media (max-width: 1003px) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
@@ -3089,7 +3089,7 @@ ul {
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 a {
               font-size: 1.5rem;
               padding: 1rem 2.8rem; } }
-        @media screen and (min-width: 670px) and (max-width: 1000px) {
+        @media (min-width: 670px) and (max-width: 1000px) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
@@ -3110,7 +3110,7 @@ ul {
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 a {
               font-size: 1.5rem;
               padding: 1rem 2.5rem; } }
-        @media screen and (max-width: 672px) {
+        @media (max-width: 672px) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
@@ -3128,7 +3128,7 @@ ul {
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 a {
               font-size: 1.5rem;
               padding: 1rem 2.8rem; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
@@ -3148,14 +3148,14 @@ ul {
               font-size: 1.5rem;
               padding: 0.8rem 2.5rem;
               maring-bottom: 0.5rem; } }
-        @media screen and (max-width: 380px) {
+        @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
             height: 27%;
             width: 90%;
             padding: 3rem 0; } }
-        @media screen and (max-width: 350px) {
+        @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
@@ -3174,7 +3174,7 @@ ul {
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 a {
               font-size: 1.3rem;
               padding: 0.6rem 2rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
@@ -3184,7 +3184,7 @@ ul {
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2 p,
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 p {
               white-space: normal; } }
-        @media screen and (max-height: 450px) {
+        @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
@@ -3199,12 +3199,12 @@ ul {
             #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 p {
               font-size: 1.6rem;
               white-space: nowrap; } }
-        @media screen and (max-height: 400px) {
+        @media (max-height: 400px) and (min-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
             height: 67%; } }
-        @media screen and (max-height: 350px) {
+        @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-2,
           #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-content-3 {
@@ -3233,7 +3233,7 @@ ul {
       #courses .courses-content .courses-boxes .courses-box-description .bottom-btn .modal-3:target::before {
         display: block; }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   #locations {
     padding: 3rem 0; } }
 
@@ -3253,13 +3253,13 @@ ul {
   @media (max-width: 1400px) {
     #locations .locations-content .locations-toggle {
       font-size: 0.75rem; } }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #locations .locations-content .locations-toggle {
       font-size: 0.65rem; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #locations .locations-content .locations-toggle {
       font-size: 0.55rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #locations .locations-content .locations-toggle {
       font-size: 0.45rem; } }
 
@@ -3268,19 +3268,19 @@ ul {
 
 #locations .locations-content #locations-toggle:checked ~ .locations-toggle-wrap {
   max-height: 100vh; }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #locations .locations-content #locations-toggle:checked ~ .locations-toggle-wrap {
       max-height: 150vh; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #locations .locations-content #locations-toggle:checked ~ .locations-toggle-wrap {
       max-height: 380vh; } }
-  @media screen and (max-width: 350px) {
+  @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
     #locations .locations-content #locations-toggle:checked ~ .locations-toggle-wrap {
       max-height: 400vh; } }
-  @media screen and (max-width: 350px) {
+  @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
     #locations .locations-content #locations-toggle:checked ~ .locations-toggle-wrap {
       max-height: 650vh; } }
-  @media screen and (max-height: 450px) {
+  @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
     #locations .locations-content #locations-toggle:checked ~ .locations-toggle-wrap {
       max-height: 1000vh; } }
 
@@ -3296,23 +3296,23 @@ ul {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 3rem;
   padding: 3.5rem; }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #locations .locations-content .locations-boxes {
       margin-right: 1rem; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #locations .locations-content .locations-boxes {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 5rem; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #locations .locations-content .locations-boxes {
       grid-template-columns: 1fr;
       grid-gap: 6rem;
       margin: 0;
       padding: 3rem; } }
-  @media screen and (max-width: 350px) {
+  @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
     #locations .locations-content .locations-boxes {
       padding: 2rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #locations .locations-content .locations-boxes {
       padding: 0.2rem; } }
   #locations .locations-content .locations-boxes .location-box {
@@ -3337,21 +3337,21 @@ ul {
     @media (max-width: 1400px) {
       #locations .locations-content .locations-boxes .location-box {
         width: 90%; } }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #locations .locations-content .locations-boxes .location-box {
         width: 110%; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #locations .locations-content .locations-boxes .location-box {
         width: 105%; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #locations .locations-content .locations-boxes .location-box {
         padding: 0;
         margin: 0;
         width: 100%; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #locations .locations-content .locations-boxes .location-box {
         padding: 0; } }
-    @media screen and (max-height: 350px) {
+    @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
       #locations .locations-content .locations-boxes .location-box {
         width: 60%;
         margin: auto; } }
@@ -3391,7 +3391,7 @@ ul {
       padding-top: 1.35rem; }
       #locations .locations-content .locations-boxes .location-box .location-review .review-stars i {
         padding: 0rem 0.3rem; }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #locations .locations-content .locations-boxes .location-box .location-review .review-stars i {
             font-size: 0.9rem; } }
     #locations .locations-content .locations-boxes .location-box .loc-description {
@@ -3400,7 +3400,7 @@ ul {
       #locations .locations-content .locations-boxes .location-box .loc-description h3 {
         padding-top: 0.2rem;
         font-size: 1.05rem; }
-      @media screen and (max-width: 672px) {
+      @media (max-width: 672px) {
         #locations .locations-content .locations-boxes .location-box .loc-description h2 {
           font-size: 1.45rem; } }
     #locations .locations-content .locations-boxes .location-box .loc-price {
@@ -3408,11 +3408,11 @@ ul {
       font-size: 1.2rem;
       font-weight: 700; }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   #group-camps {
     padding: 3rem 0; } }
 
-@media screen and (max-width: 250px) {
+@media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
   #group-camps .container {
     padding: 0; } }
 
@@ -3432,13 +3432,13 @@ ul {
   @media (max-width: 1400px) {
     #group-camps .group-content .group-toggle {
       font-size: 0.75rem; } }
-  @media screen and (max-width: 1300px) {
+  @media (max-width: 1300px) {
     #group-camps .group-content .group-toggle {
       font-size: 0.65rem; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #group-camps .group-content .group-toggle {
       font-size: 0.55rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #group-camps .group-content .group-toggle {
       font-size: 0.45rem; } }
 
@@ -3447,25 +3447,25 @@ ul {
 
 #group-camps .group-content #group-toggle:checked ~ .group-toggle-wrap {
   max-height: 100vh; }
-  @media screen and (max-height: 600px) {
+  @media (max-height: 600px) {
     #group-camps .group-content #group-toggle:checked ~ .group-toggle-wrap {
       max-height: 120vh; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #group-camps .group-content #group-toggle:checked ~ .group-toggle-wrap {
       max-height: 220vh; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #group-camps .group-content #group-toggle:checked ~ .group-toggle-wrap {
       max-height: 300vh; } }
-  @media screen and (max-width: 380px) {
+  @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
     #group-camps .group-content #group-toggle:checked ~ .group-toggle-wrap {
       max-height: 320vh; } }
-  @media screen and (max-width: 350px) {
+  @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
     #group-camps .group-content #group-toggle:checked ~ .group-toggle-wrap {
       max-height: 350vh; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #group-camps .group-content #group-toggle:checked ~ .group-toggle-wrap {
       max-height: 600vh; } }
-  @media screen and (max-height: 450px) {
+  @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
     #group-camps .group-content #group-toggle:checked ~ .group-toggle-wrap {
       max-height: 1000vh; } }
 
@@ -3491,7 +3491,7 @@ ul {
     #group-camps .group-content .group-boxes {
       grid-gap: 0.5rem;
       padding: 3rem 0.5rem; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #group-camps .group-content .group-boxes {
       grid-template-columns: 1fr;
       grid-gap: 6rem; } }
@@ -3541,27 +3541,27 @@ ul {
         font-size: 3.5rem;
         bottom: 95px;
         left: -60px; }
-        @media screen and (max-width: 1200px) {
+        @media (max-width: 1200px) {
           #group-camps .group-content .group-boxes .group-box .group-heading .group-price {
             font-size: 3.2rem; } }
-        @media screen and (max-width: 380px) {
+        @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
           #group-camps .group-content .group-boxes .group-box .group-heading .group-price {
             font-size: 3.1rem;
             bottom: 80px;
             left: -50px; } }
-        @media screen and (max-width: 350px) {
+        @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
           #group-camps .group-content .group-boxes .group-box .group-heading .group-price {
             font-size: 2.9rem;
             bottom: 75px; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #group-camps .group-content .group-boxes .group-box .group-heading .group-price {
             font-size: 2.5rem;
             bottom: 65px;
             left: -45px; } }
-        @media screen and (max-height: 450px) {
+        @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
           #group-camps .group-content .group-boxes .group-box .group-heading .group-price {
             left: -57px; } }
-        @media screen and (max-height: 350px) {
+        @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
           #group-camps .group-content .group-boxes .group-box .group-heading .group-price {
             bottom: 75px;
             left: -60px; } }
@@ -3596,28 +3596,28 @@ ul {
           font-size: 1.5rem; }
         #group-camps .group-content .group-boxes .group-box .group-details .choose-btn a {
           font-size: 1.55rem; } }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #group-camps .group-content .group-boxes .group-box .group-details h2 {
           font-size: 2rem; }
         #group-camps .group-content .group-boxes .group-box .group-details p {
           font-size: 1.35rem; }
         #group-camps .group-content .group-boxes .group-box .group-details .choose-btn a {
           font-size: 1.5rem; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #group-camps .group-content .group-boxes .group-box .group-details h2 {
           font-size: 2.35rem; }
         #group-camps .group-content .group-boxes .group-box .group-details p {
           font-size: 1.55rem; }
         #group-camps .group-content .group-boxes .group-box .group-details .choose-btn a {
           font-size: 1.7rem; } }
-      @media screen and (max-width: 672px) {
+      @media (max-width: 672px) {
         #group-camps .group-content .group-boxes .group-box .group-details h2 {
           font-size: 2.2rem; }
         #group-camps .group-content .group-boxes .group-box .group-details p {
           font-size: 1.5rem; }
         #group-camps .group-content .group-boxes .group-box .group-details .choose-btn a {
           font-size: 1.6rem; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #group-camps .group-content .group-boxes .group-box .group-details h2 {
           font-size: 2rem;
           text-align: center; }
@@ -3625,7 +3625,7 @@ ul {
           font-size: 1.4rem; }
         #group-camps .group-content .group-boxes .group-box .group-details .choose-btn a {
           font-size: 1.5rem; } }
-      @media screen and (max-width: 350px) {
+      @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
         #group-camps .group-content .group-boxes .group-box .group-details h2 {
           font-size: 1.85rem; }
         #group-camps .group-content .group-boxes .group-box .group-details p {
@@ -3633,7 +3633,7 @@ ul {
         #group-camps .group-content .group-boxes .group-box .group-details .choose-btn a {
           font-size: 1.45rem;
           padding: 0.6rem 1.6rem; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #group-camps .group-content .group-boxes .group-box .group-details h2 {
           font-size: 1.65rem; }
         #group-camps .group-content .group-boxes .group-box .group-details p {
@@ -3641,36 +3641,36 @@ ul {
         #group-camps .group-content .group-boxes .group-box .group-details .choose-btn a {
           font-size: 1.45rem;
           padding: 0.6rem 1.6rem; } }
-    @media screen and (max-width: 1300px) {
+    @media (max-width: 1300px) {
       #group-camps .group-content .group-boxes .group-box {
         width: 85%; }
         #group-camps .group-content .group-boxes .group-box .group-img img {
           height: 90%; }
         #group-camps .group-content .group-boxes .group-box .group-img::before {
           height: 90%; } }
-    @media screen and (max-height: 600px) {
+    @media (max-height: 600px) {
       #group-camps .group-content .group-boxes .group-box {
         width: 85%; }
         #group-camps .group-content .group-boxes .group-box .group-img img {
           height: 90%; }
         #group-camps .group-content .group-boxes .group-box .group-img::before {
           height: 90%; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #group-camps .group-content .group-boxes .group-box {
         width: 45%; } }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #group-camps .group-content .group-boxes .group-box {
         width: 55%; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #group-camps .group-content .group-boxes .group-box {
         width: 85%; } }
-    @media screen and (max-width: 380px) {
+    @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
       #group-camps .group-content .group-boxes .group-box {
         width: 90%; } }
-    @media screen and (max-width: 350px) {
+    @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
       #group-camps .group-content .group-boxes .group-box {
         width: 95%; } }
-    @media screen and (max-height: 350px) {
+    @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
       #group-camps .group-content .group-boxes .group-box {
         width: 50%; } }
 
@@ -3684,7 +3684,7 @@ ul {
   @media (max-width: 1500px) {
     #blog .blog-content {
       margin-left: 5%; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #blog .blog-content {
       flex-direction: column-reverse;
       margin-left: 0; } }
@@ -3698,23 +3698,23 @@ ul {
     border-radius: 5px;
     -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #blog .blog-content .sidebar {
         margin: auto;
         width: 50vw;
         border: none;
         box-shadow: none; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .blog-content .sidebar {
         width: 70vw; } }
-    @media screen and (max-width: 380px) {
+    @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
       #blog .blog-content .sidebar {
         width: 80vw; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #blog .blog-content .sidebar {
         padding: 0.5rem;
         width: 85vw; } }
-    @media screen and (max-height: 350px) {
+    @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
       #blog .blog-content .sidebar {
         width: 50vw; } }
     #blog .blog-content .sidebar .search-blog {
@@ -3727,22 +3727,22 @@ ul {
           border-radius: 4px;
           border: 2px solid #ccc;
           margin-right: 1.65rem; }
-          @media screen and (max-width: 1003px) {
+          @media (max-width: 1003px) {
             #blog .blog-content .sidebar .search-blog span input[type="text"] {
               width: 71%; } }
-          @media screen and (max-width: 599px) {
+          @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
             #blog .blog-content .sidebar .search-blog span input[type="text"] {
               width: 63%; } }
-          @media screen and (max-width: 250px) {
+          @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
             #blog .blog-content .sidebar .search-blog span input[type="text"] {
               width: 54%; } }
-          @media screen and (max-height: 450px) {
+          @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
             #blog .blog-content .sidebar .search-blog span input[type="text"] {
               width: 70%; } }
-          @media screen and (max-height: 400px) {
+          @media (max-height: 400px) and (min-aspect-ratio: 13 / 9) {
             #blog .blog-content .sidebar .search-blog span input[type="text"] {
               width: 67%; } }
-          @media screen and (max-height: 350px) {
+          @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
             #blog .blog-content .sidebar .search-blog span input[type="text"] {
               width: 64%; } }
           #blog .blog-content .sidebar .search-blog span input[type="text"]::-webkit-input-placeholder {
@@ -3780,13 +3780,13 @@ ul {
       width: 88%; }
       #blog .blog-content .sidebar .about-short .about-short-intro p {
         font-size: 1.15rem; }
-        @media screen and (max-width: 1200px) {
+        @media (max-width: 1200px) {
           #blog .blog-content .sidebar .about-short .about-short-intro p {
             font-size: 1.05rem; } }
     #blog .blog-content .sidebar .about-short a {
       margin-bottom: 3.5rem;
       font-size: 1.35rem; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #blog .blog-content .sidebar .about-short a {
           font-size: 1.2rem; } }
     #blog .blog-content .sidebar .aside {
@@ -3850,7 +3850,7 @@ ul {
           #blog .blog-content .sidebar .recent-posts .recent-post .bottom-info span {
             padding-right: 1rem;
             display: inline-block; }
-            @media screen and (max-width: 599px) {
+            @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
               #blog .blog-content .sidebar .recent-posts .recent-post .bottom-info span:last-of-type {
                 padding-top: 0.5rem; } }
             #blog .blog-content .sidebar .recent-posts .recent-post .bottom-info span i {
@@ -3863,7 +3863,7 @@ ul {
           font-size: 1rem;
           margin: 0.4rem 0.25rem;
           padding: 0.6rem 1rem; }
-          @media screen and (max-width: 250px) {
+          @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
             #blog .blog-content .sidebar .tags .tag-wrap a {
               font-size: 0.8rem;
               margin: 0.3rem 0.1rem;
@@ -3881,18 +3881,18 @@ ul {
   padding-bottom: 2.5rem; }
   #blog .main-blog .blog-post a {
     margin-bottom: 2rem; }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #blog .main-blog .blog-post a {
         font-size: 1.5rem; } }
     #blog .main-blog .blog-post a h2 {
       color: #2f4b1f;
       font-size: 2rem;
       padding-top: 0.85rem; }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .blog-post a h2 {
           font-size: 1.8rem;
           padding-top: 0.6rem; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .blog-post a h2 {
           font-size: 1.5rem; } }
       #blog .main-blog .blog-post a h2:hover {
@@ -3904,18 +3904,18 @@ ul {
       #blog .main-blog .blog-post .blog-img img {
         width: 70%;
         height: 70%; } }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #blog .main-blog .blog-post .blog-img img {
         width: 90%;
         height: 90%; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #blog .main-blog .blog-post .blog-img img {
         width: 100%;
         height: 100%; } }
   #blog .main-blog .blog-post .post-details {
     color: #333;
     padding-bottom: 1rem; }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .blog-post .post-details {
         padding-bottom: 0.8rem; } }
     #blog .main-blog .blog-post .post-details i {
@@ -3925,7 +3925,7 @@ ul {
       font-size: 1.2rem;
       cursor: pointer;
       display: inline-block; }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .blog-post .post-details span {
           padding: 0.5rem 0.45rem 0 0; } }
       #blog .main-blog .blog-post .post-details span:hover {
@@ -3936,7 +3936,7 @@ ul {
       @media (max-width: 1500px) {
         #blog .main-blog .blog-post .post-details span {
           font-size: 1.1rem; } }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #blog .main-blog .blog-post .post-details span {
           font-size: 1rem; } }
   #blog .main-blog .blog-post .post-description p {
@@ -3946,20 +3946,20 @@ ul {
       #blog .main-blog .blog-post .post-description p {
         width: 70%;
         font-size: 1.3rem; } }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #blog .main-blog .blog-post .post-description p {
         width: 90%;
         font-size: 1.2rem; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #blog .main-blog .blog-post .post-description p {
         width: 100%; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .blog-post .post-description p {
         padding-bottom: 1.3rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .blog-post .post-description p {
         font-size: 1rem; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #blog .main-blog .blog-post .btn-dark {
       font-size: 1.3rem;
       padding: 0.8rem 1.3rem; } }
@@ -3972,11 +3972,11 @@ ul {
   -ms-flex-pack: center;
   justify-content: center;
   width: 78%; }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #blog .main-blog .page-btns {
       margin: auto;
       padding-bottom: 5rem; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #blog .main-blog .page-btns {
       margin: auto;
       width: 93.5vw; } }
@@ -4001,18 +4001,18 @@ ul {
         #blog .main-blog .page-btns .page-btn a {
           width: 5px;
           height: 30px; } }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #blog .main-blog .page-btns .page-btn a {
           width: 2px;
           height: 25px;
           font-size: 1.4rem;
           padding: 0.8rem 1.8rem; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .page-btns .page-btn a {
           height: 20px;
           font-size: 1.4rem;
           padding: 0.8rem 1.6rem; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .page-btns .page-btn a {
           font-size: 1.2rem;
           padding: 0.5rem 1.2rem; } }
@@ -4052,7 +4052,7 @@ ul {
     #blog .main-blog .share i:hover {
       color: #2f4b1f;
       border-color: #2f4b1f; }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #blog .main-blog .share {
       flex-direction: column;
       text-align: center; }
@@ -4062,7 +4062,7 @@ ul {
         margin: 1rem; }
       #blog .main-blog .share i {
         margin-left: 0.5rem; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #blog .main-blog .share span {
       font-size: 1.2rem;
       padding: 0;
@@ -4071,7 +4071,7 @@ ul {
       padding: 0.7rem 1.2rem; }
     #blog .main-blog .share i {
       margin-left: 0.5rem; } }
-  @media screen and (max-width: 380px) {
+  @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
     #blog .main-blog .share span {
       font-size: 1.2rem;
       padding: 0;
@@ -4084,7 +4084,7 @@ ul {
       line-height: 20px;
       font-size: 1.3rem;
       margin-left: 0.3rem; } }
-  @media screen and (max-width: 350px) {
+  @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
     #blog .main-blog .share span {
       font-size: 1.2rem;
       padding: 0;
@@ -4098,7 +4098,7 @@ ul {
       line-height: 17px;
       font-size: 1.2rem;
       margin-left: 0; } }
-  @media screen and (max-width: 250px) {
+  @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #blog .main-blog .share span {
       font-size: 1rem;
       margin: 0.4rem;
@@ -4125,13 +4125,13 @@ ul {
   #blog .main-blog .author-post h2 {
     padding: 1rem 0 0.5rem 0;
     font-size: 2.25rem; }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .author-post h2 {
         text-align: center; } }
-    @media screen and (max-width: 380px) {
+    @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .author-post h2 {
         font-size: 2rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .author-post h2 {
         font-size: 1.65rem; } }
   #blog .main-blog .author-post .author-content {
@@ -4147,7 +4147,7 @@ ul {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .author-post .author-content {
         display: grid;
         grid-template-columns: 1fr;
@@ -4159,30 +4159,30 @@ ul {
         #blog .main-blog .author-post .author-content .author-img img {
           width: 140px;
           height: 130px; } }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #blog .main-blog .author-post .author-content .author-img img {
           width: 120px;
           height: 110px;
           margin-top: 0; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .author-post .author-content .author-img img {
           width: 100px;
           height: 95px; } }
-      @media screen and (max-width: 350px) {
+      @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .author-post .author-content .author-img img {
           width: 90px;
           height: 85px; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .author-post .author-content .author-img img {
           width: 70px;
           height: 65px; } }
     #blog .main-blog .author-post .author-content .author-description {
       padding-left: 1.2rem;
       margin-top: 5%; }
-      @media screen and (max-width: 672px) {
+      @media (max-width: 672px) {
         #blog .main-blog .author-post .author-content .author-description {
           font-size: 1.05rem; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .author-post .author-content .author-description {
           padding: 0; } }
 
@@ -4191,34 +4191,34 @@ ul {
   #blog .main-blog .related-posts h2:first-child {
     font-size: 2.25rem;
     padding-top: 2.5rem; }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #blog .main-blog .related-posts h2:first-child {
         text-align: center; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .related-posts h2:first-child {
         padding-bottom: 1.2rem;
         font-size: 2rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .related-posts h2:first-child {
         font-size: 1.65rem; } }
   #blog .main-blog .related-posts h2 {
     font-size: 1.6rem;
     padding-top: 0.5rem; }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .related-posts h2 {
         font-size: 1.5rem;
         text-align: center; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .related-posts h2 {
         font-size: 1.35rem; } }
   #blog .main-blog .related-posts .related-posts-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 4rem; }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #blog .main-blog .related-posts .related-posts-content {
         grid-template-columns: 1fr; } }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #blog .main-blog .related-posts .related-posts-content .related-post {
         display: flex;
         flex-direction: column;
@@ -4231,7 +4231,7 @@ ul {
         padding-top: 1rem; }
     #blog .main-blog .related-posts .related-posts-content .related-post p {
       font-size: 1.2rem; }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .related-posts .related-posts-content .related-post p {
           font-size: 1rem; } }
     #blog .main-blog .related-posts .related-posts-content .related-post .related-post-img img {
@@ -4240,7 +4240,7 @@ ul {
     @media (max-width: 1500px) {
       #blog .main-blog .related-posts .related-posts-content .related-post .post-details {
         white-space: nowrap; } }
-    @media screen and (max-width: 1300px) {
+    @media (max-width: 1300px) {
       #blog .main-blog .related-posts .related-posts-content .related-post .related-post-img img {
         width: 100%;
         height: 100%; }
@@ -4249,7 +4249,7 @@ ul {
         width: 100%; }
       #blog .main-blog .related-posts .related-posts-content .related-post a {
         font-size: 1.4rem; } }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #blog .main-blog .related-posts .related-posts-content .related-post .related-post-img img {
         width: 100%;
         height: 100%; }
@@ -4259,7 +4259,7 @@ ul {
           font-size: 0.9rem; }
       #blog .main-blog .related-posts .related-posts-content .related-post a {
         font-size: 1.3rem; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #blog .main-blog .related-posts .related-posts-content .related-post .related-post-img img {
         width: 95%;
         height: 95%; }
@@ -4267,7 +4267,7 @@ ul {
         width: 90%; }
       #blog .main-blog .related-posts .related-posts-content .related-post a {
         font-size: 1.3rem; } }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #blog .main-blog .related-posts .related-posts-content .related-post .related-post-img img {
         width: 85%;
         height: 85%; }
@@ -4279,7 +4279,7 @@ ul {
         width: 82%; }
       #blog .main-blog .related-posts .related-posts-content .related-post a {
         font-size: 1.55rem; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .related-posts .related-posts-content .related-post .post-details {
         width: 100%; }
         #blog .main-blog .related-posts .related-posts-content .related-post .post-details span {
@@ -4290,7 +4290,7 @@ ul {
       #blog .main-blog .related-posts .related-posts-content .related-post p {
         margin: auto;
         width: 100%; } }
-    @media screen and (max-width: 350px) {
+    @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .related-posts .related-posts-content .related-post a {
         font-size: 1.4rem;
         padding: 0.8rem 1.5rem; } }
@@ -4308,13 +4308,13 @@ ul {
   #blog .main-blog .comments h2 {
     padding-bottom: 0.5rem;
     font-size: 2.25rem; }
-    @media screen and (max-width: 380px) {
+    @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .comments h2 {
         font-size: 2rem; } }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #blog .main-blog .comments h2 {
         text-align: center; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .comments h2 {
         font-size: 1.65rem; } }
   #blog .main-blog .comments .comment {
@@ -4330,7 +4330,7 @@ ul {
     -ms-flex-align: center;
     align-items: center;
     margin-right: 25%; }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .comments .comment {
         display: grid;
         grid-template-columns: 1fr;
@@ -4342,49 +4342,49 @@ ul {
       height: 100px;
       width: 100px;
       margin-right: 1.5rem; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #blog .main-blog .comments .comment .comment-img img {
           height: 80px;
           width: 80px; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .comments .comment .comment-img img {
           display: flex;
           justify-content: flex-start;
           align-items: flex-start;
           height: 75px;
           width: 75px; } }
-      @media screen and (max-width: 350px) {
+      @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .comments .comment .comment-img img {
           height: 70px;
           width: 70px; } }
     #blog .main-blog .comments .comment .comment-description {
       margin-right: 2rem;
       padding-top: 3%; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #blog .main-blog .comments .comment .comment-description {
           padding-top: 5%; } }
-      @media screen and (max-width: 672px) {
+      @media (max-width: 672px) {
         #blog .main-blog .comments .comment .comment-description h2, #blog .main-blog .comments .comment .comment-description p {
           text-align: start; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #blog .main-blog .comments .comment .comment-description {
           margin: auto; } }
       #blog .main-blog .comments .comment .comment-description p {
         width: 100%;
         white-space: nowrap; }
-        @media screen and (max-width: 1300px) {
+        @media (max-width: 1300px) {
           #blog .main-blog .comments .comment .comment-description p {
             white-space: normal;
             width: 130%; } }
-        @media screen and (max-width: 1200px) {
+        @media (max-width: 1200px) {
           #blog .main-blog .comments .comment .comment-description p {
             white-space: normal;
             width: 150%; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #blog .main-blog .comments .comment .comment-description p {
             white-space: normal;
             width: 100%; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #blog .main-blog .comments .comment .comment-description p {
             font-size: 1rem; } }
       #blog .main-blog .comments .comment .comment-description h2 {
@@ -4400,7 +4400,7 @@ ul {
         cursor: pointer;
         -webkit-transition: opacity 0.4s cubic-bezier(0.1, 0.06, 0.37, 1.01);
         transition: opacity 0.4s cubic-bezier(0.1, 0.06, 0.37, 1.01); }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #blog .main-blog .comments .comment .comment-description i {
             font-size: 1.2rem; } }
         #blog .main-blog .comments .comment .comment-description i:hover {
@@ -4408,16 +4408,16 @@ ul {
 
 #blog .main-blog .comment-message {
   padding: 2rem 0; }
-  @media screen and (max-width: 672px) {
+  @media (max-width: 672px) {
     #blog .main-blog .comment-message .comment-type {
       text-align: center; } }
   #blog .main-blog .comment-message .comment-type h2 {
     font-size: 2.25rem;
     padding: 3rem 0 2rem 0; }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .comment-message .comment-type h2 {
         font-size: 2rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .comment-message .comment-type h2 {
         font-size: 1.65rem; } }
   #blog .main-blog .comment-message .comment-type .comment-inputs {
@@ -4436,26 +4436,26 @@ ul {
       width: 85%; }
     #blog .main-blog .comment-message .comment-type .comment-inputs textarea {
       width: 93%; }
-    @media screen and (max-width: 1300px) {
+    @media (max-width: 1300px) {
       #blog .main-blog .comment-message .comment-type .comment-inputs input {
         width: 90%; }
         #blog .main-blog .comment-message .comment-type .comment-inputs input:last-of-type {
           margin-left: 1.4rem; }
       #blog .main-blog .comment-message .comment-type .comment-inputs textarea {
         width: 98%; } }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #blog .main-blog .comment-message .comment-type .comment-inputs input {
         width: 85.5%; }
         #blog .main-blog .comment-message .comment-type .comment-inputs input:last-of-type {
           margin-left: 1.4rem; }
       #blog .main-blog .comment-message .comment-type .comment-inputs textarea {
         width: 97%; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #blog .main-blog .comment-message .comment-type .comment-inputs input {
         width: 89.5%; }
       #blog .main-blog .comment-message .comment-type .comment-inputs textarea {
         width: 97.9%; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .comment-message .comment-type .comment-inputs {
         grid-template-areas: "first-name" "last-name" "message"; }
         #blog .main-blog .comment-message .comment-type .comment-inputs input {
@@ -4464,7 +4464,7 @@ ul {
             margin-left: 0; }
         #blog .main-blog .comment-message .comment-type .comment-inputs textarea {
           width: 95%; } }
-    @media screen and (max-width: 350px) {
+    @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .comment-message .comment-type .comment-inputs input {
         width: 94%; }
       #blog .main-blog .comment-message .comment-type .comment-inputs textarea {
@@ -4494,19 +4494,19 @@ ul {
       #blog .main-blog .comment-message .comment-type .comment-inputs .text-input:focus {
         outline: none;
         border-color: #2f4b1f; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #blog .main-blog .comment-message .comment-type .comment-inputs .text-input {
           font-size: 1.15rem; } }
   #blog .main-blog .comment-message button {
     font-size: 1.7rem;
     margin-top: 0.8rem; }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #blog .main-blog .comment-message button {
         font-size: 1.5rem; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .comment-message button {
         margin-top: 0.5rem; } }
-    @media screen and (max-width: 350px) {
+    @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
       #blog .main-blog .comment-message button {
         margin-top: 0.3rem;
         font-size: 1.4rem; } }
@@ -4514,35 +4514,35 @@ ul {
 #contact-us h2 {
   font-size: 3.5rem;
   color: #333; }
-  @media screen and (max-width: 672px) {
+  @media (max-width: 672px) {
     #contact-us h2 {
       font-size: 3rem; } }
 
-@media screen and (max-width: 599px) {
+@media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
   #contact-us {
     padding: 2rem 0; }
     #contact-us h2 {
       font-size: 2.8rem; } }
 
-@media screen and (max-width: 380px) {
+@media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
   #contact-us {
     padding: 1.8rem 0; }
     #contact-us h2 {
       font-size: 2.5rem; } }
 
-@media screen and (max-width: 350px) {
+@media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
   #contact-us {
     padding: 1.7rem 0; }
     #contact-us h2 {
       font-size: 2.3rem; } }
 
-@media screen and (max-width: 250px) {
+@media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
   #contact-us {
     padding: 1.5rem 0; }
     #contact-us h2 {
       font-size: 2rem; } }
 
-@media screen and (max-height: 450px) {
+@media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
   #contact-us {
     padding: 3.5rem 0; } }
 
@@ -4552,7 +4552,7 @@ ul {
   padding: 5rem 0;
   z-index: 0;
   position: relative; }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #contact-form {
       background-color: rgba(0, 0, 0, 0.9); } }
   #contact-form::before {
@@ -4567,7 +4567,7 @@ ul {
     opacity: 0.65;
     -webkit-filter: blur(5px);
     filter: blur(5px); }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #contact-form::before {
         opacity: 0.4; } }
   #contact-form .form-content {
@@ -4583,14 +4583,14 @@ ul {
     @media (max-width: 1400px) {
       #contact-form .form-content {
         width: 57%; } }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #contact-form .form-content {
         width: 65%;
         padding: 1rem 2.5rem; } }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #contact-form .form-content {
         width: 85%; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #contact-form .form-content {
         width: 100%;
         padding: 0;
@@ -4604,10 +4604,10 @@ ul {
       grid-template-areas: "first-name last-name" "subject email" "message message";
       grid-gap: 1rem;
       padding: 1.5rem 0; }
-      @media screen and (max-width: 672px) {
+      @media (max-width: 672px) {
         #contact-form .form-content .form-inputs {
           grid-gap: 1.3rem; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #contact-form .form-content .form-inputs {
           grid-template-areas: "first-name" "last-name" "subject" "email" "message";
           grid-gap: 0.2rem;
@@ -4627,7 +4627,7 @@ ul {
         width: 90%; }
       #contact-form .form-content .form-inputs textarea {
         width: 95%; }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #contact-form .form-content .form-inputs textarea {
           width: 90%; } }
       #contact-form .form-content .form-inputs .form-input {
@@ -4673,23 +4673,23 @@ ul {
         background: rgba(0, 0, 0, 0.55);
         border-radius: 24px;
         border: 2px solid #f4f4f4; }
-        @media screen and (max-width: 1003px) {
+        @media (max-width: 1003px) {
           #contact-form .form-content .form-button button {
             width: 40%; } }
-        @media screen and (max-width: 672px) {
+        @media (max-width: 672px) {
           #contact-form .form-content .form-button button {
             width: 45%;
             font-size: 1.6rem; } }
-        @media screen and (max-width: 599px) {
+        @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
           #contact-form .form-content .form-button button {
             width: 45%;
             font-size: 1.6rem;
             margin: 0.8rem 0; } }
-        @media screen and (max-width: 380px) {
+        @media (max-width: 380px) and (max-aspect-ratio: 13 / 9) {
           #contact-form .form-content .form-button button {
             width: 55%;
             font-size: 1.6rem; } }
-        @media screen and (max-width: 250px) {
+        @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
           #contact-form .form-content .form-button button {
             width: 80%;
             font-size: 1.4rem; } }
@@ -4698,7 +4698,7 @@ ul {
           border-color: #333;
           color: #333; }
 
-@media screen and (max-width: 599px) {
+@media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
   #contact-info {
     padding: 0.6rem 0; } }
 
@@ -4716,11 +4716,11 @@ ul {
   height: 100%;
   font-size: 1.5rem;
   color: #333; }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     #contact-info .bottom-content {
       font-size: 1.2rem;
       margin: auto; } }
-  @media screen and (max-width: 1003px) {
+  @media (max-width: 1003px) {
     #contact-info .bottom-content {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -4731,7 +4731,7 @@ ul {
           border-right: none; }
         #contact-info .bottom-content .bottom-info:nth-child(3) {
           border-bottom: none; } }
-  @media screen and (max-width: 599px) {
+  @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #contact-info .bottom-content {
       display: grid;
       grid-template-columns: 1fr;
@@ -4762,10 +4762,10 @@ ul {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    @media screen and (max-width: 1200px) {
+    @media (max-width: 1200px) {
       #contact-info .bottom-content .bottom-info {
         padding: 1.5rem 3.5rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #contact-info .bottom-content .bottom-info {
         padding: 1rem 2rem; } }
     #contact-info .bottom-content .bottom-info:last-child {
@@ -4773,16 +4773,16 @@ ul {
     #contact-info .bottom-content .bottom-info i {
       padding-bottom: 1rem;
       font-size: 2.5rem; }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #contact-info .bottom-content .bottom-info i {
           font-size: 2.2rem; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #contact-info .bottom-content .bottom-info i {
           font-size: 1.6rem; } }
-    @media screen and (max-width: 1300px) {
+    @media (max-width: 1300px) {
       #contact-info .bottom-content .bottom-info p {
         white-space: nowrap; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #contact-info .bottom-content .bottom-info p {
         font-size: 1.2rem; }
       #contact-info .bottom-content .bottom-info h3 {
@@ -4801,25 +4801,25 @@ ul {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center; }
-    @media screen and (max-width: 1003px) {
+    @media (max-width: 1003px) {
       #main-footer .footer-content {
         grid-template-columns: 1fr;
         text-align: center;
         grid-gap: 1rem; } }
-    @media screen and (max-width: 599px) {
+    @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
       #main-footer .footer-content h2 {
         font-size: 1.7rem; } }
-    @media screen and (max-width: 250px) {
+    @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
       #main-footer .footer-content h2 {
         font-size: 1.4rem; } }
     #main-footer .footer-content .minor-info {
       margin-right: 2rem;
       font-size: 1.25rem; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #main-footer .footer-content .minor-info {
           width: 80%;
           font-size: 1.2rem; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #main-footer .footer-content .minor-info {
           padding: 2.25rem 0;
           width: 100%;
@@ -4828,15 +4828,15 @@ ul {
           #main-footer .footer-content .minor-info p {
             width: 85%;
             margin: auto; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #main-footer .footer-content .minor-info p {
           width: 100%;
           margin: auto; } }
-      @media screen and (max-width: 350px) {
+      @media (max-width: 350px) and (max-aspect-ratio: 13 / 9) {
         #main-footer .footer-content .minor-info p {
           width: 100%;
           margin: auto; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #main-footer .footer-content .minor-info p {
           font-size: 1rem; } }
       #main-footer .footer-content .minor-info img {
@@ -4846,12 +4846,12 @@ ul {
       padding: 2rem;
       font-size: 1.3rem;
       margin-top: 3rem; }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #main-footer .footer-content .quick-links {
           padding: 0 0 2rem 0;
           margin: auto;
           width: 70%; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #main-footer .footer-content .quick-links {
           font-size: 1.15rem; } }
       #main-footer .footer-content .quick-links ul li {
@@ -4865,7 +4865,7 @@ ul {
         padding-bottom: 1rem; }
       #main-footer .footer-content .offer p {
         padding-bottom: 1rem; }
-        @media screen and (max-width: 1200px) {
+        @media (max-width: 1200px) {
           #main-footer .footer-content .offer p {
             font-size: 1.2rem; } }
       #main-footer .footer-content .offer .offer-btn span input {
@@ -4891,25 +4891,25 @@ ul {
           color: #333; }
         #main-footer .footer-content .offer .offer-btn button:focus {
           outline: none; }
-      @media screen and (max-width: 1200px) {
+      @media (max-width: 1200px) {
         #main-footer .footer-content .offer .offer-btn span input {
           padding: 0.8rem 0 0.8rem 2.6rem; }
         #main-footer .footer-content .offer .offer-btn button {
           font-size: 1.5rem;
           padding: 0.76rem 2rem; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #main-footer .footer-content .offer .offer-btn {
           margin-right: 20%; } }
-      @media screen and (max-width: 672px) {
+      @media (max-width: 672px) {
         #main-footer .footer-content .offer .offer-btn {
           margin-right: 28%; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #main-footer .footer-content .offer .offer-btn {
           margin: auto; }
           #main-footer .footer-content .offer .offer-btn button {
             margin-top: 1.5rem;
             position: static; } }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #main-footer .footer-content .offer {
           margin: auto;
           width: 100%;
@@ -4918,16 +4918,14 @@ ul {
           #main-footer .footer-content .offer p {
             width: 85%;
             margin: auto; } }
-      @media screen and (max-width: 599px) {
+      @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
         #main-footer .footer-content .offer p {
           width: 95%;
-          margin: auto; }
-        #main-footer .footer-content .offer .offer-btn span input {
-          width: 250px; } }
-      @media screen and (max-width: 250px) {
+          margin: auto; } }
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #main-footer .footer-content .offer {
           display: none; } }
-      @media screen and (max-height: 350px) {
+      @media (max-height: 350px) and (min-aspect-ratio: 13 / 9) {
         #main-footer .footer-content .offer .offer-btn {
           margin-right: 10rem; }
           #main-footer .footer-content .offer .offer-btn span input {
@@ -4952,19 +4950,19 @@ ul {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    @media screen and (max-width: 672px) {
+    @media (max-width: 672px) {
       #main-footer .copyright {
         flex-direction: column; } }
     #main-footer .copyright p {
       margin-right: 4rem; }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #main-footer .copyright p {
           font-size: 1rem; } }
-      @media screen and (max-width: 672px) {
+      @media (max-width: 672px) {
         #main-footer .copyright p {
           margin: auto;
           padding: 0.6rem 0; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #main-footer .copyright p {
           font-size: 0.7rem; } }
     #main-footer .copyright .socials .fab {
@@ -4985,14 +4983,14 @@ ul {
         background: rgba(70, 70, 70, 0.9);
         color: #fff;
         border-color: #fff; }
-      @media screen and (max-width: 1003px) {
+      @media (max-width: 1003px) {
         #main-footer .copyright .socials .fab {
           padding: 0.55rem;
           width: 25px;
           height: 25px;
           line-height: 25px;
           font-size: 1.6rem; } }
-      @media screen and (max-width: 250px) {
+      @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
         #main-footer .copyright .socials .fab {
           padding: 0.55rem;
           width: 18px;

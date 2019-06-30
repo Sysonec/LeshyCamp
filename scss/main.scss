@@ -300,7 +300,7 @@ ul {
   &-home {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.45);
-    height: 100vh;
+    height: 100vmax;
 
     @include size(phone) {
       color: #fff;
@@ -5717,14 +5717,6 @@ ul {
         p {
           width: 95%;
           margin: auto;
-        }
-
-        .offer-btn {
-          span {
-            input {
-              width: 250px;
-            }
-          }
         }
       }
 
