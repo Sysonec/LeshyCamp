@@ -1,26 +1,4 @@
 // Prevents narrowing of the width on mobile devices
-$(document).ready(function() {
-  "use strict";
-
-  var orientationChange = function() {
-    var $element = $("html");
-    $element.css("height", "100vh"); // Change this to your own original vh value.
-    $element.css("height", $element.height() + "px");
-  };
-
-  var s = screen;
-  var o = s.orientation || s.msOrientation || s.mozOrientation;
-  o.addEventListener(
-    "change",
-    function() {
-      setTimeout(function() {
-        orientationChange();
-      }, 250);
-    },
-    false
-  );
-  orientationChange();
-});
 
 // Slide Menu
 function openSlideMenu() {
