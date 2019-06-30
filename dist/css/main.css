@@ -245,7 +245,7 @@ input[class^="btn-"]:hover {
           font-size: 1.7rem; } }
     @media (max-width: 1003px) {
       #btn-up a {
-        top: 58rem;
+        top: 40rem;
         right: 0.5rem;
         width: 15px;
         height: 15px; }
