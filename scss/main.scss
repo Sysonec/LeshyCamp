@@ -5692,6 +5692,7 @@ ul {
 
         @include size(phone) {
           margin: auto;
+          
 
           button {
             margin-top: 1.5rem;
@@ -5716,6 +5717,14 @@ ul {
         p {
           width: 95%;
           margin: auto;
+        }
+
+        .offer-btn {
+          span {
+            input {
+              width: 250px;
+            }
+          }
         }
       }
 

@@ -4921,7 +4921,9 @@ ul {
       @media screen and (max-width: 599px) {
         #main-footer .footer-content .offer p {
           width: 95%;
-          margin: auto; } }
+          margin: auto; }
+        #main-footer .footer-content .offer .offer-btn span input {
+          width: 250px; } }
       @media screen and (max-width: 250px) {
         #main-footer .footer-content .offer {
           display: none; } }
