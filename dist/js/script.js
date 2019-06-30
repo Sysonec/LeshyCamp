@@ -1,13 +1,26 @@
 // Prevents narrowing of the width on mobile devices
-setTimeout(function() {
-  let viewheight = $(window).height();
-  let viewwidth = $(window).width();
-  let viewport = document.querySelector("meta[name=viewport]");
-  viewport.setAttribute(
-    "content",
-    "height=" + viewheight + "px, width=" + viewwidth + "px, initial-scale=1.0"
+$(document).ready(function() {
+  "use strict";
+
+  var orientationChange = function() {
+    var $element = $("html");
+    $element.css("height", "100vh"); // Change this to your own original vh value.
+    $element.css("height", $element.height() + "px");
+  };
+
+  var s = screen;
+  var o = s.orientation || s.msOrientation || s.mozOrientation;
+  o.addEventListener(
+    "change",
+    function() {
+      setTimeout(function() {
+        orientationChange();
+      }, 250);
+    },
+    false
   );
-}, 0);
+  orientationChange();
+});
 
 // Slide Menu
 function openSlideMenu() {

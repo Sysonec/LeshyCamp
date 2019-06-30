@@ -21,55 +21,55 @@ $ease: cubic-bezier(0.1, 0.06, 0.37, 1.01);
 // Media Query Mixins
 @mixin size($size) {
   @if $size == phone-landscape-small {
-    @media (max-height: 350px) {
+    @media screen and (max-height: 350px) {
       @content;
     }
   } @else if $size == phone-landscape-medium {
-    @media (max-height: 400px) {
+    @media screen and (max-height: 400px) {
       @content;
     }
   } @else if $size == phone-landscape {
-    @media (max-height: 450px) {
+    @media screen and (max-height: 450px) {
       @content;
     }
   } @else if $size == phone-extra-small {
-    @media (max-width: 250px) {
+    @media screen and (max-width: 250px) {
       @content;
     }
   } @else if $size == phone-small {
-    @media (max-width: 350px) {
+    @media screen and (max-width: 350px) {
       @content;
     }
   } @else if $size == phone-medium {
-    @media (max-width: 380px) {
+    @media screen and (max-width: 380px) {
       @content;
     }
   } @else if $size == phone {
-    @media (max-width: 599px) {
+    @media screen and (max-width: 599px) {
       @content;
     }
   } @else if $size == tablet-small {
-    @media (max-width: 672px) {
+    @media screen and (max-width: 672px) {
       @content;
     }
   } @else if $size == mobile-big-small {
-    @media (min-width: 670px) and (max-width: 1000px) {
+    @media screen and (min-width: 670px) and (max-width: 1000px) {
       @content;
     }
   } @else if $size == tablet {
-    @media (max-width: 1003px) {
+    @media screen and (max-width: 1003px) {
       @content;
     }
   } @else if $size == desktop-smallest {
-    @media (max-height: 600px) {
+    @media screen and (max-height: 600px) {
       @content;
     }
   } @else if $size == desktop-extra-small {
-    @media (max-width: 1200px) {
+    @media screen and (max-width: 1200px) {
       @content;
     }
   } @else if $size == desktop-smaller {
-    @media (max-width: 1300px) {
+    @media screen and (max-width: 1300px) {
       @content;
     }
   } @else if $size == desktop-small {
