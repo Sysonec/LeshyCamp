@@ -52,39 +52,31 @@
           </span>
 
           <!-- Side Menu -->
-          <div id="side-menu" class="side-nav">
-            <a href="#!" class="btn-close" onclick="closeSlideMenu()"
-              >&times;</a
-            >
-            <div class="side-search">
-              <input type="text" placeholder="Search" /><i
-                class="fas fa-search"
-              ></i>
-            </div>
-            <a href="index.html"><i class="fas fa-home"></i> Home</a>
-            <a href="about.html"><i class="far fa-address-card"></i> About</a>
-            <a href="#!" onclick="showOffer()"
-              ><i class="fas fa-money-bill"></i> Offer</a
-            >
-            <div id="hide">
-              <a href="#!" onclick="closeOffer()"
-                ><i class="fas fa-chevron-up "></i
-              ></a>
-              <a href="offer.html#courses"
-                ><i class="fas fa-tree"></i> Courses</a
-              >
-              <a href="offer.html#locations"
-                ><i class="fas fa-map-marker-alt"></i> Locations</a
-              >
-              <a href="offer.html#group-camps"
-                ><i class="fas fa-users"></i> Group Camps</a
-              >
-            </div>
-            <a href="blog.html"><i class="fas fa-comments"></i> Blog</a>
-            <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+        <div id="side-menu" class="side-nav">
+          <a href="#!" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+          <div class="side-search">
+            <input type="text" placeholder="Search"><i class="fas fa-search"></i>
           </div>
+          <a href="index.html"><i class="fas fa-home"></i> Home</a>
+          <a href="about.html"><i class="far fa-address-card"></i> About</a>
+          <a href="offer.html"><i class="fas fa-money-bill"></i> Offer</a>
+          <button id="open-offer" onclick="showOffer()"><i class="fas fa-chevron-down"></i></button>
+          <div id="hide">
+            <button id="close-offer" onclick="closeOffer()"><i class="fas fa-chevron-up"></i></button>
+            <a href="offer.html#courses"><i class="fas fa-tree"></i> Courses</a>
+            <a href="offer.html#locations"
+              ><i class="fas fa-map-marker-alt"></i> Locations</a
+            >
+            <a href="offer.html#group-camps"
+              ><i class="fas fa-users"></i> Group Camps</a
+            >
+          </div>
+          <a href="blog.html"><i class="fas fa-comments"></i> Blog</a>
+          <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+        </div>
 
-          <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+           <!-- Header Logo -->
+           <img src="img/logo/logo-column.png" alt="logo" class="logo logo-header" />
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -127,11 +119,6 @@
           <div class="header-content txt-center">
             <h1 class="section-heading">
               LeshyCamp
-              <span
-                class="txt-type"
-                data-wait="3000"
-                data-words='["Bushcraft","Camping","Hiking"]'
-              ></span>
             </h1>
             <div class="bottom-line"></div>
             <p class="lead">Haven't gone wild yet? Don't hesitate!</p>
@@ -236,7 +223,7 @@
             <div class="bottom-line"></div>
             <div class="cover-boxes">
               <div class="cover-box">
-                <i class="fas fa-paw fa-5x"></i>
+                <i class="fas fa-paw fa-4x"></i>
                 <h2 class="cover-title">Nature Observing</h2>
                 <p class="lead">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -245,7 +232,7 @@
                 </p>
               </div>
               <div class="cover-box">
-                <i class="fas fa-drafting-compass fa-5x"></i>
+                <i class="fas fa-drafting-compass fa-4x"></i>
                 <h2 class="cover-title">Map Navigation</h2>
                 <p class="lead">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -254,7 +241,7 @@
                 </p>
               </div>
               <div class="cover-box">
-                <i class="fas fa-medkit fa-5x"></i>
+                <i class="fas fa-medkit fa-4x"></i>
                 <h2 class="cover-title">First Aid</h2>
                 <p class="lead">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.

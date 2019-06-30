@@ -42,34 +42,32 @@
           </a>
         </span>
 
-            <!-- Side Menu -->
+          <!-- Side Menu -->
         <div id="side-menu" class="side-nav">
-            <a href="#!" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-            <div class="side-search">
-              <input type="text" placeholder="Search"><i class="fas fa-search"></i>
-            </div>
-            <a href="index.html"><i class="fas fa-home"></i> Home</a>
-            <a href="about.html"><i class="far fa-address-card"></i> About</a>
-            <a href="#!" onclick="showOffer()"
-              ><i class="fas fa-money-bill"></i> Offer</a
-            >
-            <div id="hide">
-              <a href="#!" onclick="closeOffer()"
-                ><i class="fas fa-chevron-up "></i
-              ></a>
-              <a href="offer.html#courses" class="subpage"><i class="fas fa-tree"></i> Courses</a>
-              <a href="offer.html#locations" class="subpage"
-                ><i class="fas fa-map-marker-alt"></i> Locations</a
-              >
-              <a href="offer.html#group-camps" class="subpage"
-                ><i class="fas fa-users"></i> Group Camps</a
-              >
-            </div>
-            <a href="blog.html"><i class="fas fa-comments"></i> Blog</a>
-            <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+          <a href="#!" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+          <div class="side-search">
+            <input type="text" placeholder="Search"><i class="fas fa-search"></i>
           </div>
+          <a href="index.html"><i class="fas fa-home"></i> Home</a>
+          <a href="about.html"><i class="far fa-address-card"></i> About</a>
+          <a href="offer.html"><i class="fas fa-money-bill"></i> Offer</a>
+          <button id="open-offer" onclick="showOffer()"><i class="fas fa-chevron-down"></i></button>
+          <div id="hide">
+            <button id="close-offer" onclick="closeOffer()"><i class="fas fa-chevron-up"></i></button>
+            <a href="offer.html#courses" class="subpage"><i class="fas fa-tree"></i> Courses</a>
+            <a href="offer.html#locations" class="subpage"
+              ><i class="fas fa-map-marker-alt"></i> Locations</a
+            >
+            <a href="offer.html#group-camps" class="subpage"
+              ><i class="fas fa-users"></i> Group Camps</a
+            >
+          </div>
+          <a href="blog.html"><i class="fas fa-comments"></i> Blog</a>
+          <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+        </div>
 
-        <img src="img/logo/logo-column.png" alt="logo" class="logo" />
+         <!-- Header Logo -->
+         <img src="img/logo/logo-column.png" alt="logo" class="logo logo-header" />
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -172,9 +170,9 @@
           <h2 class="section-heading text-center">Incoming Events</h2>
           <div class="bottom-line"></div>
           <div class="event-boxes">
-            <img src="img/knife.jpg" alt="event-img" />
+            <img src="img/fox.jpg" alt="event-img" />
             <div class="event-box">
-              <h2>How to use tools safely</h2>
+              <h2>Tracking Foxes</h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Repudiandae quae, quas dolorem ex dolore quisquam error
@@ -184,7 +182,7 @@
               </p>
               <a href="#" class="btn-dark">View More</a>
             </div>
-            <img src="img/forest-3.jpg" alt="event-img" />
+            <img src="img/forest-5.jpg" alt="event-img" />
             <div class="event-box">
               <h2>Planting Day</h2>
               <p>
@@ -230,10 +228,10 @@
                   <div class="review-number"><p>10 Reviews</p></div>
                 </div>
                 <div class="detailed-info bold-txt">
-                  <i class="far fa-clock"></i><span>Duration: 1 Day</span>
-                  <i class="fas fa-user"></i><span>Age: 18+</span>
-                  <i class="fas fa-pound-sign"></i><span>Cost: £220</span>
-                  <i class="fas fa-users"></i><span>Max: 16 People</span>
+                  <span><i class="far fa-clock"></i> Duration: 1 Day</span>
+                  <span><i class="fas fa-user"></i> Age: 18+</span>
+                  <span><i class="fas fa-pound-sign"></i> Cost: £220</span>
+                  <span><i class="fas fa-users"></i> Max: 16 People</span>
                 </div>
                 <p class="lead">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
@@ -275,7 +273,7 @@
 
                 <!-- Bottom Modal Buttons -->
                 <div class="bottom-btn">
-                  <a href="#" class="btn-dark">View More</a>
+                  <a href="#" class="btn-dark view-btn">View More</a>
 
                   <!-- Modal Start -->
                   <div class="icon-favorite btn-dark">
@@ -342,10 +340,10 @@
                   <div class="review-number"><p>25 Reviews</p></div>
                 </div>
                 <div class="detailed-info bold-txt">
-                  <i class="far fa-clock"></i><span>Duration: 3 Days</span>
-                  <i class="fas fa-user"></i><span>Age: 16+</span>
-                  <i class="fas fa-pound-sign"></i><span>Cost: £350</span>
-                  <i class="fas fa-users"></i><span>Max: 10 People</span>
+                  <span><i class="far fa-clock"></i> Duration: 3 Days</span>
+                  <span><i class="fas fa-user"></i> Age: 16+</span>
+                  <span><i class="fas fa-pound-sign"></i> Cost: £350</span>
+                  <span><i class="fas fa-users"></i> Max: 10 People</span>
                 </div>
                 <p class="lead">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
@@ -387,7 +385,7 @@
 
                 <!-- Bottom Modal Buttons -->
                 <div class="bottom-btn">
-                  <a href="#" class="btn-dark">View More</a>
+                  <a href="#" class="btn-dark view-btn">View More</a>
 
                   <!-- Modal Start -->
                   <div class="icon-favorite btn-dark">
@@ -454,10 +452,10 @@
                     <div class="review-number"><p>6 Reviews</p></div>
                   </div>
                   <div class="detailed-info bold-txt">
-                    <i class="far fa-clock"></i><span>Duration: 8 Hours</span>
-                    <i class="fas fa-user"></i><span>Age: 12+</span>
-                    <i class="fas fa-pound-sign"></i><span>Cost: £150</span>
-                    <i class="fas fa-users"></i><span>Max: 21 People</span>
+                    <span><i class="far fa-clock"></i> Duration: 8 Hours</span>
+                    <span><i class="fas fa-user"></i> Age: 12+</span>
+                    <span><i class="fas fa-pound-sign"></i> Cost: £150</span>
+                    <span><i class="fas fa-users"></i> Max: 21 People</span>
                   </div>
                   <p class="lead">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
@@ -499,7 +497,7 @@
 
                   <!-- Bottom Modal Buttons -->
                   <div class="bottom-btn">
-                    <a href="#" class="btn-dark">View More</a>
+                    <a href="#" class="btn-dark view-btn">View More</a>
   
                     <!-- Modal Start -->
                     <div class="icon-favorite btn-dark">

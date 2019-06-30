@@ -1,8 +1,14 @@
+@import "config";
+
 .container {
   max-width: $website-width;
   padding: 0 1.5rem;
   margin: auto;
   overflow: hidden;
+
+  @include size(phone) {
+    padding: 0 1rem;
+  }
 }
 
 %btn-shared {
@@ -95,6 +101,34 @@
       -webkit-transform-origin: right;
       transform-origin: right;
     }
+
+    @include size(desktop-small) {
+      font-size: 1.9rem;
+    }
+
+    @include size(desktop-extra-small) {
+      font-size: 1.7rem;
+      padding: 1.2rem 2.6rem;
+    }
+
+    @include size(phone) {
+      padding: 1.3rem 2.4rem;
+      white-space: nowrap;
+    }
+
+    @include size(phone-small) {
+      padding: 1.05rem 2rem;
+    }
+
+    @include size(phone-extra-small) {
+      padding: 0.8rem 1.4rem;
+      font-size: 1.4rem;
+    }
+
+    @include size(phone-landscape) {
+      padding: 1rem 2rem;
+      font-size: 1.8rem;
+    }
   }
 }
 
@@ -106,12 +140,56 @@ input[class^="btn-"]:hover {
 }
 
 .lead {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+
+  @include size(desktop-medium) {
+    font-size: 1.3rem;
+  }
+
+  @include size(desktop-small) {
+    font-size: 1.25rem;
+  }
+
+  @include size(desktop-extra-small) {
+    font-size: 1.2rem;
+  }
+
+  @include size(phone-extra-small) {
+    font-size: 1rem;
+  }
 }
 
 .section-heading {
   font-size: 3rem;
   padding-bottom: 1.2rem;
+
+  @include size(desktop-medium) {
+    font-size: 2.8rem;
+  }
+
+  @include size(desktop-small) {
+    font-size: 2.6rem;
+  }
+
+  @include size(desktop-smaller) {
+    font-size: 2.4rem;
+  }
+
+  @include size(desktop-extra-small) {
+    font-size: 2.25rem;
+  }
+
+  @include size(phone) {
+    font-size: 2.1rem;
+  }
+
+  @include size(phone-small) {
+    font-size: 1.85rem;
+  }
+
+  @include size(phone-extra-small) {
+    font-size: 1.7rem;
+  }
 }
 
 .text-center {
@@ -179,10 +257,6 @@ input[class^="btn-"]:hover {
   }
 }
 
-.current {
-  background: $main-color;
-}
-
 .uppercase-txt {
   text-transform: uppercase;
 }
@@ -228,6 +302,54 @@ input[class^="btn-"]:hover {
     top: 54rem;
     -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+
+    @include size(desktop-medium) {
+      top: 51rem;
+      width: 21px;
+      height: 21px;
+
+      i {
+        font-size: 1.7rem;
+      }
+    }
+
+    @include size(tablet) {
+      top: 58rem;
+      right: 0.5rem;
+      width: 15px;
+      height: 15px;
+
+      i {
+        font-size: 1.4rem;
+      }
+    }
+
+    @include size(phone) {
+      top: 40rem;
+      right: 0.5rem;
+      width: 12px;
+      height: 12px;
+      line-height: 12px;
+
+      i {
+        font-size: 1.4rem;
+      }
+    }
+
+    @include size(phone-medium) {
+      top: 33rem;
+    }
+
+    @include size(phone-small) {
+      top: 28rem;
+      width: 9px;
+      height: 9px;
+      line-height: 9px;
+
+      i {
+        font-size: 1.25rem;
+      }
+    }
   }
 }
 
@@ -236,12 +358,37 @@ input[class^="btn-"]:hover {
 #map {
   height: 500px;
   width: 100%;
+
+  @include size(desktop-small) {
+    height: 420px;
+  }
+
+  @include size(desktop-extra-small) {
+    height: 350px;
+  }
+
+  @include size(tablet) {
+    height: 370px;
+  }
+
+  @include size(phone) {
+    height: 270px;
+  }
+
+  @include size(phone-medium) {
+    height: 250px;
+  }
+
+  @include size(phone-landscape) {
+    height: 270px;
+  }
 }
 
 // Side Navbar
 #side-menu {
   z-index: 2;
 }
+
 .open-slide {
   div {
     width: 32px;
@@ -249,7 +396,19 @@ input[class^="btn-"]:hover {
     background: $light-color;
     margin-bottom: 0.5rem;
   }
+
+  @include size(desktop-laptop) {
+    display: none;
+  }
+
+  @include size(tablet) {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translate(-3%, -50%);
+  }
 }
+
 .side-nav {
   position: fixed;
   height: 100%;
@@ -269,7 +428,7 @@ input[class^="btn-"]:hover {
     padding-bottom: 1.2rem;
     input {
       position: absolute;
-      top: 15px;
+      top: 20px;
       height: 45px;
       width: 0;
       border-radius: 28px;
@@ -304,12 +463,28 @@ input[class^="btn-"]:hover {
         padding-left: 3.5rem;
       }
     }
+
+    @include size(phone-extra-small) {
+      input {
+        font-size: 1rem;
+
+        &:focus {
+          width: 50px;
+        }
+      }
+
+      i {
+        font-size: 1.6rem;
+        top: 33px;
+        left: 23px;
+      }
+    }
   }
 
   .fa-search {
     position: absolute;
     left: 21px;
-    top: 25px;
+    top: 30px;
     z-index: -1;
     color: $dark-color;
     font-size: 1.9rem;
@@ -328,7 +503,7 @@ input[class^="btn-"]:hover {
   }
 
   a {
-    padding: 5px 5px 45px 50px;
+    padding: 30px 5px 30px 20px;
     border-bottom: 1px solid $dark-color;
     text-decoration: none;
     color: $dark-color;
@@ -336,8 +511,35 @@ input[class^="btn-"]:hover {
     display: block;
     -webkit-transition: 0.4s;
     transition: 0.4s;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+
+    @include size(phone-small) {
+      padding: 27px 5px 27px 15px;
+      font-size: 1.45rem;
+    }
+
+    @include size(phone-extra-small) {
+      padding: 12px 5px 12px 18px;
+      font-size: 1.25rem;
+    }
+
+    @include size(phone-landscape) {
+      padding: 14.5px 5px 14.5px 20px;
+      font-size: 1.4rem;
+    }
+
+    @include size(phone-landscape-medium) {
+      padding: 11.2px 5px 11.2px 20px;
+      font-size: 1.25rem;
+    }
+
+    @include size(phone-landscape-small) {
+      padding: 8px 5px 8px 20px;
+      font-size: 1.25rem;
+    }
 
     &:hover {
       color: $light-color;
@@ -350,18 +552,52 @@ input[class^="btn-"]:hover {
 
     i {
       padding-right: 0.5rem;
-      font-size: 1.87rem;
+      font-size: 1.9rem;
+
+      @include size(phone-small) {
+        font-size: 1.8rem;
+      }
+
+      @include size(phone-extra-small) {
+        font-size: 1.4rem;
+      }
+
+      @include size(phone-landscape) {
+        font-size: 1.6rem;
+      }
     }
   }
 
   .btn-close {
     position: absolute;
-    top: -25px;
-    right: -8px;
+    top: -30px;
+    right: 20px;
     font-size: 4rem;
     margin-left: 1.2rem;
     border: none;
     padding-top: 2rem;
+
+    @include size(phone) {
+      top: -30px;
+      right: 22px;
+    }
+
+    @include size(phone-small) {
+      font-size: 3.5rem;
+      top: -25px;
+    }
+
+    @include size(phone-extra-small) {
+      font-size: 3rem;
+      top: -20px;
+      right: 100px;
+    }
+
+    @include size(phone-landscape) {
+      font-size: 3.5rem;
+      right: 23px;
+      top: -25px;
+    }
 
     &:hover {
       background: none;
@@ -372,13 +608,115 @@ input[class^="btn-"]:hover {
       opacity: 0;
     }
   }
+
+  #open-offer {
+    position: absolute;
+    top: 290px;
+    left: 250px;
+    border: none;
+    background: none;
+    outline: none;
+    transition: opacity 0.4s $ease;
+
+    i {
+      padding-right: 0.5rem;
+      font-size: 2rem;
+      color: $special-color;
+    }
+
+    @include size(phone-small) {
+      top: 270px;
+      left: 250px;
+
+      i {
+        font-size: 1.7rem;
+      }
+    }
+
+    @include size(phone-extra-small) {
+      top: 185px;
+      left: 180px;
+
+      i {
+        font-size: 1.5rem;
+      }
+    }
+
+    @include size(phone-landscape) {
+      top: 205px;
+      left: 255px;
+
+      i {
+        font-size: 1.55rem;
+      }
+    }
+
+    @include size(phone-landscape-medium) {
+      top: 185px;
+    }
+
+    @include size(phone-landscape-small) {
+      top: 165px;
+    }
+  }
+
+  #close-offer {
+    border: none;
+    background: none;
+    outline: none;
+    position: absolute;
+    left: 250px;
+    top: 380px;
+    z-index: 1;
+
+    i {
+      padding-right: 0.5rem;
+      font-size: 2rem;
+      color: $special-color;
+    }
+
+    @include size(phone-small) {
+      top: 350px;
+
+      i {
+        font-size: 1.7rem;
+      }
+    }
+
+    @include size(phone-extra-small) {
+      top: 230px;
+      left: 180px;
+
+      i {
+        font-size: 1.5rem;
+      }
+    }
+
+    @include size(phone-landscape) {
+      top: 255px;
+      left: 255px;
+
+      i {
+        font-size: 1.55rem;
+      }
+    }
+
+    @include size(phone-landscape-medium) {
+      top: 230px;
+    }
+
+    @include size(phone-landscape-small) {
+      top: 205px;
+    }
+  }
 }
 
 .loader {
   position: fixed; //Position absolute in this case will show up the loader at the top of the page - scroll is hidden, loader is hidden
   top: 50%;
   left: 50%;
-  margin: -100px 0 0 -100px;
+  transform: translate(-50%, -50%);
+
   div {
     border: 10px solid $light-color;
     background: $special-color;

@@ -8,7 +8,6 @@ $dark-color: #333;
 $ease-in-out: cubic-bezier(0.49, 0.01, 0.48, 0.98);
 $ease-out: cubic-bezier(0, 0.01, 0.5, 1.04);
 $ease: cubic-bezier(0.1, 0.06, 0.37, 1.01);
-$py-3: 3rem 0;
 
 // Set Text Color Function
 @function set-text-color($color) {
@@ -16,5 +15,82 @@ $py-3: 3rem 0;
     @return #000;
   } @else {
     @return #fff;
+  }
+}
+
+// Media Query Mixins
+@mixin size($size) {
+  @if $size == phone-landscape-small {
+    @media (max-height: 350px) {
+      @content;
+    }
+  } @else if $size == phone-landscape-medium {
+    @media (max-height: 400px) {
+      @content;
+    }
+  } @else if $size == phone-landscape {
+    @media (max-height: 450px) {
+      @content;
+    }
+  } @else if $size == phone-extra-small {
+    @media (max-width: 250px) {
+      @content;
+    }
+  } @else if $size == phone-small {
+    @media (max-width: 350px) {
+      @content;
+    }
+  } @else if $size == phone-medium {
+    @media (max-width: 380px) {
+      @content;
+    }
+  } @else if $size == phone {
+    @media (max-width: 599px) {
+      @content;
+    }
+  } @else if $size == tablet-small {
+    @media (max-width: 672px) {
+      @content;
+    }
+  } @else if $size == mobile-big-small {
+    @media (min-width: 670px) and (max-width: 1000px) {
+      @content;
+    }
+  } @else if $size == tablet {
+    @media (max-width: 1003px) {
+      @content;
+    }
+  } @else if $size == desktop-smallest {
+    @media (max-height: 600px) {
+      @content;
+    }
+  } @else if $size == desktop-extra-small {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  } @else if $size == desktop-smaller {
+    @media (max-width: 1300px) {
+      @content;
+    }
+  } @else if $size == desktop-small {
+    @media (max-width: 1400px) {
+      @content;
+    }
+  } @else if $size == desktop-medium {
+    @media (max-width: 1500px) {
+      @content;
+    }
+  } @else if $size == desktop-1600 {
+    @media (max-width: 1600px) {
+      @content;
+    }
+  } @else if $size == desktop-big {
+    @media (max-width: 1700px) {
+      @content;
+    }
+  } @else if $size == desktop-laptop {
+    @media (min-width: 1000px) and (max-width: 2000px) {
+      @content;
+    }
   }
 }
