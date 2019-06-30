@@ -378,9 +378,9 @@ ul {
       }
 
       @include size(phone) {
-        top: 55%;
+        top: 50%;
         left: 50%;
-        transform: translate(-50%, -55%);
+        transform: translate(-50%, -50%);
       }
 
       @include size(phone-extra-small) {
@@ -1178,9 +1178,9 @@ ul {
     }
 
     @include size(phone) {
-      top: 55%;
+      top: 50%;
       left: 50%;
-      transform: translate(-50%, -55%);
+      transform: translate(-50%, -50%);
     }
 
     @include size(phone-extra-small) {
@@ -5824,5 +5824,3 @@ ul {
   }
 }
 
-//Media Queries Import
-@import "media";

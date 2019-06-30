@@ -862,9 +862,9 @@ ul {
         transform: translate(-50%, -50%); } }
     @media (max-width: 599px) {
       #header-home .header-content {
-        top: 55%;
+        top: 50%;
         left: 50%;
-        transform: translate(-50%, -55%); } }
+        transform: translate(-50%, -50%); } }
     @media (max-width: 250px) {
       #header-home .header-content {
         top: 70%;
@@ -1403,9 +1403,9 @@ ul {
         transform: translate(-50%, -50%); } }
     @media (max-width: 599px) {
       #header-about .about-content {
-        top: 55%;
+        top: 50%;
         left: 50%;
-        transform: translate(-50%, -55%); } }
+        transform: translate(-50%, -50%); } }
     @media (max-width: 250px) {
       #header-about .about-content {
         top: 70%;
