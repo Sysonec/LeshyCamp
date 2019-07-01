@@ -633,6 +633,11 @@ ul {
       .logo-header {
         width: 100px;
         height: 50px; } }
+    @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
+      .logo-header {
+        width: 120px;
+        height: 60px;
+        margin-top: 0.2rem; } }
 
 #main-nav {
   display: -webkit-box;
@@ -657,6 +662,9 @@ ul {
   @media (max-width: 250px) and (max-aspect-ratio: 13 / 9) {
     #main-nav {
       height: 3.8rem; } }
+  @media (max-height: 450px) and (min-aspect-ratio: 13 / 9) {
+    #main-nav {
+      height: 4.3rem; } }
   #main-nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
