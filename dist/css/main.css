@@ -803,7 +803,7 @@ ul {
 #header-home {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.45);
-  height: 100vmax; }
+  height: 100vh; }
   @media (max-width: 599px) and (max-aspect-ratio: 13 / 9) {
     #header-home {
       color: #fff;

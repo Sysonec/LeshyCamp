@@ -1,5 +1,3 @@
-// Prevents narrowing of the width on mobile devices
-
 // Slide Menu
 function openSlideMenu() {
   document.getElementById("side-menu").style.width = "305px";
