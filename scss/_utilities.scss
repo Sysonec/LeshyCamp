@@ -405,6 +405,7 @@ input[class^="btn-"]:hover {
     position: absolute;
     top: 50%;
     left: 3%;
+    -webkit-transform: translate(-3%, -50%);
     transform: translate(-3%, -50%);
   }
 }
@@ -420,6 +421,7 @@ input[class^="btn-"]:hover {
   padding-top: 3.3rem;
   -webkit-transition: 0.4s $ease-in-out;
   transition: 0.4s $ease-in-out;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.9);
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.9);
 
   // Side Search Bar
@@ -513,7 +515,11 @@ input[class^="btn-"]:hover {
     transition: 0.4s;
     font-size: 1.6rem;
     font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 
     @include size(phone-small) {
@@ -616,6 +622,7 @@ input[class^="btn-"]:hover {
     border: none;
     background: none;
     outline: none;
+    -webkit-transition: opacity 0.4s $ease;
     transition: opacity 0.4s $ease;
 
     i {
@@ -715,6 +722,7 @@ input[class^="btn-"]:hover {
   position: fixed; //Position absolute in this case will show up the loader at the top of the page - scroll is hidden, loader is hidden
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
   div {
