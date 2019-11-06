@@ -14,8 +14,8 @@
       href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <title>LeshyCamp | Blog Page</title>
   </head>
@@ -306,14 +306,14 @@
               <p class="lead py-2">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. In suscipit voluptates repudiandae fugit itaque dolor esse deleniti adipisci, blanditiis dolorem, qui pariatur harum labore iusto ad quae nostrum dicta deserunt saepe vero exercitationem. Hic sed temporibus impedit ex voluptatem. Officiis ad ipsam error perferendis facere explicabo omnis voluptate reprehenderit similique.
               </p>
-              <div class="blog-img py-1"><img src="img/wolf-4.jpg" alt="blog-img" /></div> 
+              <div class="blog-img py-1"><img src="img/wolf-4.jpg" alt="blog-img" data-aos="fade-left" data-aos-duration="700"/></div> 
               <p class="lead py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magni voluptate, suscipit eligendi consectetur beatae corrupti deleniti, laboriosam libero cum ipsa placeat! Molestiae est quo, impedit sapiente tempora nostrum asperiores ex consectetur, repudiandae dolorum, delectus ipsam numquam tempore. Dolorum sed ea esse eligendi tempore quia maxime dolor cum asperiores nobis illo in consequuntur sint saepe, eos quas perferendis, minima modi.</p>
               <p class="lead py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magni voluptate, suscipit eligendi consectetur beatae corrupti deleniti, laboriosam libero cum ipsa placeat! Molestiae est quo, impedit sapiente tempora nostrum asperiores ex consectetur, repudiandae dolorum, delectus ipsam numquam tempore. Dolorum sed ea esse eligendi tempore quia maxime dolor cum asperiores nobis illo in consequuntur sint saepe, eos quas perferendis, minima modi.</p>
               <p class="lead py-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed dignissimos sunt eveniet quos. Optio quos illo non accusamus debitis necessitatibus impedit reiciendis, blanditiis asperiores. Veritatis sunt beatae saepe accusamus ut?</p>
             </div>
 
             <!-- Share Buttons -->
-            <div class="share py-2">
+            <div class="share py-2" data-aos="fade-in" data-aos-duration="700">
                 <div>
                     <a href="#" class="btn-dark">Wildlife</a>
                     <a href="#" class="btn-dark">Nature</a>
@@ -345,7 +345,7 @@
             <div class="related-posts">
                 <h2 class="py-3">Related Posts</h2>
                 <div class="related-posts-content">
-                <div class="related-post">
+                <div class="related-post" data-aos="fade-right" data-aos-duration="700">
                     <div class="related-post-img">
                         <img src="img/forest-dark.jpg" alt="post-img">
                     </div>
@@ -359,7 +359,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis sit at, nesciunt quae unde ea aliquam odit ipsa delectus dolor doloremque dolores enim eum?</p>
                     <a href="#" class="btn-dark my-2">Read More</a>
                 </div>
-                <div class="related-post">
+                <div class="related-post" data-aos="fade-left" data-aos-duration="700">
                     <div class="related-post-img">
                         <img src="img/bushcraft.jpg" alt="post-img">
                     </div>
@@ -403,7 +403,7 @@
         <div class="comment-message">
           <div class="comment-type">
             <h2>Leave a Comment</h2>
-            <div class="comment-inputs my-2">
+            <div class="comment-inputs my-2" data-aos="zoom-in" data-aos-duration="700">
               <input type="text" class="text-input first-name" placeholder="First Name">
               <input type="text" class="text-input last-name" placeholder="Last Name">
               <textarea class="text-input message" placeholder="Message"></textarea>
@@ -481,13 +481,10 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- JavaScript File -->
-    <script src="js/script.js"></script>
-
     <!-- Animation on Scroll library -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
   </body>
 </html>

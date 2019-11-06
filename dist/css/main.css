@@ -591,7 +591,8 @@ input[class^="btn-"]:hover {
 .main {
   opacity: 0;
   -webkit-transition: opacity 0.5s cubic-bezier(0.1, 0.06, 0.37, 1.01);
-  transition: opacity 0.5s cubic-bezier(0.1, 0.06, 0.37, 1.01); }
+  transition: opacity 0.5s cubic-bezier(0.1, 0.06, 0.37, 1.01);
+  visibility: hidden; }
 
 * {
   margin: 0;

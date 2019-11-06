@@ -808,4 +808,5 @@ input[class^="btn-"]:hover {
   opacity: 0;
   -webkit-transition: opacity 0.5s $ease;
   transition: opacity 0.5s $ease;
+  visibility: hidden;
 }

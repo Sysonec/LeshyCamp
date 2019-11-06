@@ -7,20 +7,26 @@ function closeSlideMenu() {
   document.getElementById("side-menu").style.width = "0";
 }
 
-//Offer Slide out
+// AOS Customization
+AOS.init({
+  easing: "ease-in-out",
+  once: "true"
+});
+
+// Offer Slide out
 function showOffer() {
   document
     .getElementById("hide")
     .setAttribute("style", "opacity: 1; height: 275px;  pointer-events: all;");
 
-  document.getElementById("open-offer").style.opacity = 0;
+  document.getElementById("open-offer").style.opacity = "0";
 }
 
 function closeOffer() {
   document
     .getElementById("hide")
     .setAttribute("style", "opacity: 0; height: 0;");
-  document.getElementById("open-offer").style.opacity = 1;
+  document.getElementById("open-offer").style.opacity = "1";
 }
 
 // Transparent/Sticky menu background
@@ -36,9 +42,13 @@ window.addEventListener("scroll", function() {
 // Sticky back to top button
 window.addEventListener("scroll", function() {
   if (window.scrollY > 1200) {
-    document.querySelector("#btn-up").style.opacity = 0.85;
+    document
+      .querySelector("#btn-up")
+      .setAttribute("style", "opacity: 0.85; pointer-events: all");
   } else {
-    document.querySelector("#btn-up").style.opacity = 0;
+    document
+      .querySelector("#btn-up")
+      .setAttribute("style", "opacity: 0; pointer-events: none");
   }
 });
 
@@ -68,6 +78,7 @@ function init() {
     loader.style.opacity = 0;
     loader.style.display = "none";
     scroll.style.overflowY = "scroll";
+    main.style.visibility = "visible";
 
     setTimeout(() => (main.style.opacity = 1), 50);
   }, 2000);
