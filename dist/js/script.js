@@ -10,7 +10,7 @@ function closeSlideMenu() {
 // AOS Customization
 AOS.init({
   easing: "ease-in-out",
-  once: "true"
+  once: "true",
 });
 
 // Offer Slide out
@@ -30,7 +30,7 @@ function closeOffer() {
 }
 
 // Transparent/Sticky menu background
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function () {
   if (window.scrollY > 50) {
     document.querySelector("#main-nav").style.background =
       "rgba(70, 70, 70, 0.9";
@@ -40,7 +40,7 @@ window.addEventListener("scroll", function() {
 });
 
 // Sticky back to top button
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function () {
   if (window.scrollY > 1200) {
     document
       .querySelector("#btn-up")
@@ -53,7 +53,7 @@ window.addEventListener("scroll", function() {
 });
 
 // Smooth Scrolling
-$("#main-nav .subpage, .btn, #btn-up a, .scroll").on("click", function(event) {
+$("#main-nav .subpage, .btn, #btn-up a, .scroll").on("click", function (event) {
   if (this.hash !== "") {
     event.preventDefault();
 
@@ -61,7 +61,7 @@ $("#main-nav .subpage, .btn, #btn-up a, .scroll").on("click", function(event) {
 
     $("html, body").animate(
       {
-        scrollTop: $(hash).offset().top - 100
+        scrollTop: $(hash).offset().top - 100,
       },
       800
     );
@@ -86,21 +86,12 @@ function init() {
 
 init();
 
-// Google Maps
-function initMap() {
-  // Map options
-  var options = {
-    zoom: 9, // zoom
-    center: { lat: 54.328506, lng: -2.74387 } // lattitude and longitute
-  };
+// Leaflet map
+const map = L.map("map").setView([51.50826, -0.46633], 13);
 
-  // New map
-  var map = new google.maps.Map(document.getElementById("map"), options);
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
 
-  //Add Marker
-  var marker = new google.maps.Marker({
-    animation: google.maps.Animation.BOUNCE,
-    position: { lat: 54.328506, lng: -2.74387 },
-    map: map
-  });
-}
+L.marker([51.50826, -0.46633]).addTo(map).bindPopup("We are here!").openPopup();
